@@ -8,6 +8,14 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 06. May 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-05-06</guid>
+    <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;# Zusammenfassung von Simon Willisons Blog-Einträgen vom 6. Mai 2026&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AI &amp; LLMs: Anthropic&#x27;s Code w/ Claude 2026 Event&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon berichtete live vom Anthropic-Event &quot;Code w/ Claude 2026&quot; und dokumentierte die Keynote-Sessions. Hauptankündigungen waren eine Partnerschaft mit SpaceX zur Nutzung des Colossus-Datanzentrums in Memphis sowie eine Verdoppelung des fünfstündigen Limits für Claude Code bei Pro-, Max- und Enterprise-Kunden. Die API-Nutzung auf der Anthropic-Plattform ist um das 17-fache im Jahresvergleich gestiegen. Anthropic kündigte Updates für Claude-verwaltete Agenten und Multi-Agent-Orchestrierung an, verzichtete aber auf die Ankündigung eines neuen Modells.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AI &amp; Coding: Die verschwimmenden Grenzen zwischen Vibe Coding und Agentic Engineering&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;In einem Interview mit Joseph Ruscio für Heavybit&#x27;s High Leverage Podcast kam Simon zu der beunruhigenden Erkenntnis, dass sich &quot;Vibe Coding&quot; und &quot;Agentic Engineering&quot; in seiner eigenen Arbeit zunehmend vermischen. Während er früher klare Grenzen zog – Vibe Coding als verantwortungslose, nicht überprüfte KI-Codierung für persönliche Projekte versus Agentic Engineering als professionelle, sichere Softwareentwicklung – stellt er fest, dass er mit zuverlässigeren Coding-Agenten nicht mehr jede Zeile Code überprüft. Sein 25-jähriges Erfahrungswissen als Softwareingenieur hilft ihm dabei, höherwertige Systeme schneller zu bauen, aber die Frage bleibt: Ab wann wird schnellere Entwicklung zum Problem, wenn die Qualitätskontrolle leidet?&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/6/code-w-claude-2026/#atom-everything&quot;&gt;Live blog: Code w/ Claude 2026&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/#atom-everything&quot;&gt;Vibe coding and agentic engineering are getting closer than I&#x27;d like&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 05. May 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-05-05</guid>
