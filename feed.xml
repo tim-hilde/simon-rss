@@ -8,6 +8,16 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 12. May 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-05-12</guid>
+    <pubDate>Tue, 12 May 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;# Zusammenfassung: Simon Willisons Blog vom 12. Mai 2026&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Datasette &amp; Open-Source-Releases&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon veröffentlichte Datasette 1.0a29, ein Open-Source-Multi-Tool zur Datenexploration und -veröffentlichung. Die neue Version bringt mehrere Verbesserungen mit sich, darunter eine neue `TokenRestrictions.abbreviated()`-Utility-Methode und bessere Sichtbarkeit von Tabellenkopfzeilen auch bei leeren Tabellen. Ein besonders kniffliger Bug wurde behoben, bei dem Race Conditions zwischen gleichzeitigen Datenbankverbindungen zu Segfaults führten – Simon löste dieses Problem mithilfe von Codex CLI und GPT-5.5 xhigh.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AI &amp; LLMs&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon veröffentlichte LLM 0.32a2, das Kommandozeilen-Zugriff auf Large Language Models ermöglicht. Eine wichtige Neuerung ist die Unterstützung des neuen `/v1/responses`-Endpunkts von OpenAI statt `/v1/chat/completions` für Reasoning-fähige Modelle der GPT-5-Klasse. Dies ermöglicht verschachtelte Reasoning-Prozesse über Tool-Calls hinweg, wobei die summarisierten Reasoning-Tokens in einer anderen Farbe angezeigt werden und mit `-R` oder `--hide-reasoning` ausgeblendet werden können.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Interessante Essays &amp; Zitate&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon teilte zwei satirische und kritische Zitate: Mo Bitars provokative &quot;Unethical Guide to Surviving AI Layoffs&quot; von TikTok, die humorvoll die oberflächliche Nutzung von AI-Buzzwords in Unternehmen kritisiert, und Mitchell Hashimotos Beobachtung darüber, wie technische Entscheidungsträger sich von Analyst-Trends und öffentlicher Stimmung leiten lassen, um ihre Positionen zu sichern.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (4 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/12/datasette/#atom-everything&quot;&gt;datasette 1.0a29&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/12/mo-bitar/#atom-everything&quot;&gt;Quoting Mo Bitar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/12/mitchell-hashimoto/#atom-everything&quot;&gt;Quoting Mitchell Hashimoto&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/12/llm/#atom-everything&quot;&gt;llm 0.32a2&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 11. May 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-05-11</guid>
@@ -272,14 +282,6 @@
     <guid isPermaLink="false">simon-digest-2026-04-12</guid>
     <pubDate>Sun, 12 Apr 2026 12:00:00 +0000</pubDate>
     <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon präsentierte ein praktisches Rezept für die Audio-Transkription mit Gemma 4 E2B und MLX auf macOS. Er nutzte das `uv run`-Tool mit Python 3.13 und mlx_vlm, um eine 14-sekündige Audiodatei zu transkribieren. Das Modell zeigte gute Ergebnisse bei der Spracherkennung, obwohl es kleinere Fehler bei der Interpretation einiger Wörter machte, was Simon humorvoll kommentierte.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (1 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/12/mlx-audio/#atom-everything&quot;&gt;Gemma 4 audio with MLX&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 11. April 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-04-11</guid>
-    <pubDate>Sat, 11 Apr 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;&lt;strong&gt;SQLite &amp; Datenbank-Tools&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon berichtete über die Veröffentlichung von SQLite 3.53.0, eine bedeutende Version, nachdem 3.52.0 zurückgezogen wurde. Zu den Highlights gehören neue Funktionen wie ALTER TABLE zur Verwaltung von NOT NULL und CHECK Constraints, neue JSON-Funktionen (json_array_insert() und jsonb-Äquivalent) sowie erhebliche Verbesserungen im CLI-Modus durch die neue Query Results Formatter-Bibliothek. Simon erstellte zusätzlich ein WebAssembly-Playground mit Hilfe von Claude Code, um die verschiedenen Rendering-Optionen dieser neuen Formatter-Bibliothek interaktiv zu demonstrieren.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/11/sqlite/#atom-everything&quot;&gt;SQLite 3.53.0&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/11/sqlite-qrf/#atom-everything&quot;&gt;SQLite Query Result Formatter Demo&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
