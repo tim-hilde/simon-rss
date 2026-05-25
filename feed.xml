@@ -8,6 +8,17 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 24. May 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-05-24</guid>
+    <pubDate>Sun, 24 May 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;&lt;strong&gt;Datasette &amp; Tools&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon veröffentlichte drei neue Releases im Datasette-Ökosystem. Datasette 1.0a30 führt ein neues anpassbares &quot;Jump to...&quot;-Menü ein, das durch das Plugin-Hook `jump_items_sql()` erweiterbar ist und durch Drücken von &quot;/&quot; aufgerufen werden kann. datasette-agent 0.1a4 nutzt diese neue Funktionalität, um ein LLM-gestütztes Chat-Interface in das Jump-to-Menü zu integrieren, das auf agent.datasette.io über GitHub-Login zugänglich ist. datasette-fixtures 0.1a0 ist ein neues Plugin, das die neue `datasette.fixtures.populate_fixture_database()`-Hilfsfunktion nutzt und über `uvx` ohne Installation ausgeführt werden kann.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AI &amp; LLMs – Kritische Perspektive&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon zitierte einen kritischen Beitrag von Armin Ronacher zur wachsenden Problematik von KI-generierten GitHub-Issues, die gegen das Pi-Projekt eingereicht werden. Ronacher beklagt, dass solche Issues durch &quot;Clanker&quot; (KI-Tools) umformuliert werden und dadurch ungenaue Schlussfolgerungen, fehlerhafte Reproduktionsschritte und mangelnde Authentizität enthalten. Er plädiert für Issue-Reports, die sich auf beobachtete Fakten beschränken: den ausgeführten Befehl, die erwartete Ausgabe, die tatsächliche Ausgabe und exakte Fehlermeldungen.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Retro-Computing &amp; Nostalgie&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon beschrieb seine Arbeit mit den kostenlosen Usborne-PDFs aus den 1980er Jahren, die er in seiner Kindheit auf dem Commodore 64 nutzte. Er sendete das PDF des 1983-Buches &quot;Creepy Computer Games&quot; an Claude und ließ das Spiel &quot;Mad House&quot; in ein interaktives JavaScript- und HTML-Projekt umwandeln, das mobil-freundlich und mit retro-ästhetischem Design gestaltet wurde.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (5 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/24/datasette/#atom-everything&quot;&gt;datasette 1.0a30&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/24/datasette-agent/#atom-everything&quot;&gt;datasette-agent 0.1a4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/24/datasette-fixtures/#atom-everything&quot;&gt;datasette-fixtures 0.1a0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/24/armin-ronacher/#atom-everything&quot;&gt;Quoting Armin Ronacher&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/24/usborne-mad-house/#atom-everything&quot;&gt;Mad House — Usborne Creepy Computer Games&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 23. May 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-05-23</guid>
@@ -269,16 +280,6 @@
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/24/honker/#atom-everything&quot;&gt;russellromney/honker&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/24/recent-claude-code-quality-reports/#atom-everything&quot;&gt;An update on recent Claude Code quality reports&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/24/serving-the-for-you-feed/#atom-everything&quot;&gt;Serving the For You feed&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 23. April 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-04-23</guid>
-    <pubDate>Thu, 23 Apr 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;OpenAI hat GPT-5.5 veröffentlicht, das nun über OpenAI Codex und ChatGPT-Abonnements verfügbar ist. Simon Willison testete das Modell und beschreibt es als schnell, effektiv und hochgradig leistungsfähig, wobei es genau das umsetzt, wofür man es einsetzt. Er nutzte Claude Code, um ein neues Plugin namens `llm-openai-via-codex` zu entwickeln, das es ermöglicht, OpenAI-Modelle über ein bestehendes Codex-Abonnement zu nutzen – ein cleverer Workaround, da die offizielle API noch nicht verfügbar ist.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Datasette &amp; Tools&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon stellte LiteParse for the Web vor, eine Browserversion des LlamaIndex-Projekts LiteParse, das Text aus PDFs extrahiert. Das Tool nutzt clevere Heuristiken zur &quot;Spatial Text Parsing&quot;, um Text in sinnvoller Reihenfolge zu extrahieren, unabhängig von komplexen PDF-Layouts, und fällt auf Tesseract OCR zurück, wenn nötig. Er entwickelte die browserbasierte Version mit Claude Code und Opus 4.7 und veröffentlichte sie unter https://simonw.github.io/liteparse/.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Open Source Releases&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon veröffentlichte die erste Alpha-Version von `llm-openai-via-codex 0.1a0, ein Plugin für sein LLM-Tool, das Codex-CLI-Anmeldedaten nutzt, um auf OpenAI-Modelle zuzugreifen. Das Plugin war direkt als Ergebnis seines Experimentierens mit GPT-5.5 entstanden und ermöglicht es Nutzern, ihre bestehenden OpenAI-Abonnements über die LLM-CLI zu nutzen.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Interessante Links &amp; Essays&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon teilte ein Zitat von Maggie Appleton über Digital Gardening und &quot;Learning in Public&quot;, in dem sie humorvoll beobachtet, dass das öffentliche Teilen von Lernprozessen Menschen dazu führt, dass sie für kompetenter gehalten werden als sie sind – mit dem angenehmen Nebeneffekt, zu exklusiven und interessanten Events mit hochleistungsfähigen Personen eingeladen zu werden.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (4 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/23/liteparse-for-the-web/#atom-everything&quot;&gt;Extract PDF text in your browser with LiteParse for the web&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/23/gpt-5-5/#atom-everything&quot;&gt;A pelican for GPT-5.5 via the semi-official Codex backdoor API&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/23/llm-openai-via-codex/#atom-everything&quot;&gt;llm-openai-via-codex 0.1a0&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/23/maggie-appleton/#atom-everything&quot;&gt;Quoting Maggie Appleton&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
