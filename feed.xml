@@ -8,6 +8,15 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 27. May 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-05-27</guid>
+    <pubDate>Wed, 27 May 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;# &lt;strong&gt;AI &amp; LLMs: Marktreife und Geschäftsmodelle&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon Willison diskutiert, dass Anthropic und OpenAI Anfang 2026 Product-Market-Fit gefunden haben, wobei Anthropic angeblich kurz vor ihrem ersten profitablen Quartal steht. Beide Unternehmen haben ihre Preismodelle im April 2026 grundlegend geändert: Sie berechnen jetzt API-basierte Preise für Enterprise-Kunden statt pauschaler Seat-Gebühren. Willison zeigt auf, dass trotz seiner günstigen $200/Monat-Abos (100$ Anthropic Claude Max + 100$ OpenAI Pro) seine Nutzung von Coding-Agenten in nur 30 Tagen $2.180 gekostet hätte – ein Preis, den Enterprise-Kunden nun tatsächlich bezahlen müssen. Die Veröffentlichung neuer, leistungsstärkerer Modelle wie GPT-5.5 und Opus 4.7 mit bis zu 2x höheren API-Preisen unterstreicht die wachsende Rentabilität dieser Unternehmen.&lt;/p&gt;&lt;p&gt;# &lt;strong&gt;AI-Sicherheit und Open-Source-Governance&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;SQLite hat ein AGENTS.md-Dokument eingeführt, um die Grenzen beim Einsatz von KI-Coding-Agenten für das Projekt klarzustellen. Das SQLite-Team lehnt nun explizit agentic Code ab, akzeptiert aber KI-generierte Bug-Reports mit reproduzierbaren Testfällen und nimmt vorgeschlagene Fixes zur Dokumentation an. Angesichts der Flut von qualitativ unterschiedlichen KI-generierten Bug-Reports musste SQLite ein separates Bug Forum einrichten, wo D. Richard Hipp aktiv Issues bearbeitet. Diese Maßnahmen zeigen, wie etablierte Open-Source-Projekte versuchen, zwischen der Nutzung von KI-Tools und dem Schutz ihrer Code-Qualität das Gleichgewicht zu wahren.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (3 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/27/sqlite-agents/#atom-everything&quot;&gt;sqlite AGENTS.md&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/27/product-market-fit/#atom-everything&quot;&gt;I think Anthropic and OpenAI have found product-market fit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/27/kyle-ferrana/#atom-everything&quot;&gt;Quoting Kyle Ferrana&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 26. May 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-05-26</guid>
@@ -265,15 +274,6 @@
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/28/matthew-yglesias/#atom-everything&quot;&gt;Quoting Matthew Yglesias&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/28/pip-261/#atom-everything&quot;&gt;What&#x27;s new in pip 26.1 - lockfiles and dependency cooldowns!&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/28/talkie/#atom-everything&quot;&gt;Introducing talkie: a 13B vintage language model from 1930&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 27. April 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-04-27</guid>
-    <pubDate>Mon, 27 Apr 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;# Zusammenfassung der Blog-Posts von Simon Willison vom 27. April 2026&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AI &amp; Speech-to-Text-Tools&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon testete Microsofts VibeVoice, ein Whisper-ähnliches Speech-to-Text-Modell mit eingebauter Speaker-Diarization, das MIT-lizenziert ist. Mit dem Tool mlx-audio und dem uv-Paketmanager transkribierte er eine einstündige Podcast-Episode mit Lenny Rachitsky in etwa 8 Minuten 45 Sekunden auf seinem M5 Max MacBook Pro. Die resultierende JSON-Ausgabe enthielt Zeitstempel, Sprecherdaten und erkannte sogar unterschiedliche Sprecher-IDs – was er dann mit Datasette Lite visualisierte. VibeVoice ist auf eine Stunde Audio pro Durchlauf begrenzt, weshalb längere Aufnahmen aufgeteilt werden müssen.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Cloud-Kommunikation &amp; Translation&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Google Meet rollt derzeit eine automatische Speech-Translation-Funktion auf mobilen Geräten aus, die es zwei Personen ermöglicht, in unterschiedlichen Sprachen zu sprechen und das System übersetzt in Echtzeit. Die Funktion unterstützt aktuell nur sechs Sprachen (Englisch, Spanisch, Französisch, Deutsch, Portugiesisch und Italienisch) und befindet sich noch im Alpha-Stadium – Simon berichtete von erfolgreichen Tests zwischen Laptops, aber Problemen zwischen iPhone und iPad.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Unternehmensgeschichte &amp; AGI-Klauseln&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon dokumentierte die Geschichte einer mysteriösen Klausel zwischen Microsoft und OpenAI, die besagte, dass Microsofts kommerzielle IP-Rechte verfallen würden, falls AGI erreicht wird. Nachdem die Definition von AGI über die Jahre hinweg von vagen Formulierungen zu konkret definierten Gewinnzielen ($100 Milliarden) und schließlich zu einem unabhängigen Expert-Panel-Verfahren (ab Oktober 2025) gewechselt hatte, erklärte OpenAI am 27. April 2026, dass diese Klausel nun beendet wurde.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (3 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/27/vibevoice/#atom-everything&quot;&gt;microsoft/VibeVoice&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/27/now-deceased-agi-clause/#atom-everything&quot;&gt;Tracking the history of the now-deceased OpenAI Microsoft AGI clause&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/27/speech-translation-in-google-meet-is-now-rolling-out-to-mobile-d/#atom-everything&quot;&gt;Speech translation in Google Meet is now rolling out to mobile devices&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
