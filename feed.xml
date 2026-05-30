@@ -8,6 +8,14 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 29. May 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-05-29</guid>
+    <pubDate>Fri, 29 May 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;&lt;strong&gt;Datasette &amp; Open Source Tools&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon berichtet über die Veröffentlichung von Datasette 1.0a31, einem wichtigen Alpha-Release des Open-Source-Tools zur Erkundung und Veröffentlichung von Daten. Die neue Version führt zwei Hauptfunktionen ein: Benutzer mit entsprechenden Berechtigungen können nun Schreib-Abfragen gegen ihre Datenbank ausführen und gespeicherte Abfragen (umbenannt von &quot;canned queries&quot;) sowohl privat als auch für andere Instanz-Mitglieder speichern. Simon verweist auf detaillierte Blog-Posts auf dem Datasette-Blog, der seit zwei Wochen läuft und bereits drei Posts zu neuen Features veröffentlicht hat.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AI &amp; LLMs – Geschäftswachstum&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon analysiert Anthropics beeindruckendes Wachstum anhand ihrer Mitteilung einer Series-H-Finanzierung in Höhe von 65 Milliarden Dollar, die ein Run-Rate-Revenue von 47 Milliarden Dollar offenbart. Er dokumentiert das explosive Wachstum: Von 9 Milliarden Dollar Ende 2025 über 14 Milliarden Dollar im Februar bis zu 30 Milliarden Dollar im April und nun 47 Milliarden Dollar – ein Wachstum um das über Fünffache in wenigen Monaten. Simon verteidigt die Glaubwürdigkeit dieser Zahlen gegen Skeptiker und argumentiert, dass Anthropic bei einer Investition dieser Größenordnung nicht lügen würde, da die realen Zahlen bei einem IPO ohnehin in der S-1-Anmeldung offengelegt werden müssen.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/29/datasette/#atom-everything&quot;&gt;datasette 1.0a31&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/29/anthropic/#atom-everything&quot;&gt;Anthropic&#x27;s run-rate revenue hits $47 billion&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 28. May 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-05-28</guid>
@@ -264,15 +272,6 @@
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/30/andrew-kelley/#atom-everything&quot;&gt;Quoting Andrew Kelley&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/30/rss-vibe-coded-apps/#atom-everything&quot;&gt;We need RSS for sharing abundant vibe-coded apps&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/30/zig-anti-ai/#atom-everything&quot;&gt;The Zig project&#x27;s rationale for their firm anti-AI contribution policy&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 29. April 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-04-29</guid>
-    <pubDate>Wed, 29 Apr 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs – Große Umgestaltung der LLM-Bibliothek&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon Willison veröffentlichte LLM 0.32a0, eine grundlegende, aber rückwärtskompatible Überarbeitung seiner LLM-Bibliothek und des CLI-Tools für den Zugriff auf große Sprachmodelle. Die Version führt zwei wesentliche Änderungen ein: Modelleingaben können nun als Nachrichtensequenzen dargestellt werden (statt nur als einfache Text-Prompts), und Modellantworten bestehen aus einem Stream verschiedener Datentypen. Diese Umgestaltung war notwendig, da sich LLMs seit April 2023 drastisch weiterentwickelt haben und nun Bild-, Audio- und Videoeingaben sowie strukturierte JSON-Ausgaben und Tool-Calling unterstützen.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Open Source Releases – Bugfixes in LLM 0.32a1&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Kurz nach der Alpha-Veröffentlichung folgte LLM 0.32a1 am selben Tag, das einen kritischen Bug aus 0.32a0 behoben hat. Das Update behob ein Problem, bei dem Gespräche mit Tool-Calling nicht korrekt aus SQLite wiederhergestellt wurden, was Entwickler bei der Persistierung von Konversationen beeinträchtigt hätte.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (3 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/29/llm-3/#atom-everything&quot;&gt;llm 0.32a1&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/29/llm/#atom-everything&quot;&gt;LLM 0.32a0  is a major backwards-compatible refactor&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Apr/29/llm-2/#atom-everything&quot;&gt;llm 0.32a0&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
