@@ -8,6 +8,15 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 31. May 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-05-31</guid>
+    <pubDate>Sun, 31 May 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;&lt;strong&gt;Datasette &amp; Tools&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon veröffentlichte Datasette 1.0a32, eine kleinere Bugfix-Version seines Open-Source-Tools zum Erkunden und Veröffentlichen von Daten. Das Release behebt einen Fehler bei INSERT ... RETURNING-Abfragen über den neuen /db/-/execute-write-Endpunkt sowie mehrere base_url-Probleme, die während Experimenten mit Service Workers auftraten.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AI &amp; LLMs – Produktivität und mentale Gesundheit&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon diskutierte David Wilsons Artikel über die paradoxen Effekte von KI-Coding-Agenten auf die Produktivität. Während diese Tools innerhalb weniger Stunden fertige, getestete und dokumentierte Projekte erstellen können, führt dies zu einem &quot;thermonuklearen ADHD-Verstärker&quot; – Nutzer erstellen dutzende Projekte, kümmern sich aber kaum um deren Wartung oder Wert. Interessanterweise zeigt ein Hacker-News-Thread, dass manche ADHD-Betroffene genau das Gegenteil erleben und durch KI-Agenten endlich ihre Nebenprojekte fertigstellen und einen mentalen Fokus finden, den sie vorher vermissten.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AI &amp; LLMs – Finanzielle Metriken&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon zitierte Karen Kwok von Reuters Breakingviews, die erklärte, wie Anthropic seine &quot;Run-Rate-Revenue&quot; berechnet: die durchschnittlichen 28-Tages-Umsätze von verbrauchsbasierten Kunden mit 13 multiplizieren plus monatliche Abonnements mit 12 multiplizieren.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (3 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/31/datasette/#atom-everything&quot;&gt;datasette 1.0a32&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/31/the-solution-might-be-cancelling-my-ai-subscription/#atom-everything&quot;&gt;The solution might be cancelling my AI subscription&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/31/anthropic-run-rate/#atom-everything&quot;&gt;Quoting Karen Kwok for Reuters Breakingviews&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 30. May 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-05-30</guid>
@@ -264,13 +273,6 @@
     <guid isPermaLink="false">simon-digest-2026-05-02</guid>
     <pubDate>Sat, 02 May 2026 12:00:00 +0000</pubDate>
     <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon nutzte Claude Code for Web, um eine neue Funktion für sein Blog-System zu entwickeln. Das Tool half ihm dabei, eine Erweiterung seines &quot;beats&quot;-Systems zur Syndikation von externem Content zu schaffen. Die Implementierung zeigt praktische Anwendungen von KI-gestützter Programmierung beim Aufbau von Web-Features.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Datasette &amp; Tools&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon integrierte iNaturalist-Fotos in sein Blog-System und machte diese durchsuchbar. Die Wildlife-Fotos werden nun auf der Homepage, in Datums-Archivseiten und in der Site-Suche angezeigt. Er befüllte das System rückwirkend mit über einem Jahrzehnt von iNaturalist-Einträgen, sodass Nutzer beispielsweise seine Lemur-Fotos aus Madagaskar von 2019 finden können.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (1 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/2/sightings/#atom-everything&quot;&gt;Sightings&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 01. May 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-05-01</guid>
-    <pubDate>Fri, 01 May 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs - Praktische Anwendungen&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon nutzte Claude Code, um ein Web-Tool für iNaturalist-Beobachtungen zu entwickeln – komplett auf seinem Telefon während eines Campingwochenendes. Das Projekt demonstriert, wie generative KI zur schnellen Prototypentwicklung eingesetzt werden kann, besonders für die Erstellung von HTML-Apps mit Fetch-Funktionalität. Die Verwendung von Claude Code für die JavaScript-Entwicklung zeigt die praktische Integration von LLMs in den Entwicklungsworkflow.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Open Source Releases &amp; Tools&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon veröffentlichte mehrere neue Tools im Zusammenhang mit iNaturalist: `inaturalist-clumper` ist ein Python CLI-Tool, das Beobachtungen nach Zeit (2-Stunden-Fenster) und geografischer Nähe (5km-Radius) gruppiert. Das Repository `simonw/inaturalist-clumps` nutzt Git Scraping, um die Daten automatisch zu aktualisieren und als `clumps.json` zu speichern. Die abschließende `inat-sightings.html`-App ruft diese JSON-Datei über CORS ab und zeigt Beobachtungen mit Thumbnails und Modal-Funktionalität an, inklusive Artenbezeichnungen.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (1 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/1/inat-sightings/#atom-everything&quot;&gt;iNaturalist Sightings&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
