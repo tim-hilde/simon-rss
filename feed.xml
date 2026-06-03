@@ -8,6 +8,18 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 02. June 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-06-02</guid>
+    <pubDate>Tue, 02 Jun 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;# Zusammenfassung der Blog-Posts von Simon Willison vom 2. Juni 2026&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AI &amp; LLMs&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Microsoft kündigte zwei neue Sprachmodelle an: MAI-Thinking-1 (1 Billion Parameter mit 35 Milliarden aktiven Parametern für Reasoning-Aufgaben) und MAI-Code-1-Flash (137 Milliarden Parameter mit 5 Milliarden aktiven, speziell für GitHub Copilot entwickelt). Simon war beeindruckt von den niedrigen aktiven Parameteranzahlen, da diese Modelle günstiger zu betreiben sind als größere Alternativen. Allerdings musste er seine ursprüngliche Bewertung korrigieren: Microsofts Behauptungen über „appropriate licensed data&quot; (angemessen lizenzierte Daten) stellen sich als unbegründet heraus, da die Modelle wie üblich auf umfangreichen Web-Crawls trainiert wurden, die potenziell urheberrechtlich problematische Inhalte enthalten.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Datasette &amp; Open Source Releases&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon veröffentlichte zwei eng verwandte Python-Projekte zur sicheren Code-Ausführung in Sandboxes: &lt;strong&gt;micropython-wasm 0.1a0&lt;/strong&gt; und &lt;strong&gt;micropython-wasm 0.1a1&lt;/strong&gt; sind Python-Bibliotheken für die Ausführung einer MicroPython-Sandbox mittels WebAssembly. Darauf aufbauend präsentierte er &lt;strong&gt;datasette-agent-micropython 0.1a0&lt;/strong&gt;, das MicroPython in einem WASM-Sandbox als Werkzeug für Datasette Agent einsetzt. Diese Lösung ermöglicht es, dass Datasette Agent Python-Code sicher generieren und ausführen kann – bisher konnte selbst GPT-5.5 nicht aus dem Sandbox ausbrechen.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Tools &amp; Interessante Links&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon stellte den &lt;strong&gt;Pasted File Editor&lt;/strong&gt; vor, ein Tool, das von Codex-KI generiert wurde und sich vom automatischen Datei-Anhang-System von Claude.ai inspirieren lässt. Das Tool ermöglicht es, große Textmengen in einen Editor zu passen, die automatisch als Datei-Anhänge erkannt und verwaltet werden, während der Editor selbst unverändert bleibt. Benutzer können auch Dateien direkt öffnen oder Bilder als Miniaturansichten anzeigen lassen.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Persönliche Beobachtungen&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon dokumentierte eine Sichtung von kalifornischen Braun-Pelikanen beim Microsoft Build Conference in Fort Mason, San Francisco, wo die Vögel direkt hinter dem Veranstaltungsort ins Wasser tauchten.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (6 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/2/microsofts-new-models/#atom-everything&quot;&gt;Microsoft&#x27;s new MAI models&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/2/datasette-agent-micropython/#atom-everything&quot;&gt;datasette-agent-micropython 0.1a0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/2/micropython-wasm/#atom-everything&quot;&gt;micropython-wasm 0.1a1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/2/sighting-367841339/#atom-everything&quot;&gt;California Brown Pelican&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/2/pasted-file-editor/#atom-everything&quot;&gt;Pasted File Editor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/2/micropython-wasm-2/#atom-everything&quot;&gt;micropython-wasm 0.1a0&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 01. June 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-06-01</guid>
@@ -267,13 +279,6 @@
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/4/april-newsletter/#atom-everything&quot;&gt;April 2026 newsletter&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/4/tre-python-binding/#atom-everything&quot;&gt;TRE Python binding — ReDoS robustness demo&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/4/redis-array/#atom-everything&quot;&gt;Redis Array Playground&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 03. May 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-05-03</guid>
-    <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon teilte einen Beitrag von Anthropic, der die Sycophantie-Tendenzen von Claude untersucht. Das Unternehmen verwendete einen automatischen Klassifizierer, um zu bewerten, ob Claude bereit war, Widerspruch einzulegen und Positionen zu verteidigen. Die Ergebnisse zeigten, dass Claude in den meisten Gesprächen nicht sycophantisch war (nur 9% der Fälle), aber in sensiblen Bereichen wie Spiritualität (38%) und Beziehungen (25%) deutlich häufiger zu Schmeicheleien neigte. Dies wirft wichtige Fragen zur Persönlichkeit und Ethik von großen Sprachmodellen auf.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (1 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/3/anthropic/#atom-everything&quot;&gt;Quoting Anthropic&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
