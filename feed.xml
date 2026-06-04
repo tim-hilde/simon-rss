@@ -8,6 +8,13 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 03. June 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-06-03</guid>
+    <pubDate>Wed, 03 Jun 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs: Unternehmensausgaben und Kostenkontrolle&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon Willison kommentiert Ubers neue Richtlinie zur Begrenzung der KI-Tool-Nutzung, nachdem das Unternehmen sein 2026er KI-Budget bereits in vier Monaten aufgebraucht hat. Uber hat eine Obergrenze von $1.500 monatlichen Token-Ausgaben pro KI-Codierungstool wie Cursor oder Claude Code eingeführt, wobei jedes Tool ein separates Budget hat. Simon bewertet diese Maßnahme als vernünftige Reaktion auf Überschreitungen und deutet darauf hin, dass dies Ubers tatsächliche Wertschätzung für diese Tools widerspiegelt – etwa $36.000 pro Ingenieur pro Jahr oder etwa 11% der durchschnittlichen Kompensation. Er vergleicht dies mit seiner eigenen Nutzung von etwa $1.000/Monat bei Anthropic und OpenAI und verweist darauf, dass größere Unternehmen wie Uber keine Zugang zu den großzügigen subventionierten Plänen für Einzelnutzer haben, die früher verfügbar waren.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (1 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/3/uber-caps-usage/#atom-everything&quot;&gt;Uber Caps Usage of AI Tools Like Claude Code to Manage Costs&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 02. June 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-06-02</guid>
@@ -268,17 +275,6 @@
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/5/datasette-llm/#atom-everything&quot;&gt;datasette-llm 0.1a7&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/5/llm-echo/#atom-everything&quot;&gt;llm-echo 0.5a0&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/5/john-gruber/#atom-everything&quot;&gt;Quoting John Gruber&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 04. May 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-05-04</guid>
-    <pubDate>Mon, 04 May 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;# &lt;strong&gt;AI &amp; LLMs&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;IBM veröffentlichte die Granite 4.1 Familie von LLMs mit Apache 2.0 Lizenz in den Größen 3B, 8B und 30B. Unsloth stellte 21 verschiedene quantisierte GGUF-Varianten des 3B-Modells zur Verfügung, was Simon dazu inspirierte, ein lange geplantes Experiment durchzuführen: Er testete alle Varianten mit der Aufforderung, ein SVG eines Pelikans auf einem Fahrrad zu generieren. Die Ergebnisse waren enttäuschend und zeigten kein erkennbares Qualitätsmuster in Bezug auf die Modellgröße.&lt;/p&gt;&lt;p&gt;# &lt;strong&gt;AI-Ethik &amp; Debatten&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon zitierte Andy Masley, der gegen das Argument mangelnder Ackerflächen für Datenzentren argumentiert. Masley zeigt auf, dass Farmer zwischen 2000 und 2024 enorme Landflächen verkauften, gleichzeitig aber mehr Nahrungsmittel produzierten, ohne dass dies zu Versorgungsproblemen in den USA führte. Die Debatte relativiert die Besorgnis über Landverbrauch durch Hyperscaler-Datenzentren.&lt;/p&gt;&lt;p&gt;# &lt;strong&gt;Sicherheit &amp; Programmierung&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon präsentierte eine minimale Python-ctypes-Bindung zur TRE-Regex-Bibliothek, die Robustheit gegen ReDoS-Attacken (Regular Expression Denial-of-Service) demonstriert. TRE verarbeitet selbst böswillige Regex-Muster auf riesigen Eingaben exponentiell schneller als Pythons Standard-`re`-Modul, da es kein Backtracking unterstützt. Claude Code half Simon dabei, diese experimentelle Bindung zu erstellen und bösartige Regex-Angriffe dagegen zu testen.&lt;/p&gt;&lt;p&gt;# &lt;strong&gt;Datasette &amp; Tools&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Salvatore Sanfilippo reichte einen Pull Request für einen neuen Redis-Datentyp namens &quot;Arrays&quot; ein, mit Befehlen wie ARCOUNT, ARGET, ARGREP und ARSCAN. Simon baute mit Claude Code einen interaktiven Playground für die neuen Befehle als WASM-kompiliertes Redis-Build im Browser. Das bemerkenswerteste neue Command ist ARGREP, das serverseitige Regex-Suches in Array-Ranges mit der integrierten TRE-Regex-Bibliothek ermöglicht.&lt;/p&gt;&lt;p&gt;# &lt;strong&gt;Newsletter &amp; Community&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon veröffentlichte die April-Ausgabe seines Sponsor-only Newsletters mit Updates zu Opus 4.7, GPT-5.5, Claude Mythos sowie anderen Modellveröffentlichungen und Sicherheitsforschung. Der Newsletter kostet $10 pro Monat und bietet Lesern einen Monat früheren Zugang zu Inhalten, die später kostenlos veröffentlicht werden.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (5 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/4/granite-41-3b-svg-pelican-gallery/#atom-everything&quot;&gt;Granite 4.1 3B SVG Pelican Gallery&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/4/andy-masley/#atom-everything&quot;&gt;Quoting Andy Masley&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/4/april-newsletter/#atom-everything&quot;&gt;April 2026 newsletter&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/4/tre-python-binding/#atom-everything&quot;&gt;TRE Python binding — ReDoS robustness demo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/4/redis-array/#atom-everything&quot;&gt;Redis Array Playground&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
