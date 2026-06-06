@@ -8,6 +8,14 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 05. June 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-06-05</guid>
+    <pubDate>Fri, 05 Jun 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;# AI &amp; Sicherheit&lt;/p&gt;&lt;p&gt;&lt;strong&gt;OpenAI&#x27;s Lockdown Mode gegen Prompt-Injection-Attacken&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;OpenAI hat Lockdown Mode offiziell gestartet und rollt das Feature nun für persönliche Konten (Free, Go, Plus, Pro) und selbstverwaltete ChatGPT-Business-Konten aus. Die Funktion soll die letzte Stufe von Datenexfiltration bei Prompt-Injection-Angriffen verhindern, indem sie ausgehende Netzwerkanfragen begrenzt, die sensible Daten zu Angreifern übertragen könnten. Simon Willison bewertet dies als vielversprechend, da es eines der drei Beine der „Lethal Trifecta&quot; (Zugriff auf private Daten, Exposure gegenüber nicht vertrauenswürdigem Inhalt und Datenabfluss-Mechanismen) blockiert, ohne die Nützlichkeit von LLM-Systemen wesentlich zu beeinträchtigen. Besonders wichtig ist, dass diese Schutzmaßnahmen deterministisch funktionieren und nicht von KI-Systemen selbst evaluiert werden, die durch raffinierte Attacken kompromittiert werden könnten.&lt;/p&gt;&lt;p&gt;# Open Source &amp; Ethik&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Andreas Klings Position zu KI-generierten Beiträgen im Ladybird-Browser&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Andreas Kling kündigte an, dass das Ladybird-Projekt (ein Browser-Projekt) keine öffentlichen Pull Requests mehr akzeptiert und betont damit die Verantwortung für Code-Änderungen. Sein Argument: Früher war ein substantieller Code-Patch ein Indiz für gute Absichten, aber diese Annahme gilt nicht mehr – ob Code von Hand geschrieben oder generiert wurde, ist irrelevant. Stattdessen zählt, wer die Verantwortung für den Code trägt und für seine Konsequenzen einstehen kann. Dies spiegelt die wachsende Debatte über KI-generierte Beiträge in Open-Source-Projekten wider und setzt einen neuen Standard für Qualitätskontrolle und Accountability.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/5/openai-help-lockdown-mode/#atom-everything&quot;&gt;OpenAI Help: Lockdown Mode&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/5/andreas-kling/#atom-everything&quot;&gt;Quoting Andreas Kling&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 04. June 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-06-04</guid>
@@ -264,14 +272,6 @@
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/7/firefox-claude-mythos/#atom-everything&quot;&gt;Behind the Scenes Hardening Firefox with Claude Mythos Preview&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/7/xai-anthropic/#atom-everything&quot;&gt;Notes on the xAI/Anthropic data center deal&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/7/github-repo-stats/#atom-everything&quot;&gt;GitHub Repo Stats&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 06. May 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-05-06</guid>
-    <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;# Zusammenfassung von Simon Willisons Blog-Einträgen vom 6. Mai 2026&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AI &amp; LLMs: Anthropic&#x27;s Code w/ Claude 2026 Event&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon berichtete live vom Anthropic-Event &quot;Code w/ Claude 2026&quot; und dokumentierte die Keynote-Sessions. Hauptankündigungen waren eine Partnerschaft mit SpaceX zur Nutzung des Colossus-Datanzentrums in Memphis sowie eine Verdoppelung des fünfstündigen Limits für Claude Code bei Pro-, Max- und Enterprise-Kunden. Die API-Nutzung auf der Anthropic-Plattform ist um das 17-fache im Jahresvergleich gestiegen. Anthropic kündigte Updates für Claude-verwaltete Agenten und Multi-Agent-Orchestrierung an, verzichtete aber auf die Ankündigung eines neuen Modells.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AI &amp; Coding: Die verschwimmenden Grenzen zwischen Vibe Coding und Agentic Engineering&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;In einem Interview mit Joseph Ruscio für Heavybit&#x27;s High Leverage Podcast kam Simon zu der beunruhigenden Erkenntnis, dass sich &quot;Vibe Coding&quot; und &quot;Agentic Engineering&quot; in seiner eigenen Arbeit zunehmend vermischen. Während er früher klare Grenzen zog – Vibe Coding als verantwortungslose, nicht überprüfte KI-Codierung für persönliche Projekte versus Agentic Engineering als professionelle, sichere Softwareentwicklung – stellt er fest, dass er mit zuverlässigeren Coding-Agenten nicht mehr jede Zeile Code überprüft. Sein 25-jähriges Erfahrungswissen als Softwareingenieur hilft ihm dabei, höherwertige Systeme schneller zu bauen, aber die Frage bleibt: Ab wann wird schnellere Entwicklung zum Problem, wenn die Qualitätskontrolle leidet?&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/6/code-w-claude-2026/#atom-everything&quot;&gt;Live blog: Code w/ Claude 2026&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/#atom-everything&quot;&gt;Vibe coding and agentic engineering are getting closer than I&#x27;d like&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
