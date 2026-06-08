@@ -8,6 +8,13 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 07. June 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-06-07</guid>
+    <pubDate>Sun, 07 Jun 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs und Datasette-Werkzeuge&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon Willison veröffentlichte datasette-agent-edit 0.1a0, ein neues Plugin für Datasette Agent, das speicheragnostische Dateiberarbeitungswerkzeuge bereitstellt. Das Plugin implementiert drei Kernfunktionen: `view` zum Anzeigen von Dateiabschnitten mit Zeilennummern, `str_replace` zum Suchen und Ersetzen von exaktem Text, und `insert` zum Einfügen von Text nach einer bestimmten Zeilennummer. Diese Werkzeuge basieren auf dem bewährten Design des Claude-Texteditors und sollen als Grundlage für mehrere geplante Datasette-Agent-Plugins dienen, die kollaboratives Markdown-Editing, SQL-Query-Updates und SVG-Dateibearbeitung ermöglichen.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (1 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/7/datasette-agent-edit/#atom-everything&quot;&gt;datasette-agent-edit 0.1a0&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 06. June 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-06-06</guid>
@@ -262,13 +269,6 @@
     <guid isPermaLink="false">simon-digest-2026-05-09</guid>
     <pubDate>Sat, 09 May 2026 12:00:00 +0000</pubDate>
     <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon zitiert Luke Curley von OpenAI zu einem grundlegenden Problem bei der Bereitstellung von Low-Latency-Voice-AI: WebRTC ist für Echtzeit-Kommunikation optimiert und verwirft aggressiv Audiopakete bei schlechten Netzwerkbedingungen, um die Latenz niedrig zu halten. Curley argumentiert, dass dies für Sprachmodelle kontraproduktiv ist, da Nutzer lieber 200ms länger warten würden, um eine genaue und qualitativ hochwertige Antwort zu erhalten, anstatt schnelle aber fehlerhafte Responses zu bekommen. Das Problem ist technisch schwerwiegend: Die WebRTC-Implementierung erlaubt nicht einmal die Neuübertragung von Audiopaketen innerhalb eines Browsers – etwas, das selbst Discord vergeblich versucht hat zu lösen. Letztendlich ist WebRTC für KI-Sprachanwendungen hart codiert auf Echtzeit-Latenz, was zu Qualitätseinbußen führt.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (1 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/9/luke-curley/#atom-everything&quot;&gt;Quoting Luke Curley&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 08. May 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-05-08</guid>
-    <pubDate>Fri, 08 May 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs - HTML als Output-Format für Claude&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon Willison diskutiert einen Artikel von Thariq Shihipar vom Claude-Team bei Anthropic, der HTML statt Markdown als Output-Format für Claude-Anfragen empfiehlt. Willison erklärt, dass er lange Zeit aus Token-Effizienzgründen (bedingt durch frühere 8.192-Token-Limits) Markdown bevorzugt hat, aber nun umdenkt. HTML ermöglicht es Claude, SVG-Diagramme, interaktive Widgets und bessere Navigation einzubauen, was die Informationen deutlich angenehmer zu nutzen macht.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Praktische Anwendung - Sicherheits-Exploit-Analyse mit HTML&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Willison experimentiert mit dieser neuen Herangehensweise am Beispiel des copy.fail Linux-Sicherheits-Exploits und nutzt den Prompt, GPT-5.5 eine detaillierte HTML-Erklärung zu erstellen. Er lässt den Code reformatieren und erweitert darstellen, wobei HTML, CSS und JavaScript für eine reichhaltige, interaktive Darstellung eingesetzt werden. Das Ergebnis ist überzeugend, obwohl Willison in Hinblick auf zukünftige Versuche mehr Fokus auf die Exploit-Erklärung selbst (statt der Python-Wrapper) legen möchte.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (1 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/8/unreasonable-effectiveness-of-html/#atom-everything&quot;&gt;Using Claude Code: The Unreasonable Effectiveness of HTML&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
