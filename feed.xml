@@ -8,6 +8,13 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 08. June 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-06-08</guid>
+    <pubDate>Mon, 08 Jun 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs – Apple Intelligence und Siri bei WWDC 2026&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Apple kündigte auf der WWDC 2026 neue Siri-KI-Features an, die auf einem maßgeschneiderten, von Gemini abgeleiteten Modell basieren, das auf Apples eigenem Private Cloud Compute läuft. Das Unternehmen nutzt Vision Language Models, um Informationen vom Bildschirm des Nutzers zu extrahieren, wodurch bestehende Anwendungen keine benutzerdefinierten Integrationscodes benötigen. Für anspruchsvollere Aufgaben wie agentengestütztes Tool-Use und komplexes Reasoning arbeitet Apple mit Google und NVIDIA zusammen und nutzt NVIDIA-GPUs in Google Cloud, während es gleichzeitig strikte Sicherheits- und Datenschutzgarantien aufrechterhält. Die neue Core AI-Bibliothek ermöglicht es Entwicklern, Apples Hardware vollständig für eigene Modelle zu nutzen und integriert sich mit Metas PyTorch-Ökosystem durch die Core AI PyTorch Extensions (coreai-torch).&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (1 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/8/wwdc/#atom-everything&quot;&gt;Siri AI at WWDC 2026&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 07. June 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-06-07</guid>
@@ -262,13 +269,6 @@
     <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
     <description>&lt;p&gt;# &lt;strong&gt;AI-Ethik und Journalismus&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon zitiert eine Korrektur der New York Times, die ein ernstes Problem mit KI-generierten Inhalten im Journalismus illustriert. Ein Reporter hatte eine KI-generierte Zusammenfassung von Pierre Poilievres Positionen zur kanadischen Politik als direktes Zitat präsentiert, ohne die Genauigkeit zu überprüfen. Die Times musste den Artikel später korrigieren und durch ein echtes Zitat aus einer Rede von Poilievre aus dem April ersetzen. Dieser Fall verdeutlicht die Risiken von Halluzinationen und die Notwendigkeit journalistischer Sorgfalt bei der Verwendung von KI-Tools.&lt;/p&gt;&lt;p&gt;# &lt;strong&gt;Softwareentwicklung und Handwerk&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon teilt ein Zitat von Andrew Quinn über die psychologische Hürde bei der Softwareentwicklung – die Angst, dass man etwas Neues erfindet, obwohl es bereits bessere Lösungen gibt. Quinn argumentiert, dass dies eine Falle ist und dass man bewusst einige wenige &quot;Räder neu erfinden&quot; muss, um wirklich an die Grenzen des vorhandenen Wissens zu stoßen. Im konkreten Beispiel zeigt Quinn, wie er eine 3 GB große SQLite-Datenbank durch einen 10 MB großen FST-Binärdatei ersetzte – ein Projekt, das nur durch praktisches Experimentieren möglich wurde.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/10/new-york-times-editors-note/#atom-everything&quot;&gt;Quoting New York Times Editors’ Note&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/10/andrew-quinn/#atom-everything&quot;&gt;Quoting Andrew Quinn&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 09. May 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-05-09</guid>
-    <pubDate>Sat, 09 May 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon zitiert Luke Curley von OpenAI zu einem grundlegenden Problem bei der Bereitstellung von Low-Latency-Voice-AI: WebRTC ist für Echtzeit-Kommunikation optimiert und verwirft aggressiv Audiopakete bei schlechten Netzwerkbedingungen, um die Latenz niedrig zu halten. Curley argumentiert, dass dies für Sprachmodelle kontraproduktiv ist, da Nutzer lieber 200ms länger warten würden, um eine genaue und qualitativ hochwertige Antwort zu erhalten, anstatt schnelle aber fehlerhafte Responses zu bekommen. Das Problem ist technisch schwerwiegend: Die WebRTC-Implementierung erlaubt nicht einmal die Neuübertragung von Audiopaketen innerhalb eines Browsers – etwas, das selbst Discord vergeblich versucht hat zu lösen. Letztendlich ist WebRTC für KI-Sprachanwendungen hart codiert auf Echtzeit-Latenz, was zu Qualitätseinbußen führt.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (1 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/9/luke-curley/#atom-everything&quot;&gt;Quoting Luke Curley&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
