@@ -8,6 +8,16 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 09. June 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-06-09</guid>
+    <pubDate>Tue, 09 Jun 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;# AI &amp; LLMs&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Claude Fable 5 und Claude Mythos 5 – Neue Frontier-Modelle&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon Willison hat Claude Fable 5 von Anthropic intensiv getestet und beschreibt es als ein &quot;Beast&quot; – langsam, teuer, aber leistungsstark bei fast allen gestellten Aufgaben. Fable 5 bietet die gleiche Leistung wie Claude Mythos 5, hat aber deutlich strengere Sicherheitsvorkehrungen gegen schädliche Nutzung, während Mythos 5 ohne diese Klassifizierer auskommt. Beide Modelle verfügen über ein 1-Million-Token-Kontextfenster, 128.000 maximale Output-Token und einen Wissensstichtag von Januar 2026, kosten aber das Doppelte von Claude Opus 4.8 (10 USD pro Million Input-Token, 50 USD für Output-Token).&lt;/p&gt;&lt;p&gt;# Open Source Releases&lt;/p&gt;&lt;p&gt;&lt;strong&gt;llm 0.32a3 – Kommandozeilen-Tool für Large Language Models&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon hat die Version 0.32a3 seines LLM-Tools veröffentlicht, das den Zugriff auf große Sprachmodelle über die Kommandozeile ermöglicht. Bemerkenswert ist, dass diese Release fast vollständig von Claude Fable 5 geschrieben wurde, was Williensons praktischen Einsatz des neuen Modells demonstriert.&lt;/p&gt;&lt;p&gt;# Tools &amp; Workflows&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AgentsView – Token-Nutzung und Custom Pricing&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon entdeckte, dass Wes McKinneys AgentsView-Toolkit (ein Python-Tool zur Analyse von Coding-Agent-Transkripten) benutzerdefinierte Modellpreise unterstützt. Da Claude Fable 5 noch nicht in der AgentsView-Preisdatenbank enthalten war, nutzte Simon Fable selbst, um das Tool zu reverse-engineeren und die Konfiguration für die neuen Preise vorzunehmen – ein praktisches Beispiel für selbstunterstützende KI-Workflows.&lt;/p&gt;&lt;p&gt;# Interesting Links &amp; Essays&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Andrej Karpathy über die Jevons-Paradox im KI-Zeitalter&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Andrej Karpathy reflektiert darüber, wie verfügbare KI-Software (insbesondere Claude Fable 5) die Nachfrage nach benutzerdefinierten Anwendungen exponentiell steigert – vom Erstellen von Explainern über Visualisierungen bis hin zu vollständig maßgeschneiderten Single-Use-Apps. Karpathy sieht dies als Befreiung des Potenzials für Entwickler und Forscher, die jetzt zehnfach mehr Tests, Code-Optimierung und benutzerdefinierte Forschungsprojekte realisieren können.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (4 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/9/claude-fable-5/#atom-everything&quot;&gt;Initial impressions of Claude Fable 5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/9/llm/#atom-everything&quot;&gt;llm 0.32a3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/9/agentsview-custom-model-price/#atom-everything&quot;&gt;Setting a custom price for a model in AgentsView&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/9/andrej-karpathy/#atom-everything&quot;&gt;Quoting Andrej Karpathy&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 08. June 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-06-08</guid>
@@ -261,14 +271,6 @@
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/11/zombie-internet/#atom-everything&quot;&gt;Your AI Use Is Breaking My Brain&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/11/llm-shebang/#atom-everything&quot;&gt;Using LLM in the shebang line of a script&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/11/learning-on-the-shop-floor/#atom-everything&quot;&gt;Learning on the Shop floor&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 10. May 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-05-10</guid>
-    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;# &lt;strong&gt;AI-Ethik und Journalismus&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon zitiert eine Korrektur der New York Times, die ein ernstes Problem mit KI-generierten Inhalten im Journalismus illustriert. Ein Reporter hatte eine KI-generierte Zusammenfassung von Pierre Poilievres Positionen zur kanadischen Politik als direktes Zitat präsentiert, ohne die Genauigkeit zu überprüfen. Die Times musste den Artikel später korrigieren und durch ein echtes Zitat aus einer Rede von Poilievre aus dem April ersetzen. Dieser Fall verdeutlicht die Risiken von Halluzinationen und die Notwendigkeit journalistischer Sorgfalt bei der Verwendung von KI-Tools.&lt;/p&gt;&lt;p&gt;# &lt;strong&gt;Softwareentwicklung und Handwerk&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon teilt ein Zitat von Andrew Quinn über die psychologische Hürde bei der Softwareentwicklung – die Angst, dass man etwas Neues erfindet, obwohl es bereits bessere Lösungen gibt. Quinn argumentiert, dass dies eine Falle ist und dass man bewusst einige wenige &quot;Räder neu erfinden&quot; muss, um wirklich an die Grenzen des vorhandenen Wissens zu stoßen. Im konkreten Beispiel zeigt Quinn, wie er eine 3 GB große SQLite-Datenbank durch einen 10 MB großen FST-Binärdatei ersetzte – ein Projekt, das nur durch praktisches Experimentieren möglich wurde.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/10/new-york-times-editors-note/#atom-everything&quot;&gt;Quoting New York Times Editors’ Note&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/10/andrew-quinn/#atom-everything&quot;&gt;Quoting Andrew Quinn&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
