@@ -8,6 +8,15 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 15. June 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-06-15</guid>
+    <pubDate>Mon, 15 Jun 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;# Simon Willisons Blog-Posts vom 15. Juni 2026&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AI &amp; LLMs – Sicherheit und Policy&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon kommentierte einen Axios-Artikel über Personality Clashes bei Anthropic, der die Offline-Schaltung von Anthropics Modellen im Kontext von US-Exportkontrollen beschreibt. Der Beitrag behandelt die Begegnung von Anthropic-Mitarbeitern wie Logan Graham (Frontier Red Team), Dave Orr (Head of Safeguards) und Nicholas Carlini mit dem Commerce Department. Simon diskutiert die Herausforderung von Jailbreak-Resistenz und verweist auf Anthropics Constitutional Classifiers als relevanten Ansatz zur Bekämpfung universeller adversarialer Angriffe auf LLMs.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Datasette &amp; Tools – Datenbankagenten&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon veröffentlichte datasette-agent 0.3a0, ein LLM-gestütztes Agenten-Tool für Datasette mit neuer `execute_write_sql`-Funktionalität, die Nutzerbestätigung erfordert und Berechtigungen berücksichtigt. Die aktualisierte Chat-Terminalversion unterstützt nun Genehmigungen mit neuen Optionen wie `--unsafe` für automatische Bestätigung und `--root` für Root-Zugriff. Mit Befehlen wie `datasette agent chat content.db -m gpt-5.5 --unsafe` können Nutzer direkt Datenbanken abfragen und modifizieren, beispielsweise durch Prompts wie &quot;create a notes table&quot;.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Schreiben &amp; Handwerk&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon zitierte Julia Evans mit ihrem Ansatz zum Schreiben für ein spezifisches Publikum – oft &quot;ich selbst vor drei Jahren&quot; oder ein guter Freund – statt für ein abstraktes Massenpublikum.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (3 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/15/datasette-agent/#atom-everything&quot;&gt;datasette-agent 0.3a0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/15/axios-clashes-anthropics/#atom-everything&quot;&gt;&quot;They screwed us&quot;: Personality clashes sent Anthropic&#x27;s models offline&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/15/julia-evans/#atom-everything&quot;&gt;Quoting Julia Evans&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 14. June 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-06-14</guid>
@@ -259,14 +268,6 @@
     <guid isPermaLink="false">simon-digest-2026-05-17</guid>
     <pubDate>Sun, 17 May 2026 12:00:00 +0000</pubDate>
     <description>&lt;p&gt;&lt;strong&gt;Open Source &amp; Regierungspolitik&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon berichtet über einen Konflikt zwischen der NHS und der britischen Regierung bezüglich der Entscheidung der NHS, ihre Open-Source-Repositories nach gemeldeten Sicherheitslücken (im Rahmen von Project Glasswing) zu schließen. Der Government Digital Service (GDS) hat sich nun öffentlich eingemischt und empfiehlt in ihrem Bericht &quot;AI, open code and vulnerability risk in the public sector&quot; vom 14. Mai, dass Offenheit die Standardeinstellung bleiben sollte. Die GDS argumentiert, dass private Repositories zusätzliche Kosten und Risiken mit sich bringen und dass Transparenz für Wiederverwendbarkeit und Überprüfung entscheidend ist. Terence Eden deutet diese ungewöhnlich öffentliche Intervention als &quot;Treffen ohne Kekse&quot; – ein seltenes Zeichen ernster interner Unstimmigkeit in der britischen Zivilbehörden-Kultur.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (1 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/17/gds-weighs-in/#atom-everything&quot;&gt;GDS weighs in on the NHS&#x27;s decision to retreat from Open Source&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 16. May 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-05-16</guid>
-    <pubDate>Sat, 16 May 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;&lt;strong&gt;Open Source Releases&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon dokumentierte die bemerkenswerte Namensgeschichte des Projekts OpenClaw, das seit November 2025 mehrere Umbenennungen durchlaufen hat. Mit Hilfe eines Python-Tools namens `first_line_history.py` verfolgte er alle Änderungen im Git-Repository nach: Das Projekt begann als Warelay (WhatsApp Relay CLI mit Twilio), wurde dann zu CLAWDIS (WhatsApp &amp; Telegram Gateway für AI Agents), später zu CLAWDBOT und schließlich zu OpenClaw. Simon präsentierte diese Entwicklung in einer Lightning Talk auf der PyCon US 2026 und zeigte damit die iterative Natur der Projektentwicklung.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Web Development &amp; Design&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon teilte einen wertvollen Gedanken von Julia Evans über CSS, die die Technologie nach Jahren des Widerstands nun wirklich respektiert. Evans argumentierte, dass CSS schwierig ist, weil es ein schwieriges Problem löst, und dass viele vermeintliche Unmöglichkeiten wie das Zentrieren längst gelöst wurden. Sie betont, dass diese Perspektive – CSS ernst nehmen statt zu devalieren – alles verändert hat und zu besserer Gestaltungsarbeit führt.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/16/openclaw-names/#atom-everything&quot;&gt;Warelay -&gt; OpenClaw&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/16/julia-evans/#atom-everything&quot;&gt;Quoting Julia Evans&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
