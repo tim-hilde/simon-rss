@@ -8,6 +8,16 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 17. June 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-06-17</guid>
+    <pubDate>Wed, 17 Jun 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon berichtet über GLM-5.2, das neue führende Open-Weights-Sprachmodell von Chinas Z.ai Lab mit beeindruckenden 753 Milliarden Parametern und einer Million Token großem Kontextfenster. Das Modell rangiert laut Artificial Analysis Intelligence Index auf Platz 1 unter allen Open-Weights-Modellen und belegt sogar Platz 2 auf der Code Arena WebDev-Leaderboard für Frontend-Entwicklungsaufgaben. Allerdings verbraucht GLM-5.2 deutlich mehr Output-Tokens als vergleichbare Modelle und ist über OpenRouter zu attraktiven Preisen von $1.40/$4.40 pro Million Tokens verfügbar. Simon testet das Modell spielerisch mit SVG-Generierungsaufgaben – ein Pelikan auf einem Fahrrad gelingt ausgezeichnet, während ein Virginia-Opossum auf einem E-Scooter enttäuschend ausfällt.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AI-gestützte Programmierung&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;In einem Zitat von Charity Majors reflektiert Simon einen fundamentalen Wandel in der Softwareentwicklung: Im Jahr 2025 wurde die Ökonomie der Codeproduktion umgestülpt, da Code-Generierung praktisch kostenlos und augenblicklich wurde. Dies führte zu einem Mentalitätswechsel, bei dem Code von sorgfältig gepflegten, wiederverwendbaren Ressourcen zu wegwerfbaren, regenerierbaren Artefakten wurde – ein Paradigmenwechsel mit großen Implikationen für Engineering-Praktiken.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Web-Entwicklung &amp; Tools&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon stellt die Web Component `&lt;click-to-play&gt;` vor, ein progressives Enhancement-Tool, das große GIFs on-demand lädt. Die Komponente zeigt zunächst ein Standbild mit Play-Button und lädt die animierte GIF erst beim Anklicken, was Bandbreite spart und die Seitenladgeschwindigkeit verbessert. Simon hat diese Komponente speziell für seine neuen Row-Editing-Tools in Datasette entwickelt.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Open Source &amp; Projekte&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon teilt seine Bewunderung für NetNewsWire, das von Brent Simmons nach dessen Pensionierung als Retirement-Projekt weiterentwickelt wird. Die RSS-Reader-Software, die erstmals 2002 veröffentlicht und 2018 Open Source gemacht wurde, profitiert davon, dass Simmons sich ohne kommerziellen Druck vollständig ihrer Verbesserung widmen kann. Simon nutzt NetNewsWire selbst auf Mac und iPhone seit Jahren und schätzt es als unverzichtbar.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (4 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/17/glm-52/#atom-everything&quot;&gt;GLM-5.2 is probably the most powerful text-only open weights LLM&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/17/charity-majors/#atom-everything&quot;&gt;Quoting Charity Majors&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/17/click-to-play-component/#atom-everything&quot;&gt;&lt;click-to-play&gt; — a still that plays&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/17/netnewswire-status/#atom-everything&quot;&gt;NetNewsWire Status&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 16. June 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-06-16</guid>
@@ -266,13 +276,6 @@
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/19/llm-gemini/#atom-everything&quot;&gt;llm-gemini 0.32a0&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/19/datasette-llm/#atom-everything&quot;&gt;datasette-llm 0.1a8&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/19/5-minute-llms/#atom-everything&quot;&gt;The last six months in LLMs in five minutes&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 18. May 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-05-18</guid>
-    <pubDate>Mon, 18 May 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;&lt;strong&gt;Vogelbeobachtungen&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon dokumentierte seine Vogelbeobachtungen während eines Spaziergangs am Los Angeles River in Kalifornien, bevor er von der PyCon US nach Hause fuhr. Er sichtete vier verschiedene Arten: Glaucous-winged Gull, Brown Pelican, Snowy Egret und Canada Goose. Besonders freute sich Simon, einen Pelikан zu sehen, den er gezielt suchte, und entdeckte auch Gänseküken am Swan Boat Lake.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (1 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/18/sighting-362781627/#atom-everything&quot;&gt;Glaucous-winged Gull, Brown Pelican, Snowy Egret, Canada Goose&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
