@@ -8,6 +8,13 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 19. June 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-06-19</guid>
+    <pubDate>Fri, 19 Jun 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs – Model Context Protocol&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon teilt einen Kommentar von Sean Lynch über das Model Context Protocol (MCP) und dessen Vorteile gegenüber traditionellen Skills oder CLI-Tools. Lynch hebt hervor, dass MCPs ihren Hauptwert darin haben, Authentifizierungsflüsse außerhalb des Agent-Kontextfensters zu isolieren und möglicherweise komplett aus dem System-Harness auszulagern. Nach Lynchs Ansicht könnte die idealisierte Form von MCP einfach ein Authentifizierungs-Gateway für APIs sein – und das wäre bereits ein großer Gewinn für die Entwicklung von KI-Agenten.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (1 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/19/sean-lynch/#atom-everything&quot;&gt;Quoting Sean Lynch&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 18. June 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-06-18</guid>
@@ -263,15 +270,6 @@
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/21/datasette-agent-sprites/#atom-everything&quot;&gt;datasette-agent-sprites 0.1a0&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/21/datasette-agent-charts/#atom-everything&quot;&gt;datasette-agent-charts 0.1a2&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/21/datasette-agent-2/#atom-everything&quot;&gt;datasette-agent 0.1a3&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 20. May 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-05-20</guid>
-    <pubDate>Wed, 20 May 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;# KI und LLMs&lt;/p&gt;&lt;p&gt;&lt;strong&gt;SpaceX und Anthropic Cloud-Computing-Deal&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon berichtete über einen bemerkenswerten Deal aus SpaceX&#x27;s S-1-Dokument: SpaceX hat mit Anthropic einen Cloud-Services-Vertrag abgeschlossen, der Anthropic Zugang zu Compute-Kapazität auf COLOSSUS und COLOSSUS II bietet. Anthropic zahlt dafür 1,25 Milliarden Dollar pro Monat bis Mai 2029, während SpaceX gleichzeitig sein eigenes Sprachmodell Grok 5 auf COLOSSUS II trainiert. Der Vertrag ist bemerkenswert, da er zeigt, wie große Tech-Unternehmen ihre Infrastruktur monetarisieren und gleichzeitig an eigenen KI-Projekten arbeiten.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Token-Geschwindigkeit und Wahrnehmung&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon teilte eine nützliche interaktive HTML-App von Mike Veerman, die LLM-Token-Ausgabegeschwindigkeiten von 5 bis 800 Token pro Sekunde simuliert. Das Tool hilft Nutzern zu verstehen, wie schnell oder langsam Modelle tatsächlich sind, wenn sie mit Spezifikationen wie &quot;30 Tokens pro Sekunde&quot; konfrontiert werden. Dies ist praktisch für die Evaluierung von Modellleistung im echten Einsatz.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Google I/O und Gemini-Ankündigungen&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Auf Google I/O 2026 war Simon besonders interessiert an Gemini Spark, einem kommenden &quot;persönlichen KI-Agenten&quot;, der nativ mit Google-Apps wie Gmail, Calendar, Drive und Maps integriert wird und auf Gemini 3.5 Flash und Antigravity basiert. Simon wies auf die mangelnde öffentliche Dokumentation zu Prompt-Injection-Schutzmaßnahmen hin, obwohl Google für Enterprise-Kunden erwähnt, dass Spark in isolierten, ephemären VMs läuft und Datenverkehr durch ein Secure Agent Gateway mit Data Loss Prevention-Richtlinien geleitet wird. Zusätzlich kündigte Google an, dass das Open-Source-Gemini CLI Tool (Apache 2.0 TypeScript) eingestellt wird und durch das geschlossene Antigravity CLI ersetzt wird.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (3 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/20/spacex-s1/#atom-everything&quot;&gt;Quoting SpaceX S-1&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/20/tokens-per-second/#atom-everything&quot;&gt;How fast is 10 tokens per second really?&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/20/google-io/#atom-everything&quot;&gt;Google I/O, Gemini Spark, Antigravity&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
