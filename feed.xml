@@ -8,6 +8,14 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 23. June 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-06-23</guid>
+    <pubDate>Tue, 23 Jun 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;&lt;strong&gt;Datasette &amp; Tools&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon veröffentlichte Datasette 1.0a35, ein großes Release des Open-Source-Tools zur Datenexploration und -veröffentlichung. Das Update bringt drei Hauptmerkmale: eine neue &quot;Create table&quot;-Schnittstelle im Datenbankaktionsmenü mit vollständiger Unterstützung für Spalten, Primärschlüssel, benutzerdefinierte Spaltentypen und Fremdschlüssel; eine neue &quot;Alter table&quot;-Funktion zum Ändern bestehender Tabellen (Spalten hinzufügen, umbenennen, neu ordnen oder löschen); sowie neue Template-Kontext-Dokumentation, die die verfügbaren Variablen für benutzerdefinierte Vorlagen dokumentiert und als stabile API bis Datasette 2.0 behandelt wird. Die Dokumentation wird automatisch aus Dataclass-Definitionen generiert und durch Tests validiert.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Browser &amp; WebAssembly&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon entwickelt an einer Test-Umgebung für OPFS (Origin Private File System) und Pyodide, um zu erforschen, ob Datasette Lite – die Python-Anwendung vollständig im Browser mit Pyodide und WebAssembly ausgeführt – persistente SQLite-Dateien auf dem Computer des Benutzers bearbeiten könnte. Er ließ sich von Claude Code for web eine Playground-UI erstellen, um diese Funktionalität browserübergreifend zu testen.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/23/datasette/#atom-everything&quot;&gt;datasette 1.0a35&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/23/opfs-pyodide/#atom-everything&quot;&gt;OPFS + Pyodide test harness&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 22. June 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-06-22</guid>
@@ -262,13 +270,6 @@
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/24/datasette-fixtures/#atom-everything&quot;&gt;datasette-fixtures 0.1a0&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/24/armin-ronacher/#atom-everything&quot;&gt;Quoting Armin Ronacher&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/24/usborne-mad-house/#atom-everything&quot;&gt;Mad House — Usborne Creepy Computer Games&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 23. May 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-05-23</guid>
-    <pubDate>Sat, 23 May 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;&lt;strong&gt;Web-Standards &amp; HTML-Semantik&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon teilte eine informative Analyse zum HTML-Element `&lt;dl&gt;` (Description List), die mehrere wenig bekannte Eigenschaften beleuchtete. Der Beitrag zeigte, dass ein `&lt;dt&gt;` von mehreren `&lt;dd&gt;`-Elementen gefolgt werden kann und dass diese Elemente optional in `&lt;div&gt;`-Containern zur Styling-Zwecke gruppiert werden dürfen. Mittels ARIA-Attribute können Description Lists korrekt gelabelt werden, und Simon verwies auf wichtige Informationen von Adrian Roselli zur Unterstützung durch Screen Reader. Dieser Fokus auf semantisch korrektes HTML und Barrierefreiheit unterstreicht die Bedeutung von Web-Standards für zugängliche Webentwicklung.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (1 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/23/on-the-dl/#atom-everything&quot;&gt;On the &lt;dl&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
