@@ -8,6 +8,14 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 25. June 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-06-25</guid>
+    <pubDate>Thu, 25 Jun 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs – Haftung und rechtliche Verantwortung&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon teilte Bruce Schneiers Kommentar zu einem deutschen Gerichtsurteil, das Google für Fehler in seinen AI Overviews haftbar macht. Schneier argumentiert überzeugend, dass KI-Systeme als Agenten ihrer Betreiber behandelt werden sollten – genauso wie ein Unternehmen für die Fehler von angestellten Schreibern, Anwälten oder Ärzten haftet. Wenn Unternehmen sich hinter fehlerhafter KI verstecken könnten, würde das massive finanzielle Anreize für nachlässige Geschäftspraktiken schaffen, da günstige KI-Systeme dann günstiger und risikofreier wären als menschliche Fachkräfte.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Datasette &amp; Tools – Release Updates&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon veröffentlichte Version 0.3a2 des datasette-export-database Plugins, ein kleines Update, das hauptsächlich eine Kompatibilitätsproblematik behob. Die pyproject.toml-Datei hatte zuvor Datasette auf Version 1.0a27 festgelegt, was das Plugin mit allen anderen Versionen inkompatibel machte – nun wird stattdessen `datasette&gt;=1.0a27` verwendet, um breitere Kompatibilität zu ermöglichen.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/25/ai-and-liability/#atom-everything&quot;&gt;AI and Liability&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/25/datasette-export-database/#atom-everything&quot;&gt;datasette-export-database 0.3a2&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 24. June 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-06-24</guid>
@@ -260,13 +268,6 @@
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/26/copilot-cowork-exfiltrates-files/#atom-everything&quot;&gt;Microsoft Copilot Cowork Exfiltrates Files&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/26/paul-graham/#atom-everything&quot;&gt;Quoting Paul Graham&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/26/corey-quinn/#atom-everything&quot;&gt;Quoting Corey Quinn&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 25. May 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-05-25</guid>
-    <pubDate>Mon, 25 May 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;# Zusammenfassung: Simon Willison&#x27;s Blogposts vom 25. Mai 2026&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AI &amp; LLMs – Ethik und Interpretierbarkeit&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon Willison analysiert Papst Leo XIV&#x27;s neue Enzyklika &quot;Magnifica Humanitas&quot; zur künstlichen Intelligenz, die am 25. Mai 2026 vom Vatikan veröffentlicht wurde. Die Enzyklika wird als eines der klarsten und zugänglichsten Dokumente zur Ethik der AI-Integration in die moderne Gesellschaft gelobt. Besonders hervorzuheben sind zwei zentrale Passagen: Section 98 beschreibt prägnant das Interpretierungsproblem von Large Language Models – dass aktuelle KI-Systeme eher &quot;kultiviert&quot; als &quot;konstruiert&quot; werden und selbst ihre Designer nur begrenzt ihr tatsächliches Funktionieren verstehen. Section 83 betont die Verbindung zwischen Entwicklung und menschlicher Würde, wonach echte Entwicklung Menschen ins Zentrum stellen muss statt Vermögensansammlung. Simon konsumierte die Enzyklika auf innovative Weise mit der ElevenReader iPhone-App, die qualitativ hochwertige Text-to-Speech-Funktionalität bot.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (1 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/25/encyclical-on-ai/#atom-everything&quot;&gt;Notes on Pope Leo XIV&#x27;s encyclical on AI&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
