@@ -8,6 +8,18 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 30. June 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-06-30</guid>
+    <pubDate>Tue, 30 Jun 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;# Zusammenfassung von Simon Willisons Blog (30. Juni 2026)&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AI &amp; LLMs – Neue Modellveröffentlichungen&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Anthropic hat Claude Sonnet 5 veröffentlicht, ein Modell mit ähnlicher Leistung wie Opus 4.8, aber zu niedrigeren Preisen. Das Modell verfügt über ein 1-Million-Token-Kontextfenster, 128.000 maximale Output-Token und adaptive Reasoning als Standard. Allerdings hat der neue Tokenizer zur Folge, dass der gleiche Text etwa 30% mehr Token benötigt als bei Sonnet 4.6, was einer effektiven Preiserhöhung entspricht. Google hat gleichzeitig Gemini 3.1 Flash Lite Image (Nano Banana 2 Lite) veröffentlicht, das als schnellstes und günstigstes Gemini-Bildmodell positioniert wird und bessere Ergebnisse bei kreativen Aufgaben wie „Where is the Raccoon&quot;-Bildern liefert.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Export Controls &amp; Regulierung&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Das US-Handelsministerium hat die Exportkontrollen auf Anthropics Claude Fable 5 und Mythos 5 aufgehoben, woraufhin Anthropic ankündigte, den Zugang ab dem folgenden Tag wiederherzustellen. Anthropic konnte Claude Sonnet 5 ohne Blockade durch die US-Regierung veröffentlichen, indem das Unternehmen es mit ähnlichen Schutzmaßnahmen wie bei älteren Modellen ausstattete und es deutlich weniger leistungsfähig bei Cyber-Aufgaben machte als die fortgeschritteneren Mythos-Modelle.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Open-Source-Releases – shot-scraper Updates&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;shot-scraper wurde in Version 1.10 aktualisiert und erhielt den neuen Befehl `shot-scraper video`, der eine storyboard.yml-Datei akzeptiert und mit Playwright Videos von Web-Anwendungsroutinen aufzeichnet. Diese Funktion ermöglicht es KI-Agenten, Video-Demos ihrer Arbeit automatisch zu erstellen, wie im Beispiel der neuen Datasette-Funktion zum Erstellen von Tabellen aus kopierten CSV-, TSV- oder JSON-Daten demonstriert wird.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AI-Ethik &amp; Kultur&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Das Projekt „The AI Compass&quot; ist ein spielerischer Quiz im Stil eines politischen Kompasses, bei dem Nutzer 29 Fragen zu KI und KI-Ethik beantworten, um herauszufinden, welcher von 30 Archetypen ihnen am besten entspricht. Die Implementierung als Single-Page-React-App nutzt das Babel-Script-Trick-Verfahren, um einen Build-Schritt zu vermeiden, und der Quellcode ist offen verfügbar.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (6 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/30/anthropic/#atom-everything&quot;&gt;Quoting Anthropic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/30/nano-banana-2-lite/#atom-everything&quot;&gt;Nano Banana 2 Lite&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/30/claude-sonnet-5/#atom-everything&quot;&gt;What&#x27;s new in Claude Sonnet 5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/30/the-ai-compass/#atom-everything&quot;&gt;The AI Compass&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/30/shot-scraper-video/#atom-everything&quot;&gt;Have your agent record video demos of its work with shot-scraper video&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/30/shot-scraper/#atom-everything&quot;&gt;shot-scraper 1.10&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 29. June 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-06-29</guid>
@@ -260,14 +272,6 @@
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/30/pyodide-asgi-browser/#atom-everything&quot;&gt;Running Python ASGI apps in the browser via Pyodide + a service worker&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/30/retiring-from-tech-to-live-offline/#atom-everything&quot;&gt;I Am Retiring from Tech to Live Offline&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/30/daniel-jalkut/#atom-everything&quot;&gt;Quoting Daniel Jalkut&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 29. May 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-05-29</guid>
-    <pubDate>Fri, 29 May 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;&lt;strong&gt;Datasette &amp; Open Source Tools&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon berichtet über die Veröffentlichung von Datasette 1.0a31, einem wichtigen Alpha-Release des Open-Source-Tools zur Erkundung und Veröffentlichung von Daten. Die neue Version führt zwei Hauptfunktionen ein: Benutzer mit entsprechenden Berechtigungen können nun Schreib-Abfragen gegen ihre Datenbank ausführen und gespeicherte Abfragen (umbenannt von &quot;canned queries&quot;) sowohl privat als auch für andere Instanz-Mitglieder speichern. Simon verweist auf detaillierte Blog-Posts auf dem Datasette-Blog, der seit zwei Wochen läuft und bereits drei Posts zu neuen Features veröffentlicht hat.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AI &amp; LLMs – Geschäftswachstum&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon analysiert Anthropics beeindruckendes Wachstum anhand ihrer Mitteilung einer Series-H-Finanzierung in Höhe von 65 Milliarden Dollar, die ein Run-Rate-Revenue von 47 Milliarden Dollar offenbart. Er dokumentiert das explosive Wachstum: Von 9 Milliarden Dollar Ende 2025 über 14 Milliarden Dollar im Februar bis zu 30 Milliarden Dollar im April und nun 47 Milliarden Dollar – ein Wachstum um das über Fünffache in wenigen Monaten. Simon verteidigt die Glaubwürdigkeit dieser Zahlen gegen Skeptiker und argumentiert, dass Anthropic bei einer Investition dieser Größenordnung nicht lügen würde, da die realen Zahlen bei einem IPO ohnehin in der S-1-Anmeldung offengelegt werden müssen.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/29/datasette/#atom-everything&quot;&gt;datasette 1.0a31&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/May/29/anthropic/#atom-everything&quot;&gt;Anthropic&#x27;s run-rate revenue hits $47 billion&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
