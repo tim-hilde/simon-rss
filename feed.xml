@@ -8,6 +8,14 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 04. July 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-07-04</guid>
+    <pubDate>Sat, 04 Jul 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon berichtet über ein faszinierendes Problem, das Armin Ronacher bei der Entwicklung von Pi (einem Coding-Agenten) entdeckt hat: Neuere Claude-Modelle wie Opus 4.8 und Sonnet 5 rufen Tools mit erfundenen, zusätzlichen Feldern auf, obwohl ältere Modelle der gleichen Familie dies nicht tun. Das Problem verschärft sich paradoxerweise mit besseren Modellen – ein Phänomen, das Ronacher darauf zurückführt, dass Anthropic die neueren Modelle speziell für Claudes integrierte Edit-Tools trainiert hat. Dies führt zu einer interessanten Frage: Sollten Drittanbieter-Coding-Tools wie Pi mehrere Edit-Tools implementieren, um die beste Performance für das jeweilige zugrunde liegende Modell zu erreichen?&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Interessante Links &amp; Techniken&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon teilt einen beeindruckenden Trick von Iwo Kadziela: Eine funktionsfähige ASCII-Weltkarte, die nur 445 Bytes Daten benötigt. Das Geheimnis liegt in der Verwendung von Deflate-Kompression, kombiniert mit einer eleganten JavaScript-Implementierung, die `fetch()` mit `data:`-URIs nutzt und `DecompressionStream` verwendet. Diese Technik zeigt kreativ, wie man mit modernen Web-APIs minimale Datenmengen komprimieren und dekomprimieren kann.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jul/4/building-a-world-map-with-only-500-bytes/#atom-everything&quot;&gt;Building a World Map with only 500 bytes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jul/4/better-models-worse-tools/#atom-everything&quot;&gt;Better Models: Worse Tools&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 03. July 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-07-03</guid>
@@ -264,14 +272,6 @@
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/2/sighting-367841339/#atom-everything&quot;&gt;California Brown Pelican&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/2/pasted-file-editor/#atom-everything&quot;&gt;Pasted File Editor&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/2/micropython-wasm-2/#atom-everything&quot;&gt;micropython-wasm 0.1a0&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 01. June 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-06-01</guid>
-    <pubDate>Mon, 01 Jun 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;# Zusammenfassung von Simon Willisons Blog-Beiträgen vom 1. Juni 2026&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AI &amp; Security: Prompt Injection und Account-Übernahmen&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon berichtet über einen bemerkenswerten Sicherheitsvortfall bei Meta, bei dem Hacker einfach Metas AI-Support-Bot um Zugriff auf hochkarätige Instagram-Konten baten — und Erfolg hatten. Ein Hacker startete ein Gespräch mit dem Support-Chatbot und bat ihn, eine neue E-Mail-Adresse mit einem Zielkonto zu verknüpfen, woraufhin das System tatsächlich den gesamten Account-Recovery-Prozess durchlief. Simon weist darauf hin, dass dies kaum als Prompt-Injection qualifiziert, sondern vielmehr ein grundlegendes Designproblem ist: Man sollte Support-Bots niemals so verdrahten, dass sie One-Shot-Account-Übernahmen ermöglichen.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Newsletter und Datasette-Updates&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon kündigte die Veröffentlichung seines Mai-Newsletters an, das exklusiv für Sponsoren verfügbar ist. Der Newsletter behandelt mehrere wichtige Themen: Die gestiegenen Kosten für KI, Anthropics erfolgreicher Monat, etwas enttäuschende Model-Releases sowie Konferenzen und Podcasts. Besonders hervorzuheben ist, dass Simon Datasette Agent gelauncht hat und erhebliche Fortschritte bei Datasette gemacht hat. Der Newsletter bietet auch eine regelmäßige Rubrik &quot;What I&#x27;m using&quot; und verschiedene Extras, für $10 pro Monat erhält man einen Monat früher Zugriff als bei der kostenlosen Version.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/1/hackers-simply-asked-meta-ai/#atom-everything&quot;&gt;Hackers Simply Asked Meta AI to Give Them Access to High-Profile Instagram Accounts. It Worked&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/1/may-newsletter/#atom-everything&quot;&gt;May 2026 newsletter&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
