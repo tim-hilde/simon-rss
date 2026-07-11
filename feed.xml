@@ -8,6 +8,14 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 10. July 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-07-10</guid>
+    <pubDate>Fri, 10 Jul 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;&lt;strong&gt;KI-Ethik &amp; Datenschutz&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon zitiert Nilay Patel von The Verge zu den grundlegenden Herausforderungen bei der Entwicklung von Augmented-Reality-Brillen. Patel argumentiert, dass AR-Brillen zwangsläufig eine ständig aufzeichnende Kamera neben den Augen benötigen und die erfassten Daten in die Cloud senden müssen – es gibt technisch keine Alternative. Er wirft die wichtige Frage auf, ob die enormen Datenschutz- und Gesellschaftskosten solcher Produkte wirklich vertretbar sind, oder ob diese Technologie grundsätzlich nicht entwickelt werden sollte.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;KI-Plattformen &amp; Chatbots&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon dokumentiert OpenAIs Versuch, die neuen &quot;Work&quot;-Funktionen von ChatGPT zu erklären – ein Feature, das in der Cloud läuft und lokale Dateien sowie Desktop-Apps mit Benutzererlaubnis nutzen kann. OpenAI betont dabei die Datentrennung zwischen Cloud und Desktop-Arbeitsbereichen, wobei lokale Dateien auf dem Computer verbleiben. Die etwas unklare Erklärung von OpenAI deutet darauf hin, dass das Unternehmen Schwierigkeiten hat, diese komplexen Funktionsweisen verständlich zu kommunizieren.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jul/10/nilay-patel/#atom-everything&quot;&gt;Quoting Nilay Patel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jul/10/openai/#atom-everything&quot;&gt;Quoting OpenAI&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 09. July 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-07-09</guid>
@@ -268,13 +276,6 @@
     <guid isPermaLink="false">simon-digest-2026-06-08</guid>
     <pubDate>Mon, 08 Jun 2026 12:00:00 +0000</pubDate>
     <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs – Apple Intelligence und Siri bei WWDC 2026&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Apple kündigte auf der WWDC 2026 neue Siri-KI-Features an, die auf einem maßgeschneiderten, von Gemini abgeleiteten Modell basieren, das auf Apples eigenem Private Cloud Compute läuft. Das Unternehmen nutzt Vision Language Models, um Informationen vom Bildschirm des Nutzers zu extrahieren, wodurch bestehende Anwendungen keine benutzerdefinierten Integrationscodes benötigen. Für anspruchsvollere Aufgaben wie agentengestütztes Tool-Use und komplexes Reasoning arbeitet Apple mit Google und NVIDIA zusammen und nutzt NVIDIA-GPUs in Google Cloud, während es gleichzeitig strikte Sicherheits- und Datenschutzgarantien aufrechterhält. Die neue Core AI-Bibliothek ermöglicht es Entwicklern, Apples Hardware vollständig für eigene Modelle zu nutzen und integriert sich mit Metas PyTorch-Ökosystem durch die Core AI PyTorch Extensions (coreai-torch).&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (1 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/8/wwdc/#atom-everything&quot;&gt;Siri AI at WWDC 2026&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 07. June 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-06-07</guid>
-    <pubDate>Sun, 07 Jun 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs und Datasette-Werkzeuge&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon Willison veröffentlichte datasette-agent-edit 0.1a0, ein neues Plugin für Datasette Agent, das speicheragnostische Dateiberarbeitungswerkzeuge bereitstellt. Das Plugin implementiert drei Kernfunktionen: `view` zum Anzeigen von Dateiabschnitten mit Zeilennummern, `str_replace` zum Suchen und Ersetzen von exaktem Text, und `insert` zum Einfügen von Text nach einer bestimmten Zeilennummer. Diese Werkzeuge basieren auf dem bewährten Design des Claude-Texteditors und sollen als Grundlage für mehrere geplante Datasette-Agent-Plugins dienen, die kollaboratives Markdown-Editing, SQL-Query-Updates und SVG-Dateibearbeitung ermöglichen.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (1 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/7/datasette-agent-edit/#atom-everything&quot;&gt;datasette-agent-edit 0.1a0&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
