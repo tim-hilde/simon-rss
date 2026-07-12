@@ -8,6 +8,13 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 11. July 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-07-11</guid>
+    <pubDate>Sat, 11 Jul 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;# Zusammenfassung der Blog-Posts von Simon Willison vom 11. Juli 2026&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Datasette &amp; Tools – sqlite-utils 4.1 Release&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon veröffentlichte sqlite-utils 4.1, ein Python CLI-Dienstprogramm zur Manipulation von SQLite-Datenbanken. Die neue Version führt mehrere praktische Features ein: Die Befehle `insert` und `upsert` akzeptieren nun eine `--code`-Option, um Python-Code oder eine .py-Datei bereitzustellen, die eine `rows()`-Funktion definiert. Zusätzlich können Nutzer nun mit `--type` Spaltentypen überschreiben (besonders nützlich für Postleitzahlen, die als TEXT statt INTEGER gespeichert werden sollen) und es wurde eine neue `table.drop_index()`-Methode hinzugefügt. Der `sqlite-utils query`-Befehl kann SQL-Abfragen nun direkt von stdin lesen, und `upsert` kann den Primary Key automatisch von bestehenden Tabellen ableiten.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AI &amp; LLMs – KI-gestützte Programmentwicklung&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon nutzte Codex (GPT-5.6) extensiv bei der Entwicklung von sqlite-utils 4.1, um offene Issues zu analysieren und die einfachsten Verbesserungen zu identifizieren. Die KI half auch bei der Implementierung der neuen `strict`-Modus-Features für Tabellen, die von einem Hacker-News-Artikel inspiriert waren. Simon dokumentierte den Codex-Transkript für die Implementierung und demonstriert damit, wie AI-Assistierte Programmierung moderne Softwareentwicklung beschleunigt und verbessert.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (1 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jul/11/sqlite-utils/#atom-everything&quot;&gt;sqlite-utils 4.1&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 10. July 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-07-10</guid>
@@ -269,13 +276,6 @@
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/9/llm/#atom-everything&quot;&gt;llm 0.32a3&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/9/agentsview-custom-model-price/#atom-everything&quot;&gt;Setting a custom price for a model in AgentsView&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/9/andrej-karpathy/#atom-everything&quot;&gt;Quoting Andrej Karpathy&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 08. June 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-06-08</guid>
-    <pubDate>Mon, 08 Jun 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs – Apple Intelligence und Siri bei WWDC 2026&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Apple kündigte auf der WWDC 2026 neue Siri-KI-Features an, die auf einem maßgeschneiderten, von Gemini abgeleiteten Modell basieren, das auf Apples eigenem Private Cloud Compute läuft. Das Unternehmen nutzt Vision Language Models, um Informationen vom Bildschirm des Nutzers zu extrahieren, wodurch bestehende Anwendungen keine benutzerdefinierten Integrationscodes benötigen. Für anspruchsvollere Aufgaben wie agentengestütztes Tool-Use und komplexes Reasoning arbeitet Apple mit Google und NVIDIA zusammen und nutzt NVIDIA-GPUs in Google Cloud, während es gleichzeitig strikte Sicherheits- und Datenschutzgarantien aufrechterhält. Die neue Core AI-Bibliothek ermöglicht es Entwicklern, Apples Hardware vollständig für eigene Modelle zu nutzen und integriert sich mit Metas PyTorch-Ökosystem durch die Core AI PyTorch Extensions (coreai-torch).&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (1 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/8/wwdc/#atom-everything&quot;&gt;Siri AI at WWDC 2026&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
