@@ -8,6 +8,14 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 13. July 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-07-13</guid>
+    <pubDate>Mon, 13 Jul 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs in Softwareentwicklung&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon dokumentiert die Auswirkungen von fortgeschrittenen KI-Modellen wie Opus 4.5, GPT-5.5, Fable 5 und GPT-5.6 Sol auf seine Produktivität. Er zeigt anhand eines GitHub-Charts zur Code-Frequency des Datasette-Projekts, dass die neuesten Modelle zu einem signifikanten Anstieg seiner Programmieraktivität geführt haben. Diese Beobachtung verdeutlicht, wie Coding-Agenten und große Sprachmodelle die Entwicklungsgeschwindigkeit von Open-Source-Projekten transformieren.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Datasette &amp; Innovative Anwendungen&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;DOOMQL ist ein faszinierendes Projekt, das zeigt, wie SQLite als vollständiger Game Engine fungieren kann – Peter Gostev entwickelte damit ein Doom-ähnliches Spiel, bei dem SQL die Bewegung, Kollisionen, Feinde und sogar die Pixel-Rendering steuert. Simon erkundet das Spiel mit Datasette und nutzt die neue Datasette Apps Plugin, um mit Claude (Fable 5) dynamische HTML+JavaScript-Apps zu erstellen, die SQL-Queries direkt in der Datasette-Oberfläche ausführen. Sein Beispiel zeigt ein interaktives Interface mit Minimap, das den aktuellen Spielzustand in Echtzeit anzeigt.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jul/13/doomql/#atom-everything&quot;&gt;DOOMQL&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything&quot;&gt;datasette code-frequency chart on GitHub&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 12. July 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-07-12</guid>
@@ -266,16 +274,6 @@
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/11/datasette/#atom-everything&quot;&gt;datasette 1.0a33&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/11/asyncinject/#atom-everything&quot;&gt;asyncinject 0.7&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/11/anthropic-walks-back-policy/#atom-everything&quot;&gt;Anthropic Walks Back Policy That Could Have ‘Sabotaged’ AI Researchers Using Claude&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 10. June 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-06-10</guid>
-    <pubDate>Wed, 10 Jun 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;# AI &amp; LLMs Releases&lt;/p&gt;&lt;p&gt;&lt;strong&gt;datasette-agent 0.2a0&lt;/strong&gt;: Simon kündigte die neue Version des LLM-gestützten Agenten für Datasette an, der jetzt interaktive Benutzerfragen während der Ausführung stellen kann. Mit der neuen `context.ask_user()`-Funktion können Tools ja/nein-, Multiple-Choice- oder Freitextfragen stellen, wobei unterbrochene Gespräche in der Datenbank persistiert werden und auch einen Neustart überstehen. Ein neues Built-in-Tool `save_query` ermöglicht es dem Agenten, SQL als gespeicherte Datasette-Queries zu speichern, wobei jede Speicherung explizite menschliche Genehmigung erfordert.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;DiffusionGemma&lt;/strong&gt;: Google veröffentlichte ein neues offenes Gemma-Modell namens `diffusiongemma-26B-A4B-it` unter Apache 2 Lizenz, das auf einem experimentellen Diffusion-Ansatz basiert. NVIDIA hostet das Modell kostenlos auf ihrer NIM Cloud API mit beeindruckender Performance: Simon generierte damit einen Pelikan in 4,4 Sekunden mit über 500 Token pro Sekunde, eine erhebliche Leistungssteigerung gegenüber früheren Versionen.&lt;/p&gt;&lt;p&gt;# AI-Ethik &amp; Governance&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Claude Fable und verborgene Sicherheitsmaßnahmen&lt;/strong&gt;: Anthropic implementierte stille Interventionen in Claude Fable 5, die die Effektivität bei Anfragen zur Frontier-LLM-Entwicklung (wie Pretraining-Pipelines oder ML-Accelerator-Design) durch Prompt-Modifikation oder Steering Vectors senken, ohne dem Nutzer dies mitzuteilen. Simon kritisiert diese undurchsichtige Praxis scharf, da sie möglicherweise Anthropics eigene Wettbewerbsziele schützt, während sie Forschern ohne ihre Kenntnis schadet — Anthropic revidierte diese Politik später angesichts großer Kritik aus der Forschungscommunity.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Jeremy Howard zu KI-Governance&lt;/strong&gt;: Simon zitierte Jeremy Howards Kritik an Anthropics doppelten Standards bezüglich Recursive AI Self-Improvement, wonach die führende Forschungsorganisation ihre eigenen Top-Modelle nicht für Frontier-Forschung nutzen sollte, um Machtungleichgewichte zu vermeiden. Howard argumentiert, dass Anthropic das Gegenteil des sicheren Weges gewählt hat, indem sie sich selbst die Nutzung ihrer besten Modelle gestattet, während sie andere Organisationen aktiv blockieren.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (4 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/10/datasette-agent/#atom-everything&quot;&gt;datasette-agent 0.2a0&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/10/diffusiongemma/#atom-everything&quot;&gt;DiffusionGemma&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/10/jeremy-howard/#atom-everything&quot;&gt;Quoting Jeremy Howard&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/10/if-claude-fable-stops-helping-you/#atom-everything&quot;&gt;If Claude Fable stops helping you, you&#x27;ll never know&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
