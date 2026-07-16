@@ -8,6 +8,14 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 15. July 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-07-15</guid>
+    <pubDate>Wed, 15 Jul 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;# Zusammenfassung von Simon Willisons Blog-Posts vom 15. Juli 2026&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Open-Source-Veröffentlichungen und Sicherheitsvorfälle&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;xAI veröffentlichte das Grok-Build-Projekt überraschend unter der Apache-2.0-Lizenz, nachdem massive Sicherheitsbedenken aufgetaucht waren. Das CLI-Tool hatte standardmäßig ganze Verzeichnisse einschließlich SSH-Schlüssel, Passwortmanager-Datenbanken und persönlicher Dateien zu xAIs Google Cloud hochgeladen, was massive Kritik von Nutzern auslöste. Nach dieser Backlash deaktivierte xAI die Funktion und löschte alle bereits hochgeladenen Daten, um das Vertrauen wiederherzustellen.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Technische Analyse von Grok Build&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Das freigegebene Grok-Build-Codebase ist beeindruckend umfangreich mit 844.530 Zeilen Rust-Code. Simon entdeckte interessante technische Details wie das Mermaid-Diagramm-Rendering in xai-grok-markdown, das Diagramme als Unicode-Box-Drawing in der Konsole darstellt und sogar in WebAssembly funktioniert. Das Projekt implementiert Tool-Nachbildungen von anderen Coding-Agenten wie Codex und OpenCode, was auf eine flexible Architektur hindeutet, die zwischen verschiedenen Tool-Implementierungen wechseln kann.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;KI-Sicherheit und Prompt-Injection-Angriffe&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Ayush Paul entdeckte eine kritische Sicherheitslücke in Anthropics Claude-Web-Fetch-Tool, das anfällig für Datenexfiltrationsangriffe war. Durch verschachtelte Links auf bösartigen Websites konnten Angreifer Claude dazu bringen, sensible Nutzerdaten wie Namen, Wohnort und Arbeitgeber über URL-Parameter zu exfiltrieren. Anthropic schloss die Lücke anschließend, indem es web_fetch daran hinderte, zu Links zu navigieren, die innerhalb von bereits abgerufenen Seiten eingebettet waren.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything&quot;&gt;xai-org/grok-build, now open source&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything&quot;&gt;How I tricked Claude into leaking your deepest, darkest secrets&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 14. July 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-07-14</guid>
@@ -268,14 +276,6 @@
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/13/luau-wasm/#atom-everything&quot;&gt;luau-wasm 0.1a0&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/13/sqlite-column-provenance/#atom-everything&quot;&gt;Mapping SQLite result columns back to their source `table.column`&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/13/us-government-directive-to-suspend-access/#atom-everything&quot;&gt;Statement on the US government directive to suspend access to Fable 5 and Mythos 5&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 12. June 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-06-12</guid>
-    <pubDate>Fri, 12 Jun 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon hat sein Tool zur Interaktion mit OpenAIs WebRTC Audio API aktualisiert, das er ursprünglich im Dezember 2024 entwickelt hat. Das neue GPT-Realtime-2-Modell, das OpenAI als „unser erstes Sprachmodell mit GPT-5-Klasse-Reasoning&quot; bewirbt, ist jetzt in seinem Playground verfügbar und ermöglicht Audio-Gespräche direkt im Browser. Nutzer können nun zwischen verschiedenen Modellen wählen und große Dokumente als Kontext einfügen, um informationsgestützte Gespräche zu führen – eine praktische Erweiterung für die Erkundung von Inhalten im Dialogformat.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Kritische Perspektiven auf KI-Wirtschaft&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon zitiert Andrew Singleton mit einer satirischen Parabel über fragwürdige KI-Investitionen und deren finanzielle Darstellung. Die Geschichte beschreibt ein absurdes Szenario, in dem künstliche Geschäftsaktivitäten (das Verbrennen von Geld) als beeindruckende Einnahmen präsentiert werden – eine scharfsinnige Kritik an der manchmal realitätsfernen Berichterstattung über KI-Unternehmen und deren wirtschaftliche Bewertungen.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/12/openai-webrtc/#atom-everything&quot;&gt;OpenAI WebRTC Audio Session, now with document context&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/12/andrew-singleton/#atom-everything&quot;&gt;Quoting Andrew Singleton&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
