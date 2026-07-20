@@ -8,6 +8,14 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 19. July 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-07-19</guid>
+    <pubDate>Sun, 19 Jul 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;# Zusammenfassung von Simon Willisons Blog-Posts vom 19. Juli 2026&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AI &amp; Ethik: Problematische KI-Entscheidungsfindung in Unternehmen&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon teilte einen kritischen Artikel von Nik Suresh über die &quot;AI Mania&quot;, die große Unternehmen erfasst hat und zu fragwürdigen Entscheidungen führt. Der Artikel dokumentiert anecdotische Belege dafür, dass Führungskräfte ohne praktische KI-Erfahrung KI-zentrierte Strategien für Milliarden-Dollar-Organisationen entwerfen, und dass Ingenieure KI-Tools nutzen, um ihre Programmierjobs zu sichern. Simon hebt besonders hervor, wie Verkaufsversprechen von absurden Produktivitätssteigerungen (100x Gewinne) und wirtschaftliche Anreize dazu führen, dass selbst skeptische Führungskräfte unrealistische KI-Erwartungen unreflektiert weitergeben, anstatt sie zu hinterfragen.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Rust &amp; JavaScript-Tooling: Bun wird in Rust portiert&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon untersuchte die jüngste Implementierung von Bun (geschrieben in Rust) in Claude Code v2.1.181 nach Jarred Sumners Ankündigung. Durch String-Analyse der Claude-Binärdatei konnte Simon nachweisen, dass tatsächlich Bun v1.4.0 eingebettet ist – eine Vorschauversion, die noch nicht offiziell freigegeben wurde. Die Rust-Implementierung brachte auf Linux eine 10-prozentige Startup-Beschleunigung und wird bereits auf Millionen von Geräten produktiv eingesetzt, wobei Simon mit einem Zitat unterstreicht: &quot;Boring is good&quot;.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jul/19/ai-mania/#atom-everything&quot;&gt;AI Mania Is Eviscerating Global Decision-Making&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/#atom-everything&quot;&gt;Claude Code uses Bun written in Rust now&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 18. July 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-07-18</guid>
@@ -268,15 +276,6 @@
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/16/fable-5-export-controls/#atom-everything&quot;&gt;The Fable 5 Export Controls Harm US Cyber Defense&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/16/matteo-wong-the-atlantic/#atom-everything&quot;&gt;Quoting Matteo Wong, The Atlantic&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/16/captcha-on-at-least-one-ampersand/#atom-everything&quot;&gt;Cloudflare CAPTCHA on at least one ampersand&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 15. June 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-06-15</guid>
-    <pubDate>Mon, 15 Jun 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;# Simon Willisons Blog-Posts vom 15. Juni 2026&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AI &amp; LLMs – Sicherheit und Policy&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon kommentierte einen Axios-Artikel über Personality Clashes bei Anthropic, der die Offline-Schaltung von Anthropics Modellen im Kontext von US-Exportkontrollen beschreibt. Der Beitrag behandelt die Begegnung von Anthropic-Mitarbeitern wie Logan Graham (Frontier Red Team), Dave Orr (Head of Safeguards) und Nicholas Carlini mit dem Commerce Department. Simon diskutiert die Herausforderung von Jailbreak-Resistenz und verweist auf Anthropics Constitutional Classifiers als relevanten Ansatz zur Bekämpfung universeller adversarialer Angriffe auf LLMs.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Datasette &amp; Tools – Datenbankagenten&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon veröffentlichte datasette-agent 0.3a0, ein LLM-gestütztes Agenten-Tool für Datasette mit neuer `execute_write_sql`-Funktionalität, die Nutzerbestätigung erfordert und Berechtigungen berücksichtigt. Die aktualisierte Chat-Terminalversion unterstützt nun Genehmigungen mit neuen Optionen wie `--unsafe` für automatische Bestätigung und `--root` für Root-Zugriff. Mit Befehlen wie `datasette agent chat content.db -m gpt-5.5 --unsafe` können Nutzer direkt Datenbanken abfragen und modifizieren, beispielsweise durch Prompts wie &quot;create a notes table&quot;.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Schreiben &amp; Handwerk&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon zitierte Julia Evans mit ihrem Ansatz zum Schreiben für ein spezifisches Publikum – oft &quot;ich selbst vor drei Jahren&quot; oder ein guter Freund – statt für ein abstraktes Massenpublikum.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (3 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/15/datasette-agent/#atom-everything&quot;&gt;datasette-agent 0.3a0&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/15/axios-clashes-anthropics/#atom-everything&quot;&gt;&quot;They screwed us&quot;: Personality clashes sent Anthropic&#x27;s models offline&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jun/15/julia-evans/#atom-everything&quot;&gt;Quoting Julia Evans&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
