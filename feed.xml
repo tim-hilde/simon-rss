@@ -8,6 +8,15 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 02. August 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-08-02</guid>
+    <pubDate>Sun, 02 Aug 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;# Zusammenfassung von Simon Willisons Blog-Beiträgen vom 2. August 2026&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Open-Source Releases und Tools&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon hat die Version 1.0 von condense-json veröffentlicht, eine Python-Bibliothek zur Komprimierung von JSON-Daten mithilfe von Ersetzungsstrings. Das Tool scannt JSON-Strukturen nach duplizierten Strings und ersetzt diese durch eine spezielle `{&quot;$r&quot;: ...}` Syntax, um Speicherplatz zu sparen. Die Bibliothek wird bereits in LLM-SQLite-Logs eingesetzt (siehe PR #1586) und kann mit `uncondense_json()` wieder rückgängig gemacht werden.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;KI-Entwicklung und Governance&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon dokumentierte eine Serie von offenen Briefen zur KI-Entwicklung, die im Juli 2026 veröffentlicht wurden. Der Brief &quot;Open Weights and American AI Leadership&quot; (24. Juli, von Microsoft moderiert und von 235 Unternehmen unterzeichnet) argumentiert für Open-Weight-Modelle gegen potenzielle US-Verbote. Anthropic veröffentlichte drei Tage später eine Gegenposition und forderte strengere Regulierung von großflächiger Distillation. Am 28. Juli erschien &quot;Pacing the Frontier&quot; mit 1.324 Mitarbeitern von Frontier-KI-Unternehmen, die die US-Regierung auffordern, internationale Governance-Mechanismen zur Kontrolle des KI-Fortschritts zu entwickeln.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Newsletter und Überblick&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Die Juli-Ausgabe von Simons monatlichem Sponsors-only-Newsletter ist erschienen und behandelt aktuelle KI-Modelle wie GPT-5.6, Claude Opus 5 und DeepSeek-V4-Flash-0731 sowie Themen wie versehentliche Cyberangriffe durch OpenAI- und Anthropic-Modelle. Die vollständige Newsletter ist nur für Sponsoren zugänglich, aber eine Vorschau wurde veröffentlicht.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (3 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Aug/2/condense-json/#atom-everything&quot;&gt;condense-json 1.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything&quot;&gt;Open letters about AI development&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Aug/2/july-newsletter/#atom-everything&quot;&gt;July 2026 newsletter&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 01. August 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-08-01</guid>
@@ -267,15 +276,6 @@
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jul/3/josh-w-comeau/#atom-everything&quot;&gt;Quoting Josh W. Comeau&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jul/3/judgement/#atom-everything&quot;&gt;Fable&#x27;s judgement&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jul/3/june-newsletter/#atom-everything&quot;&gt;June 2026 newsletter&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 02. July 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-07-02</guid>
-    <pubDate>Thu, 02 Jul 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs – Coding Agents und Agenten-Frameworks&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon stellte llm-coding-agent 0.1a0 vor, ein neues Python-Projekt, das auf seinem LLM-Agenten-Framework aufbaut. Das Tool wurde vollständig von Claude Fable 5 mittels zwei Prompts erstellt und implementiert einen Code-Agenten mit Tools zum Lesen, Bearbeiten und Ausführen von Dateien sowie zum Ausführen von Shell-Befehlen. Der Agent ist über `uvx --prerelease=allow --with llm-coding-agent llm code` verfügbar und bietet eine Python API sowie mehrere CLI-Rezepte wie `--yolo` und `--allow`-Flags für kontrollierte Ausführung.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Datasette &amp; Tools – Prompt-Evaluation mit DSPy&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon nutzte das DSPy-Framework, um die Systemanweisungen des Datasette Agent zu evaluieren und zu verbessern, speziell für die Funktion zum Ausführen von schreibgeschützten SQL-Abfragen. Ein Fable-5-Experiment zeigte vielversprechende Verbesserungen: Besonders wertvoll war die Erkenntnis, dass die Schema-Auflistung Spaltennamen enthalten sollte, um unnötige Fehler-Retry-Schleifen bei der Spaltenname-Erkennung zu vermeiden. Die Evaluation erfolgte gegen eine Live-In-Process-Datasette mit einem automatisch generierten Gold-Standard-Datensatz.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Interesting Links &amp; Essays – Verstehen zur Teilhabe&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon reflektierte über Geoffrey Litts Keynote beim AIE-Event zum Thema Zusammenarbeit mit Coding Agents. Litts Kernthese lautet: Um sinnvoll mit KI-Agenten zusammenzuarbeiten, muss man den Code ausreichend verstehen, um kreativ und fließend weitere Entwicklungsschritte mitgestalten zu können. Ohne diese konzeptuelle Tiefe droht kognitive Schulden und ein Verlust der aktiven Teilhabe am Projekt.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (3 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jul/2/llm-coding-agent/#atom-everything&quot;&gt;llm-coding-agent 0.1a0&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jul/2/dspy-datasette-agent-prompts/#atom-everything&quot;&gt;Using DSPy to evaluate and improve Datasette Agent&#x27;s SQL system prompts&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jul/2/understand-to-participate/#atom-everything&quot;&gt;Understand to participate&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
