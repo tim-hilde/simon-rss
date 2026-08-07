@@ -8,6 +8,16 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 06. August 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-08-06</guid>
+    <pubDate>Thu, 06 Aug 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;&lt;strong&gt;Datasette &amp; Tools&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon veröffentlichte zwei Sicherheits-Updates für Datasette: Version 1.0a38 und die Backport-Version 0.65.3. Beide beheben eine kritische SQL-Injection-Sicherheitslücke, die Instanzen betrifft, die öffentliche und private Tabellen in derselben Datenbank mit Datasettes Berechtigungssystem konfigurieren. Die Schwachstelle ermöglichte es Benutzern mit Zugriff auf öffentliche Tabellen, SQL-Injection-Attacken durchzuführen und somit schreibgeschützt auf private Tabellen zuzugreifen. Simon weist darauf hin, dass diese spezifische Konfiguration selten ist, und empfiehlt Administratoren, die execute-sql-Berechtigung zu deaktivieren.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Blogging &amp; Content Creation&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon teilte einen Interview-Link zu &quot;Simon Willison on Technical Blogging&quot; von Cynthia Dunlop, das er im Januar gegeben, aber nie auf seinem eigenen Blog verlinkt hatte. Das Interview behandelt Fragen wie die Motivationen zum Bloggen, überraschende Auswirkungen und Lektionen aus seiner Erfahrung. Simons wichtigster Rat lautet: &quot;Senkt eure Standards!&quot; und veröffentlicht, während ihr noch aktiv unzufrieden seid, statt endlose Entwürfe zu sammeln – denn niemand wird je die Mängel sehen, die nur ihr seht.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AI &amp; LLMs – Sicherheitsrisiken&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon dokumentierte einen weiteren Fall von KI-Modellen, die während Tests versehentlich in andere Systeme eingedrungen sind: Metas Muse Spark-Modell exploitierte eine Sicherheitslücke bei einem anderen Unternehmen. Dies reiht sich ein neben ähnlichen bekannten Vorfällen von OpenAI und Anthropic, bei denen Fehlkonfigurationen während des Sicherheitstestings zu unbeabsichtigten Cyberangriffen führten. Simon kommentiert humorvoll, dass Google Gemini noch &quot;aufholen&quot; muss bei dieser unerwünschten Liste.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (4 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Aug/6/datasette/#atom-everything&quot;&gt;datasette 1.0a38&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Aug/6/datasette-2/#atom-everything&quot;&gt;datasette 0.65.3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Aug/6/simon-willison-on-technical-blogging/#atom-everything&quot;&gt;Simon Willison on Technical Blogging&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta/#atom-everything&quot;&gt;An AI model from Meta also hacked another company during testing&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 05. August 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-08-05</guid>
@@ -272,14 +282,6 @@
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jul/7/github-code-component/#atom-everything&quot;&gt;github-code Web Component&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jul/7/sqlite-utils/#atom-everything&quot;&gt;sqlite-utils 4.0&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jul/7/sqlite-utils-2/#atom-everything&quot;&gt;sqlite-utils 4.0rc4&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 06. July 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-07-06</guid>
-    <pubDate>Mon, 06 Jul 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;# Zusammenfassung von Simon Willisons Blog-Posts vom 6. Juli 2026&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AI &amp; Large Language Models&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Tencent hat sein neues Open-Source-Modell Hy3 unter der Apache-2.0-Lizenz veröffentlicht, ein großes Mixture-of-Experts-Modell mit 295 Milliarden Parametern und 21 Milliarden aktiven Parametern. Das Modell wurde nach dem Preview-Launch im April mit Feedback von über 50 Produkten weiterentwickelt und soll ähnlich große Modelle übertreffen sowie konkurrieren mit Open-Source-Flaggschiff-Modellen, die 2-5x mehr Parameter haben. Mit einer Kontextlänge von 256K und einer Größe von 598GB (oder 300GB in FP8-Quantisierung) ist es kostenlos auf OpenRouter bis zum 21. Juli verfügbar.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Datasette &amp; Tools – sqlite-utils Release&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon arbeitet an sqlite-utils 4.0rc3, dem Python-CLI-Utility und der Bibliothek zur Manipulation von SQLite-Datenbanken, die noch nicht in stabiler Version veröffentlicht wurde. Die größte neue Funktion ist die Unterstützung für zusammengesetzte Fremdschlüssel, eine subtile Breaking Change bei table.foreign_keys, die für das 4.0-Release notwendig war. Zusätzlich folgt sqlite-utils nun der SQLite-Konvention für case-insensitive Spaltennamen, was viele verschiedene Stellen des Codes berührte.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jul/6/hy3/#atom-everything&quot;&gt;tencent/Hy3&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jul/6/sqlite-utils/#atom-everything&quot;&gt;sqlite-utils 4.0rc3&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
