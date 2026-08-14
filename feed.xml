@@ -8,6 +8,16 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 13. August 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-08-13</guid>
+    <pubDate>Thu, 13 Aug 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;# Zusammenfassung von Simon Willisons Blog-Beiträgen vom 13. August 2026&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Open Source Releases&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon veröffentlichte mehrere neue Versionen seiner Tools an diesem Tag. sqlite-utils erhielt zwei Updates: Version 4.2 brachte umfangreiche Verbesserungen der `table.transform()`-Funktion mit besserer Unterstützung für komplexe Schemadefinitionen wie Check-Constraints und Unique-Constraints, während Version 4.2.1 kurz darauf einen kritischen Fehler behob, der durch eine fehlende `typing_extensions`-Abhängigkeit verursacht wurde. llm-gemini 0.33 wurde für die neuen Google Gemini 3.7 Flash Modelle sowie ältere Varianten aktualisiert und bietet nun auch Unterstützung für Server-Side Tools und Reasoning Traces.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Datasette &amp; Tools&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Das neue Projekt alchemy-utils 0.1a1 stellt eine SQLAlchemy-basierte Variante von sqlite-utils dar, die mit mehreren Datenbanken funktioniert und Performance-Verbesserungen für DuckDB-Exporte und CSV-Importe mitbringt. Bei den sqlite-utils 4.2.1-Fixes dokumentierte Simon auch praktische neue Test-Methoden mit `uv run --isolated --no-default-groups`, um sicherzustellen, dass CLI-Tools auch ohne zusätzliche Entwicklungsabhängigkeiten funktionieren.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AI &amp; LLMs&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Mit llm-gemini 0.33 können Nutzer nun die neuste Google Gemini 3.7 Flash Modellserie verwenden und von erweiterten Features wie Reasoning Traces profitieren. Simon experimentierte auch spielerisch mit den neuen Funktionen und ließ sich von Gemini Pelikane auf Fahrrädern mit unterschiedlichen Thinking-Effort-Leveln zeichnen, wobei er humorvoll feststellte, dass die SVG-Rendering zwischen Browsern variiert.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (4 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Aug/13/sqlite-utils-2/&quot;&gt;sqlite-utils 4.2.1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Aug/13/sqlite-utils/&quot;&gt;sqlite-utils 4.2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Aug/13/llm-gemini/&quot;&gt;llm-gemini 0.33&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Aug/13/alchemy-utils/&quot;&gt;alchemy-utils 0.1a1&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 12. August 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-08-12</guid>
@@ -272,14 +282,6 @@
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jul/14/armin-ronacher/#atom-everything&quot;&gt;Quoting Armin Ronacher&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jul/14/datasette/#atom-everything&quot;&gt;datasette 1.0a37&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jul/14/uvx-github-actions-cache/#atom-everything&quot;&gt;Using uvx in GitHub Actions in a cache-friendly way&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 13. July 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-07-13</guid>
-    <pubDate>Mon, 13 Jul 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs in Softwareentwicklung&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon dokumentiert die Auswirkungen von fortgeschrittenen KI-Modellen wie Opus 4.5, GPT-5.5, Fable 5 und GPT-5.6 Sol auf seine Produktivität. Er zeigt anhand eines GitHub-Charts zur Code-Frequency des Datasette-Projekts, dass die neuesten Modelle zu einem signifikanten Anstieg seiner Programmieraktivität geführt haben. Diese Beobachtung verdeutlicht, wie Coding-Agenten und große Sprachmodelle die Entwicklungsgeschwindigkeit von Open-Source-Projekten transformieren.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Datasette &amp; Innovative Anwendungen&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;DOOMQL ist ein faszinierendes Projekt, das zeigt, wie SQLite als vollständiger Game Engine fungieren kann – Peter Gostev entwickelte damit ein Doom-ähnliches Spiel, bei dem SQL die Bewegung, Kollisionen, Feinde und sogar die Pixel-Rendering steuert. Simon erkundet das Spiel mit Datasette und nutzt die neue Datasette Apps Plugin, um mit Claude (Fable 5) dynamische HTML+JavaScript-Apps zu erstellen, die SQL-Queries direkt in der Datasette-Oberfläche ausführen. Sein Beispiel zeigt ein interaktives Interface mit Minimap, das den aktuellen Spielzustand in Echtzeit anzeigt.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jul/13/doomql/#atom-everything&quot;&gt;DOOMQL&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything&quot;&gt;datasette code-frequency chart on GitHub&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
