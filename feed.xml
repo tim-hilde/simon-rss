@@ -8,6 +8,14 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 20. August 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-08-20</guid>
+    <pubDate>Thu, 20 Aug 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;# Zusammenfassung von Simon Willisons Blog-Posts vom 20. August 2026&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AI &amp; LLMs&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;ChatGPT hat eine bedeutende Änderung in seiner Suchfunktion vorgenommen, indem es den site:operator bei großem Maßstab einsetzt. Das Unternehmen Promptwatch, das im aufstrebenden „GEO&quot;-Bereich (Generative Engine Optimization) tätig ist, hat dokumentiert, dass der Anteil der ChatGPT-Suchanfragen mit site:operator von 0,3-0,5% auf 16-17% nach der GPT-5.6-Einführung am 8. August angestiegen ist. Simon vermutet, dass OpenAI die zugrunde liegende Suchfunktion eher als `search(query, recency, domains)` strukturiert hat, anstatt den site:operator direkt zu fördern, und bemerkt frustriert, dass OpenAI ihre System-Prompts bewusst geheim hält. Ein nachgelagerter Bericht von Promptwatch deutet auch darauf hin, dass ChatGPT die Nutzung von Reddit in diesen Suchanfragen stark reduziert hat.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Open Source Releases &amp; Developer Tools&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Mit der Veröffentlichung von Bun 1.4 hat das Projekt seine lang erwartete stabile Version nach dem Rewrite von Zig zu Rust eingeführt und dabei über 2.900 Fehler behoben sowie erhebliche Verbesserungen bei CPU-Auslastung, Speichernutzung und Startgeschwindigkeit erreitet. Das neue `Bun.WebView`-Feature ermöglicht Browser-Automatisierung direkt im Kern von Bun mit Unterstützung für macOS WebKit oder lokale Chromium-Prozesse über das Chrome DevTools Protocol. Simon experimentierte mit Claude Code, um einen prototypischen JSON-API-Service zu erstellen, der JavaScript-Ausführung und Screenshots ermöglicht—inspiriert von seinem eigenen shot-scraper-Tool—und ermittelte dabei, dass ein solcher Service etwa 192-256MB RAM benötigt.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/&quot;&gt;ChatGPT search now uses the site:operator at scale&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Aug/20/bun-webview-json-api/&quot;&gt;A shot-scraper-style JSON API on Bun 1.4&#x27;s new Bun.WebView&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 19. August 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-08-19</guid>
@@ -267,14 +275,6 @@
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jul/22/openai-cyberattack/#atom-everything&quot;&gt;OpenAI’s accidental cyberattack against Hugging Face is science fiction that happened&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jul/22/are-ai-labs-pelicanmaxxing/#atom-everything&quot;&gt;Are AI labs pelicanmaxxing?&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jul/22/all-the-orchestrions/#atom-everything&quot;&gt;Orchestrions&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 21. July 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-07-21</guid>
-    <pubDate>Tue, 21 Jul 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;# Zusammenfassung der Blog-Posts von Simon Willison (21. Juli 2026)&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AI &amp; LLMs – Lokale Modelle und Coding Agents&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon stellt Nativ vor, eine neue macOS-Desktop-Anwendung von Prince Canuma, die MLX-basierte KI-Modelle lokal auf dem Mac ausführt. Die Anwendung bietet eine Chat-Schnittstelle und einen localhost-API-Server ähnlich wie LM Studio und kann automatisch MLX-Modelle aus dem Hugging Face Cache erkunden. Nativ baut auf Canumas beeindruckender MLX-VLM Python-Bibliothek für Vision-LLMs auf und macht lokale KI-Modelle damit leichter zugänglich für Mac-Nutzer.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Anthropic&#x27;s Claude Code und Produktentwicklung&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon veranstaltete ein Fireside Chat mit Cat Wu und Thariq Shihipar vom Claude Code Team von Anthropic, in dem sie Tools wie Claude Code, Claude Tag und Fable diskutierten. Besonders hervorzuheben ist, dass Claude Tag (Anthropics Slack-Integration) bereits 65% der Product-Engineering-PRs des Teams automatisiert und dass Anthropic eine Kultur des öffentlichen, internen Arbeitens pflegt. Das Team hat gelernt, dass moderne Modelle wie Claude Fable 5 nicht mehr von langen System-Prompts profitieren – Anthropics Claude Code System Prompt wurde um 80% reduziert – und dass automatische Code-Reviews für weniger kritische Bereiche ausreichen, während kritische Änderungen weiterhin manuell überprüft werden.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jul/21/nativ/#atom-everything&quot;&gt;Nativ: Run AI models locally on your Mac&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jul/21/cat-and-thariq/#atom-everything&quot;&gt;A Fireside Chat with Cat and Thariq from the Claude Code team&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
