@@ -8,6 +8,14 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 24. August 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-08-24</guid>
+    <pubDate>Mon, 24 Aug 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;&lt;strong&gt;Open Source Releases&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon veröffentlichte llm-anthropic 0.27, ein Plugin für sein LLM-Tool, das Zugriff auf Anthropics Claude-Modelle bietet. Die Hauptneuerung ist die Kompatibilität mit der kürzlich veröffentlichten anthropic v1.0.0 Python-Bibliothek, die von httpx zu httpx2 wechselt – ähnlich wie OpenAI zwei Wochen zuvor bei ihrer v3.0.0 Version. Simon nutzte Fable 5 in Claude Code, um die Migration automatisiert durchzuführen und die Tests zum Laufen zu bringen.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Interessante Links &amp; Essays&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon teilte einen faszinierenden Linux-Trick von Farid Zakaria, bei dem eine SQLite-Datenbank direkt als ausführbare Binärdatei verwendet wird. Das Verfahren nutzt das SQLite-Anwendungs-ID-Feld (SELF für &quot;Structured Executable &amp; Linkable Format&quot;), um ELF-Executable-Komponenten in SQLite-Tabellen zu organisieren. Mit einem selbstentwickelten Interpreter und dem Linux-Mechanismus binfmt_misc kann der Kernel dann diese Dateien direkt ausführen – ein kreatives Konzept, das die Grenzen zwischen Datenbanken und Binärdateien verschwimmen lässt.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Aug/24/llm-anthropic/&quot;&gt;llm-anthropic 0.27&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database/&quot;&gt;Your executable is a SQLite database&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 23. August 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-08-23</guid>
@@ -269,14 +277,6 @@
     <guid isPermaLink="false">simon-digest-2026-07-26</guid>
     <pubDate>Sun, 26 Jul 2026 12:00:00 +0000</pubDate>
     <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs – Token-Reselling und Sicherheitsrisiken&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon Willison berichtet über Matt Lendhards Untersuchung eines Marktes für den Weiterverkauf von LLM-Token mit Rabatten, der hauptsächlich in China floriert. Reseller bieten Zugang zu LLM-Proxies an, die erhebliche Rabatte durch Missbrauch von kostenlosen Testversionen, ungeschützte Support-Bots oder gestohlene Kreditkarten ermöglichen. Die verwendete Software – hauptsächlich die Open-Source-Projekte one-api und dessen aktivere Abspaltung new-api – sind legitime API-Proxy-Tools, die für Load-Balancing über mehrere API-Credentials konzipiert sind. Die Käufer suchen nach günstigen Tokens, möchten Geo-Beschränkungen umgehen oder sammeln Daten für Model Distillation. Simon betont, dass diese wachsende Ökosystem ihn dazu bewegt, seine eigenen LLM-Anwendungen noch vorsichtiger zu gestalten, und fordert LLM-Anbieter auf, bessere Ausgabenlimits für API-Keys einzuführen – idealerweise mit automatischem Stopp bei definierten Dollar-Schwellwerten.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (1 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jul/26/relay-market/#atom-everything&quot;&gt;An Inside Look at the Relay Market Powering Token Resellers and Fraud&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 25. July 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-07-25</guid>
-    <pubDate>Sat, 25 Jul 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;&lt;strong&gt;Python &amp; Ruff&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Astral hat eine bedeutende neue Version von Ruff v0.16.0 veröffentlicht, die jetzt standardmäßig 413 Regeln aktiviert hat, gegenüber nur 59 in früheren Versionen. Simon Willison hat dieses Update an seinen drei größten Projekten getestet – Datasette, sqlite-utils und LLM – und entdeckte hunderte kleinerer Probleme, die gegen die neuen Standardregeln verstoßen. Mit dem Befehl `uvx ruff@latest check . --fix --unsafe-fixes` konnte er automatisch viele dieser Probleme beheben, während sqlite-utils allein 1618 Fehler identifizierte (1538 wurden behoben). Die detaillierte Fehlermeldungen von Ruff, wie DTZ005, BLE001 und B018, bieten genug Kontext für Code-Agenten zur automatischen Behebung der Probleme.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AI &amp; LLMs – Sicherheit und Prompt Injection&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Boris Cherny von Anthropic hat hervorgehoben, dass Claude Opus 5 das am wenigsten anfällige Modell für Prompt-Injection-Angriffe ist. Dies ist ein besonders wichtiger Fortschritt, der in Anthropics System Card dokumentiert ist und durch verschiedene Evals und Red-Teaming-Tests validiert wurde. Die verbesserte Robustheit gegen Prompt-Injection-Angriffe wird als eines der aufregendsten Features von Opus 5 betont.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jul/25/ruff/#atom-everything&quot;&gt;Ruff v0.16.0&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything&quot;&gt;Quoting Boris Cherny&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
