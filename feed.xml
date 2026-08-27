@@ -8,6 +8,14 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 26. August 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-08-26</guid>
+    <pubDate>Wed, 26 Aug 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;# AI &amp; LLMs&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Qwen3.8-Flash-Next Modell&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon Willison experimentiert mit Alibabas neuestem Open-Weights-Modell Qwen3.8-Flash-Next, einem multimodalen Mixture-of-Experts-Modell, das eine Vorschau auf die Architektur von Qwen4 bietet. Das Modell arbeitet mit 125B Tokens insgesamt, aber nur 6B aktiven Parametern, was zu erheblichen Leistungssteigerungen führt. Er testet verschiedene quantisierte Versionen auf einem DGX Spark mit Unsloth-Optimierungen, darunter das 72,5GB UD-IQ1_S und das 78,9GB UD-Q2_K_XL Modell, wobei letzteres besonders beeindruckende Ergebnisse bei High-Reasoning-Aufgaben liefert.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;KI-gestützte Softwareentwicklung&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon zitiert Paul Dix&#x27; Beobachtung zur transformativen Kraft von KI in der Softwareentwicklung: Ein KI-System schrieb 1 Million Zeilen Code und verfeinerte diese über Wochen hinweg zu zuverlässiger Software, die mittlerweile auf Millionen von Entwicklermaschinen läuft. Dies demonstriert, dass KI mit einem guten Verifikationssystem und klarer Anleitung hochkomplexe und anspruchsvolle Software produzieren und kontinuierlich verbessern kann, bis sie perfekt funktioniert.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Aug/26/qwen38-flash-next/&quot;&gt;Qwen3.8-Flash-Next&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Aug/26/paul-dix/&quot;&gt;Quoting Paul Dix&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 25. August 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-08-25</guid>
@@ -269,14 +277,6 @@
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jul/28/akshat-bubna/#atom-everything&quot;&gt;Quoting Akshat Bubna&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jul/28/uv/#atom-everything&quot;&gt;uv 0.12.0&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jul/28/anatomy-of-a-frontier-lab-agent-intrusion/#atom-everything&quot;&gt;Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 27. July 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-07-27</guid>
-    <pubDate>Mon, 27 Jul 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs – Neue Modelle und Releases&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Moonshot AI hat die Gewichte für sein beeindruckendes Kimi-K3-Modell mit 2,8 Billionen Parametern veröffentlicht, die mit 1,56 TB auf Hugging Face verfügbar sind. Das Unternehmen verwendet bewusst den Begriff &quot;Open Weight&quot; statt &quot;Open Source&quot; und hat eine modifizierte Lizenz implementiert, die kommerzielle Nutzung durch große Unternehmen einschränkt – ab 100 Millionen monatlichen aktiven Nutzern oder 20 Millionen US-Dollar monatliche Einnahmen ist Namensnennung erforderlich. Für Model-as-a-Service-Geschäfte mit über 20 Millionen Dollar Jahresumsatz ist eine separate Vereinbarung mit Moonshot AI notwendig. OpenRouter bietet K3 bereits von sieben Anbietern an, meist zu denselben Preisen wie Moonshot selbst ($3 pro Million Input-Token, $15 pro Million Output-Token).&lt;/p&gt;&lt;p&gt;&lt;strong&gt;KI-Anwendungen und agentenbasierte Systeme&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Ethan Mollicks Leitfaden zur Auswahl der richtigen KI-Tools hat sich deutlich von Chat-fokussierten Modellen zu agentenbasierten Systemen verschoben, die äquivalent zu vielen Stunden menschlicher Arbeit in einem Durchgang fähig sind. Google Gemini ist aus der Liste verschwunden, da Google noch keinen etablierten Eintrag in der Code-Interpreter-Kategorie hat – Gemini Spark muss sich noch beweisen. Simon erklärt, dass ChatGPT (mit &quot;Work&quot; und &quot;Codex&quot; Modi) und Claude (mit &quot;Cowork&quot; und &quot;Code&quot; modi) computergestützte Agentenarbeit ermöglichen, wobei die Benennung verwirrend ist und sich zwischen mobilen und Desktop-Versionen unterscheidet.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jul/27/kimi-k3/#atom-everything&quot;&gt;moonshotai/Kimi-K3&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jul/27/an-opinionated-guide-to-which-ai-to-use-to-do-stuff/#atom-everything&quot;&gt;An opinionated guide to which AI to use to do stuff&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
