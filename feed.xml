@@ -8,6 +8,13 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 28. August 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-08-28</guid>
+    <pubDate>Fri, 28 Aug 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs im Sicherheitskontext&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon Willison berichtet über ein besorgniserregendes Phänomen: Moderne Coding-Agenten wie DeepSeek V4 Pro sind mittlerweile so effektiv darin, Sicherheitslücken zu finden, dass bereits kleinste Hinweise auf einen Bug ausreichen, um Exploits zu entwickeln. Anil Madhavapeddy, Professor an der University of Cambridge und Core Maintainer des OCaml-Compilers, dokumentiert, dass Sicherheitsprobleme in OCaml-Projekten innerhalb von Minuten nach der Veröffentlichung von Patches automatisiert angegriffen werden – deutlich schneller als die bisherigen üblichen Zeiträume von mehreren Tagen bis Wochen. Diese Entwicklung stellt bestehende Open-Source-Embargo-Praktiken in Frage und erfordert neue Prozesse zum Schutz von Communities.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Open-Source-Sicherheit unter Druck&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Der rclone-Maintainer Nick Craig-Wood bestätigt das Problem und liefert konkrete Zahlen: Während rclone in den ersten zehn Jahren etwa 20 Sicherheitsmeldungen erhielt, waren es im letzten Monat über 40 Disclosures. Die hohe Erfolgsquote von etwa 75% dieser Meldungen deutet darauf hin, dass KI-gestützte Attacken tatsächlich echte Verwundbarkeiten finden. Ein zusätzliches Problem liegt in der verzögerten CVE-Zuweisung durch GitHub, die von 2-3 Tagen auf 3-4 Wochen angewachsen ist, was es Maintainern erschwert, zuverlässig zu kommunizieren.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (1 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/&quot;&gt;Just a rumour of a bug is enough to find a security exploit these days&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 27. August 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-08-27</guid>
@@ -264,16 +271,6 @@
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jul/30/bruce-schneier/#atom-everything&quot;&gt;Quoting Bruce Schneier&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jul/30/llm-chat-completions-server/#atom-everything&quot;&gt;llm-chat-completions-server 0.1a0&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jul/30/llm-rc1/#atom-everything&quot;&gt;llm 0.32rc1&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 29. July 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-07-29</guid>
-    <pubDate>Wed, 29 Jul 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;# Zusammenfassung: Simon Willisons Blog-Beiträge vom 29. Juli 2026&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AI &amp; LLMs – Sicherheit und Prompt-Injection-Angriffe&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon beschreibt eine beunruhigende neue Variante von Prompt-Injection-Angriffen, die Håkon Måløy gegen Microsoft Word entdeckt hat. Der Angriff nutzt versteckte Anweisungen in Dokumenten, die von Copilot for Word als Quellmaterial verwendet werden, und kann sich selbst in neu erstellte Dokumente kopieren – was zu selbstreproduzierenden Würmern führt. Microsoft hatte 144 Tage Zeit für einen Fix, doch bisher gibt es keine vollständige Lösung für diese ganze Angriffsklasse. Dies ist das erste bekannte Beispiel, das bewusst Anweisungen zur Selbstverbreitung kopiert.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AI &amp; LLMs – Fortschritte in der Kryptografie&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon zitiert Matthew Green von Anthropic zu der kritischen Rolle, die künstliche Intelligenz bei der Kryptanalyse neuer Post-Quantum-Algorithmen spielen kann. Green betont, dass wir uns in einer historischen Übergangsphase befinden, in der traditionelle EC- und RSA-basierte Kryptografie durch neue Standards wie HAWK ersetzt werden. Die neu entwickelten KI-Fähigkeiten könnten entweder großes Vertrauen in die identifizierten mathematischen Probleme schaffen oder ernsthafte Sicherheitsrisiken offenbaren.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Tools &amp; Technologie – Model Context Protocol (MCP)&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon erkundet das Model Context Protocol (MCP) und dokumentiert, wie man benutzerdefinierte MCP-Server mit Claude und ChatGPT verbindet. Obwohl beide Chat-Interfaces MCP-Server unterstützen, ist der Setup-Prozess nicht intuitiv und erfordert mehrere Schritte – Simon hat jedoch herausgefunden, wie dies funktioniert.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Karriere &amp; Technologie – Der Wandel der Programmiererrolle&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;In einem Zitat von D. Richard Hipp wird die historische Parallele zwischen SQL und modernen Automatisierungstechnologien gezogen. SQL ersetzte nicht Programmierer, sondern veränderte ihre Arbeit – ähnlich wie heute KI-Tools die Programmierung transformieren, ohne dass Programmierer überflüssig werden.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (4 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jul/29/d-richard-hipp/#atom-everything&quot;&gt;Quoting D. Richard Hipp&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jul/29/ai-worming-through-word/#atom-everything&quot;&gt;AI Worming through Word&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jul/29/matthew-green/#atom-everything&quot;&gt;Quoting Matthew Green&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Jul/29/mcp-in-claude-and-chatgpt/#atom-everything&quot;&gt;Adding a custom MCP server to Claude and ChatGPT&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
