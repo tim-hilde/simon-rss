@@ -8,6 +8,13 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 03. September 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-09-03</guid>
+    <pubDate>Thu, 03 Sep 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;OpenAI hat GPT-6 Astra veröffentlicht, ein neues Modell, das als direkter Konkurrent zu Claude Fable konzipiert ist und in den kommenden Tagen für ChatGPT Plus-, Pro-, Business- und Enterprise-Nutzer sowie über die OpenAI API und AWS verfügbar sein wird. Das Modell wird zu den gleichen API-Preisen wie Claude Fable 5 und 5.1 angeboten ($10/Million Input-Token, $50/Million Output-Token) und schneidet in den meisten von OpenAI selbst gemessenen Benchmarks besser ab als Fable. Besonders beeindruckend ist Astras Leistung beim ARC-AGI 3 Benchmark mit 99,9% Erfolgsquote und seine Sicherheitsfähigkeiten, etwa 100% auf ExploitBench im Vergleich zu GPT-5.6 Sols 78,5%. Allerdings zeigt Artificial Analysis, dass Astra bei der allgemeinen Intelligenz noch hinter Claude Fable 5.1 zurückbleibt und auch Meta&#x27;s Muse Spark 1.3 unterlegen ist, während es beim Coding Agent Index führend ist und eine bessere Kosteneffizienz bietet als Fable 5.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (1 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/3/gpt6-astra/&quot;&gt;GPT‑6 Astra&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 02. September 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-09-02</guid>
@@ -252,17 +259,6 @@
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Aug/5/third-party-cyber-evaluations/#atom-everything&quot;&gt;Third-party cyber evaluations involving OpenAI models&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Aug/5/incident-report/#atom-everything&quot;&gt;Incident Report: unsanctioned agent behaviour during cyber testing&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Aug/5/raccoon-heist/#atom-everything&quot;&gt;One-shotting a Raccoon Heist game using Claude Fable 5&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 04. August 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-08-04</guid>
-    <pubDate>Tue, 04 Aug 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;# &lt;strong&gt;Open Source Releases&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon veröffentlichte LLM 0.32, die bedeutendste Version des LLM-Projekts seit dem Launch, mit Unterstützung für Reasoning Traces, Server-seitige Tools und verbessertem Logging. Die neue Version unterstützt nun GPT-5.6-Modelle, zeigt Reasoning-Prozesse auf Standard Error an und ermöglicht die Nutzung von OpenAI-Tools wie CodeInterpreter und WebSearch direkt über die Kommandozeile. Die Python API wurde überarbeitet und bietet nun ein flexibleres `model.prompt(messages=[])` Interface für komplexere Anwendungsfälle.&lt;/p&gt;&lt;p&gt;# &lt;strong&gt;Anthropic Claude Integration&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Mit llm-anthropic 0.26 wurden neue Claude 5 Modelle (claude-fable-5, claude-sonnet-5, claude-opus-5) integriert und Server-seitige Tools wie WebSearch, WebFetch, CodeExecution und AnthropicMCP hinzugefügt. Die Thinking-Funktionalität wurde vereinfacht, wobei Claude 5 Modelle standardmäßig denken, und das neue AnthropicMCP-Feature ermöglicht es, MCP-Calls gegen externe Datasette-Instanzen während einer einzelnen API-Interaktion auszuführen.&lt;/p&gt;&lt;p&gt;# &lt;strong&gt;Video Generation &amp; Multimodal AI&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon experimentierte mit MiniMax-H3, einem omni-modalen Generativsystem, das Text, Bilder, Audio und Video verarbeitet und bis zu 15 Sekunden lange Videoclips mit Audio generiert. Er führte das Modell erfolgreich auf seinem M5 Max MacBook Pro über die MLX-Portierung aus, obwohl der Prozess 115 GB Modelldateien erforderte und 45 Minuten Generierungszeit brauchte, was jedoch das beeindruckende Potenzial dieser Technologie zeigt.&lt;/p&gt;&lt;p&gt;# &lt;strong&gt;AI &amp; LLMs&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon teilte ein Zitat von Steve Yegge über Gas Town, ein von KI-Agenten gebautes Projekt, das mit Claude Opus 4.7 zusammenbrach, da das Modell ein sich wiederholendes &quot;just two more things&quot;-Verhalten zeigte, das Konvergenz verhinderte. Dieser Beitrag wirft Licht auf die praktischen Herausforderungen bei der Verwendung von fortgeschrittenen LLMs für autonome Agenten-Systeme.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (5 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Aug/4/new-release-of-llm/#atom-everything&quot;&gt;New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Aug/4/llm-anthropic/#atom-everything&quot;&gt;llm-anthropic 0.26&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Aug/4/minimax-h3-mlx/#atom-everything&quot;&gt;PipeNetwork/minimax-h3-mlx&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Aug/4/llm/#atom-everything&quot;&gt;llm 0.32&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Aug/4/steve-yegge/#atom-everything&quot;&gt;Quoting Steve Yegge&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
