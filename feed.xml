@@ -8,6 +8,13 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 13. September 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-09-13</guid>
+    <pubDate>Sun, 13 Sep 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;&lt;strong&gt;Open Source Releases&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon hat shot-scraper in Version 1.12 aktualisiert und WebP-Unterstützung hinzugefügt. Mit der neuen Funktion können Benutzer WebP-Screenshots von Webseiten erstellen, indem sie den Befehl `shot-scraper https://simonwillison.net -o screenshot.webp --quality 80` ausführen. Die WebP-Dateien sind in der Regel erheblich kleiner als ihre JPEG- oder PNG-Äquivalente, wobei die `--quality`-Option zwischen verlustfreier und verlustbehafteter Komprimierung wählt. Simon hat diese Funktion entwickelt, um sie für sein neues commit-rewriter-Tool nutzen zu können.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (1 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/13/shot-scraper/&quot;&gt;shot-scraper 1.12&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 12. September 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-09-12</guid>
@@ -259,13 +266,6 @@
     <pubDate>Sat, 15 Aug 2026 12:00:00 +0000</pubDate>
     <description>&lt;p&gt;# Zusammenfassung von Simon Willisons Blog-Posts vom 15. August 2026&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AI &amp; LLMs&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon entwickelte CORS Chat, ein neues Tool zum direkten Chatten mit beliebigen OpenAI-kompatiblen API-Endpoints im Browser. Das Projekt unterstützt verschiedene Modelle wie Qwen 3.8 27B in LM Studio und OpenRouter und ermöglicht es, Endpoints mit benutzerdefinierten Headern zu konfigurieren sowie Gespräche lokal zu speichern. Eine besondere Funktion ist die Progressive Rendering von SVG-Bildern während des Token-Streamings, und die Konversationen können als JSON exportiert werden.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Fotografie &amp; Naturbeobachtungen&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon dokumentierte eine Sichtung des Northern Gannet namens Morris im Pillar Point Harbor in Half Moon Bay, Kalifornien – ein lokaler Promi und das einzige bekannte Exemplar dieser Art im gesamten Pazifischen Ozean. Morris ist seit 14 Jahren an der kalifornischen Küste ansässig und leicht zu identifizieren als der einzige weiße Vogel mit gelbem Kopf, der sich üblicherweise bei anderen Kormoranen am Hafeneingang aufhält.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Aug/15/cors-chat/&quot;&gt;CORS Chat&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Aug/15/sighting-391300422/&quot;&gt;Northern Gannet&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 14. August 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-08-14</guid>
-    <pubDate>Fri, 14 Aug 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs - Klassifizierung durch Generierung&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon diskutiert einen innovativen Ansatz von Doug Turnbull zur Lösung des Tag-Klassifizierungsproblems für seinen Blog mit über 1.856 Tags. Anstatt ein LLM mit einer riesigen Liste bestehender Tags zu füttern, schlägt Turnbull vor, das Modell einfach neue Tags &quot;halluzinieren&quot; zu lassen und diese dann mittels Vector Embeddings gegen das existierende Korpus abzugleichen. Durch die Bereitstellung von Beispielen für die gewünschte Tag-Struktur (etwa hierarchische Kategorien wie &quot;Furniture / Living Room Furniture / Coffee Tables&quot;) kann das Modell bessere Vorhersagen treffen. Dieser Ansatz kombiniert die generativen Stärken von LLMs mit der Präzision von Embedding-basierter Ähnlichkeitssuche und bietet eine elegante Lösung für die Klassifizierung großer, unkontrollierter Content-Bestände.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (1 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/&quot;&gt;Don&#x27;t classify. Hallucinate!&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
