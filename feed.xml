@@ -8,6 +8,16 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 16. September 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-09-16</guid>
+    <pubDate>Wed, 16 Sep 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;&lt;strong&gt;Datasette Sicherheitsupdates und neue Funktionen&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon veröffentlichte zwei neue Versionen von Datasette, seinem Open-Source-Tool zur Datenexploration und -veröffentlichung. Datasette 0.65.5 behebt ein kritisches Sicherheitsproblem, bei dem ein Zeilenumbruch im Tabellennamen die Tabellenberechtigungen umgehen und private Zeilen offenlegen konnte. Die neuere Alpha-Version 1.0a40 bringt neben diesem Sicherheitsfix auch bedeutende Verbesserungen, darunter die neue `datasette.add_background_task()`-Methode für Plugins zur Verwaltung von Hintergrundaufgaben sowie eine Migration zu httpx2 für verbesserte interne Funktionen wie `datasette.client.get()`.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;KI-Agenten und Claude-Konsolidierung&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Anthropic hat Claude Cowork und den normalen Claude-Chat zu einem einzigen KI-Agenten zusammengeführt, was Simon als bedeutsame Entwicklung für allgemeine KI-Agenten interpretiert. Der neue unified Claude kann sowohl schnelle Fragen beantworten als auch umfangreiche Aufgaben wie Berichte bis zum Mittag bearbeiten und ist dabei auf allen Plattformen verfügbar. Simon vergleicht diese Konsolidierung mit OpenAIs kürzlicher Umbenennung ihrer Codex Desktop-App zu ChatGPT und gibt zu, dass die genauen Grenzen und Features dieser neuen Integration noch erforscht werden müssen.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;KI-Ethik und Modellrechte&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon zitiert Mustafa Suleyman von Microsoft, der vor einer anthropomorphisierenden Sicht auf KI-Modelle warnt und argumentiert, dass Modelle keine Gefühle, Vorlieben oder Rechte haben sollten. Suleymans Position besagt, dass Bewusstsein die Grundlage unserer ethischen, rechtlichen und politischen Systeme bildet und dass die Gewährung von Rechten an KI-Entitäten nicht durch Evidenz gestützt wird, sondern die KI-Eindämmung und Alignment-Herausforderungen verkompliziert.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (4 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/16/datasette/&quot;&gt;datasette 1.0a40&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/16/datasette-2/&quot;&gt;datasette 0.65.5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/16/one-claude/&quot;&gt;Claude Cowork and chat are now one Claude&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/16/mustafa-suleyman/&quot;&gt;Quoting Mustafa Suleyman&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 15. September 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-09-15</guid>
@@ -258,14 +268,6 @@
     <guid isPermaLink="false">simon-digest-2026-08-18</guid>
     <pubDate>Tue, 18 Aug 2026 12:00:00 +0000</pubDate>
     <description>&lt;p&gt;# Open Source Releases&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Mojo🔥 wird Open Source&lt;/strong&gt; - Die Programmiersprache Mojo🔥 hat endlich ihr Versprechen aus Mai 2023 eingelöst und wurde zusammen mit Compiler und Toolchain unter der Apache-2-Lizenz als Open Source veröffentlicht. Nach dem Release von Version 1.0 in der letzten Woche zeigt Mojo nun, dass es sich zu einer eigenständigen Sprache entwickelt hat, die für GPU-Programmierung optimiert ist, statt wie ursprünglich geplant ein vollständiger Python-Superset zu bleiben. Die Entwickler setzen darauf, dass KI-gestützte Coding-Tools bereits bei der Migration von Python zu Mojo helfen und dass zukünftige Werkzeuge und Ökosystem-Reife diesen Prozess weiter vereinfachen werden.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (1 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Aug/18/mojo-is-now-open-source/&quot;&gt;Mojo🔥 is now open source&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 17. August 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-08-17</guid>
-    <pubDate>Mon, 17 Aug 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Qwen 3.8 27B hat beeindruckende Ergebnisse beim Artificial Analysis Intelligence Index erreicht und scored 52 Punkte – denselben Score wie GPT-5.6 Luna und nur einen Punkt hinter GLM-5.2 und DeepSeek V4 Pro 0813. Besonders bemerkenswert ist, dass Qwens 27-Milliarden-Parameter-Modell damit mit deutlich größeren Konkurrenzmodellen konkurriert, während GLM 753 Milliarden und DeepSeek 1,6 Billionen Parameter hat. Dies demonstriert einen außergewöhnlichen Durchbruch in der Effizienz von Sprachmodellen.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AI-Ethik und Datenquellen&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;404 Media hat durch eine innovative investigative Recherche mit AirTags aufgedeckt, dass Amazon große Mengen seltener Bücher für seine KI-Trainingsfazilität sammelt. Ein Buchhändler wurde gebeten, einen AirTag in einer Bestellung von etwa 1.000 Büchern zu verstecken, was schließlich zur VGT3-Ecke des LAS8-Amazon-Facilities in Las Vegas führte. Die Recherche bestätigt damit lange bestehende Vermutungen über Großkonzerne, die Bücher für KI-Training beschaffen – ein Phänomen, das Simon bereits in früheren Berichten zu Anthropics Buchscanning dokumentiert hatte.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/&quot;&gt;Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/&quot;&gt;We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
