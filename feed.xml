@@ -8,6 +8,14 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 19. September 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-09-19</guid>
+    <pubDate>Sat, 19 Sep 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;&lt;strong&gt;Datasette &amp; Tools&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon veröffentlichte datasette-auth-github in Version 1.0, ein Datasette-Plugin zur Authentifizierung von Benutzern über GitHub. Das Plugin war bereits lange im Einsatz auf der agent.datasette.io-Demo-Website, aber Simon entdeckte, dass authentifizierte Sitzungen zu kurz andauerten, weil Cookies ohne Max-Age-Parameter gesetzt wurden und in Mobile Safari schnell abliefen. Nach der Behebung dieses Problems in Pull Request #80 und nachdem das Plugin gegen Datasette 0.65.x und 1.0ax getestet wurde, entschied sich Simon, es auf Version 1.0 zu promovieren – Teil seines Bemühens, stabile Plugins besser zu kennzeichnen.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Wildlife-Beobachtungen&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon dokumentierte eine Wildnisbeobachtung im Pillar Point Harbor in Kalifornien, wo er einen Kalifornischen Seelöwen und einen Kormoran vom Typ Brandt&#x27;s beobachtete. Eine besondere Entdeckung war, dass Morris, ein Basstölpel (Northern Gannet), zufällig hinter der Basis eines Schildes im Hintergrund des Fotos zu sehen war – eine Details, die Simon erst nach der Aufnahme auffiel.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/19/datasette-auth-github/&quot;&gt;datasette-auth-github 1.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/19/sighting-401567341/&quot;&gt;California Sea Lion, Brandt&#x27;s Cormorant&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 18. September 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-09-18</guid>
@@ -263,14 +271,6 @@
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Aug/21/llm-openrouter/&quot;&gt;llm-openrouter 0.7&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Aug/21/stop-making-tuis/&quot;&gt;Stop Making TUIs&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Aug/21/matt-webb/&quot;&gt;Quoting Matt Webb&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 20. August 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-08-20</guid>
-    <pubDate>Thu, 20 Aug 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;# Zusammenfassung von Simon Willisons Blog-Posts vom 20. August 2026&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AI &amp; LLMs&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;ChatGPT hat eine bedeutende Änderung in seiner Suchfunktion vorgenommen, indem es den site:operator bei großem Maßstab einsetzt. Das Unternehmen Promptwatch, das im aufstrebenden „GEO&quot;-Bereich (Generative Engine Optimization) tätig ist, hat dokumentiert, dass der Anteil der ChatGPT-Suchanfragen mit site:operator von 0,3-0,5% auf 16-17% nach der GPT-5.6-Einführung am 8. August angestiegen ist. Simon vermutet, dass OpenAI die zugrunde liegende Suchfunktion eher als `search(query, recency, domains)` strukturiert hat, anstatt den site:operator direkt zu fördern, und bemerkt frustriert, dass OpenAI ihre System-Prompts bewusst geheim hält. Ein nachgelagerter Bericht von Promptwatch deutet auch darauf hin, dass ChatGPT die Nutzung von Reddit in diesen Suchanfragen stark reduziert hat.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Open Source Releases &amp; Developer Tools&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Mit der Veröffentlichung von Bun 1.4 hat das Projekt seine lang erwartete stabile Version nach dem Rewrite von Zig zu Rust eingeführt und dabei über 2.900 Fehler behoben sowie erhebliche Verbesserungen bei CPU-Auslastung, Speichernutzung und Startgeschwindigkeit erreitet. Das neue `Bun.WebView`-Feature ermöglicht Browser-Automatisierung direkt im Kern von Bun mit Unterstützung für macOS WebKit oder lokale Chromium-Prozesse über das Chrome DevTools Protocol. Simon experimentierte mit Claude Code, um einen prototypischen JSON-API-Service zu erstellen, der JavaScript-Ausführung und Screenshots ermöglicht—inspiriert von seinem eigenen shot-scraper-Tool—und ermittelte dabei, dass ein solcher Service etwa 192-256MB RAM benötigt.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/&quot;&gt;ChatGPT search now uses the site:operator at scale&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Aug/20/bun-webview-json-api/&quot;&gt;A shot-scraper-style JSON API on Bun 1.4&#x27;s new Bun.WebView&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
