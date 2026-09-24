@@ -8,6 +8,15 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 23. September 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-09-23</guid>
+    <pubDate>Wed, 23 Sep 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon stellte einen interaktiven Playground für Googles neue Gemini 3.8 Text-to-Speech-Modelle (gemini-3.8-flash-tts und gemini-3.8-flash-lite-tts) vor, mit dem Nutzer Sprache generieren und testen können. Das Tool ermöglicht sowohl Single-Voice-Narration als auch Multi-Speaker-Konversationen mit über 2.000 verfügbaren Stimmen und der Möglichkeit, benutzerdefinierte Stimmen aus einer 30-sekündigen Audioprobe zu erstellen. Simon demonstrierte die Fähigkeiten mit einem Demo-Clip zweier Pelikane, die über einen Umzug diskutieren, wobei Claude 4.5 Opus das Skript schrieb und etwa 2,74 Cent für 1 Minute 18 Sekunden Audio kostete.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Events &amp; Community&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon kündigte eine &quot;Birds of a Feather&quot;-Veranstaltung in San Francisco für den 14. Oktober an, die er zusammen mit Jesse Vincent zu Agentic Engineering ausrichtet. Das informelle Treffen richtet sich an Entwickler, die an Coding Agents und experimentellen KI-Projekten arbeiten, und bietet eine Plattform zum Austausch von frühen Explorationsprojekten, unvollendeten Arbeiten und ungewöhnlichen Experimenten. Das Event betont Kreativität und Austausch über Produktpräsentationen und verspricht, die &quot;Weirdness&quot; von agentic AI zu zelebrieren.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Web Development Tools&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon erstellte ein interaktives Lernwerkzeug zur Erklärung von Shadow DOM in CSS mit praktischen Beispielen. Das Tool demonstriert wichtige Konzepte wie Style-Kapselung, Vererbung, Slots, Parts und JavaScript-Zugriff und zeigt, wie Shadow Roots isolierte DOM-Bäume mit privaten Stylesheets schaffen, die auf kontrollierte Weise mit dem Seiten-DOM interagieren.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (3 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/23/gemini-tts-playground/&quot;&gt;Gemini 3.8 TTS Playground&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/23/shadow-roots/&quot;&gt;Shadow roots, explained with live examples&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/&quot;&gt;SF October 14th: A Birds of a Feather Session on Agentic Engineering&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 22. September 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-09-22</guid>
@@ -264,14 +273,6 @@
     <guid isPermaLink="false">simon-digest-2026-08-25</guid>
     <pubDate>Tue, 25 Aug 2026 12:00:00 +0000</pubDate>
     <description>&lt;p&gt;&lt;strong&gt;Python-Migrationen und Legacy-Systeme&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;EVE Online beginnt mit seiner Migration zu Python 3, nachdem das Spiel seit 2003 auf Stackless Python lief – eine bemerkenswerte 23-jährige Periode ohne Major-Upgrade seit Python 2.7 im Jahr 2010. Das Team wird das futurize-Skript gegen 2,4 Millionen Codezeilen einsetzen und dann etwa 20.000 Stellen manuell überprüfen, an denen sich Python 2 und 3 unterscheiden, wie zum Beispiel bei der Division (1 / 2 ergibt 0 in Python 2, aber 0.5 in Python 3). Obwohl die Ankündigung keine Details zur Stackless-Ablösung enthält, hat EVE Online bereits beim Übergang zum neueren Spiel EVE Frontier eine Open-Source-Lösung entwickelt: die carbonengine/scheduler-Bibliothek ersetzt Stackless durch einen benutzerdefinierten Scheduler im Carbon-Engine.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (1 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Aug/25/eve-online-move-to-python-3/&quot;&gt;EVE Online: The Move to Python 3 Begins!&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 24. August 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-08-24</guid>
-    <pubDate>Mon, 24 Aug 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;&lt;strong&gt;Open Source Releases&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon veröffentlichte llm-anthropic 0.27, ein Plugin für sein LLM-Tool, das Zugriff auf Anthropics Claude-Modelle bietet. Die Hauptneuerung ist die Kompatibilität mit der kürzlich veröffentlichten anthropic v1.0.0 Python-Bibliothek, die von httpx zu httpx2 wechselt – ähnlich wie OpenAI zwei Wochen zuvor bei ihrer v3.0.0 Version. Simon nutzte Fable 5 in Claude Code, um die Migration automatisiert durchzuführen und die Tests zum Laufen zu bringen.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Interessante Links &amp; Essays&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon teilte einen faszinierenden Linux-Trick von Farid Zakaria, bei dem eine SQLite-Datenbank direkt als ausführbare Binärdatei verwendet wird. Das Verfahren nutzt das SQLite-Anwendungs-ID-Feld (SELF für &quot;Structured Executable &amp; Linkable Format&quot;), um ELF-Executable-Komponenten in SQLite-Tabellen zu organisieren. Mit einem selbstentwickelten Interpreter und dem Linux-Mechanismus binfmt_misc kann der Kernel dann diese Dateien direkt ausführen – ein kreatives Konzept, das die Grenzen zwischen Datenbanken und Binärdateien verschwimmen lässt.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Aug/24/llm-anthropic/&quot;&gt;llm-anthropic 0.27&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database/&quot;&gt;Your executable is a SQLite database&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
