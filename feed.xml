@@ -8,6 +8,14 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 24. September 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-09-24</guid>
+    <pubDate>Thu, 24 Sep 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;&lt;strong&gt;Git &amp; Entwicklungs-Tools&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon veröffentlichte commit-rewriter 0.2, eine Python-Webanwendung zur Unterstützung beim Umschreiben von Commit-Nachrichten. Die neue Version bringt Unterstützung für Branches außer dem Standard-Branch mit sich, die man mit dem Befehl `uvx commit-rewriter --branch other` aufrufen kann. Dies ermöglicht Entwicklern, ihre Commit-Historie auf verschiedenen Branches flexibler zu verwalten.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Datasette &amp; Daten-Tools&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Datasette 1.0a41 wurde veröffentlicht, die Open-Source-Multi-Tool-Plattform zur Erkundung und Veröffentlichung von Daten. In dieser Version integrierte Alex Garcia OpenTelemetry-Unterstützung in Datasette, was erweiterte Monitoring- und Observability-Fähigkeiten ermöglicht. Zusätzlich refaktorierte Simon alle Modal-Dialoge von Datasette in eine einzige Web-Komponente, die nun dokumentiert und von anderen Plugins wiederverwendbar ist.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/24/commit-rewriter/&quot;&gt;commit-rewriter 0.2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/24/datasette/&quot;&gt;datasette 1.0a41&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 23. September 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-09-23</guid>
@@ -266,13 +274,6 @@
     <pubDate>Wed, 26 Aug 2026 12:00:00 +0000</pubDate>
     <description>&lt;p&gt;# AI &amp; LLMs&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Qwen3.8-Flash-Next Modell&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon Willison experimentiert mit Alibabas neuestem Open-Weights-Modell Qwen3.8-Flash-Next, einem multimodalen Mixture-of-Experts-Modell, das eine Vorschau auf die Architektur von Qwen4 bietet. Das Modell arbeitet mit 125B Tokens insgesamt, aber nur 6B aktiven Parametern, was zu erheblichen Leistungssteigerungen führt. Er testet verschiedene quantisierte Versionen auf einem DGX Spark mit Unsloth-Optimierungen, darunter das 72,5GB UD-IQ1_S und das 78,9GB UD-Q2_K_XL Modell, wobei letzteres besonders beeindruckende Ergebnisse bei High-Reasoning-Aufgaben liefert.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;KI-gestützte Softwareentwicklung&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon zitiert Paul Dix&#x27; Beobachtung zur transformativen Kraft von KI in der Softwareentwicklung: Ein KI-System schrieb 1 Million Zeilen Code und verfeinerte diese über Wochen hinweg zu zuverlässiger Software, die mittlerweile auf Millionen von Entwicklermaschinen läuft. Dies demonstriert, dass KI mit einem guten Verifikationssystem und klarer Anleitung hochkomplexe und anspruchsvolle Software produzieren und kontinuierlich verbessern kann, bis sie perfekt funktioniert.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Aug/26/qwen38-flash-next/&quot;&gt;Qwen3.8-Flash-Next&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Aug/26/paul-dix/&quot;&gt;Quoting Paul Dix&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 25. August 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-08-25</guid>
-    <pubDate>Tue, 25 Aug 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;&lt;strong&gt;Python-Migrationen und Legacy-Systeme&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;EVE Online beginnt mit seiner Migration zu Python 3, nachdem das Spiel seit 2003 auf Stackless Python lief – eine bemerkenswerte 23-jährige Periode ohne Major-Upgrade seit Python 2.7 im Jahr 2010. Das Team wird das futurize-Skript gegen 2,4 Millionen Codezeilen einsetzen und dann etwa 20.000 Stellen manuell überprüfen, an denen sich Python 2 und 3 unterscheiden, wie zum Beispiel bei der Division (1 / 2 ergibt 0 in Python 2, aber 0.5 in Python 3). Obwohl die Ankündigung keine Details zur Stackless-Ablösung enthält, hat EVE Online bereits beim Übergang zum neueren Spiel EVE Frontier eine Open-Source-Lösung entwickelt: die carbonengine/scheduler-Bibliothek ersetzt Stackless durch einen benutzerdefinierten Scheduler im Carbon-Engine.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (1 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Aug/25/eve-online-move-to-python-3/&quot;&gt;EVE Online: The Move to Python 3 Begins!&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
