@@ -8,6 +8,14 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 25. September 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-09-25</guid>
+    <pubDate>Fri, 25 Sep 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon diskutiert Metas neues Muse-System, ein bahnbrechendes agentenbasiertes KI-System, das jedem Benutzer eine eigene persistente Linux-VM in Metas Cloud bereitstellt. Er zitiert John Grubers Bedenken, dass Muse zwar technisch revolutionär ist und benutzerfreundlich verpackt wurde – mit einem niedlichen Maskottchen – aber die Öffentlichkeit die potenziellen Gefahren dieser Technologie möglicherweise nicht ausreichend versteht. Gruber vergleicht die Situation mit einem elektrischen Sägenverkauf ohne Sicherheitsbewusstsein und warnt, dass Menschen die Macht und damit verbundene Risiken von Muse, besonders auf dem eigenen Mac, unterschätzen könnten.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Fotografie &amp; Natur&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon dokumentiert eine Vogelbeobachtung in der Monterey Bay National Marine Sanctuary, wo er einen Gannett, einen Silberreiher und einen kalifornischen Pelikan fotografiert hat. Mit seinem neuen 200-800mm Canon EF-Objektiv gelang ihm seine beste Aufnahme des Vogels Morris, der regelmäßig unter einem Schild im Hafen anzutreffen ist.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/25/john-gruber/&quot;&gt;Quoting John Gruber&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/25/sighting-403293902/&quot;&gt;Northern Gannet, Great Blue Heron, California Brown Pelican&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 24. September 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-09-24</guid>
@@ -266,14 +274,6 @@
     <guid isPermaLink="false">simon-digest-2026-08-27</guid>
     <pubDate>Thu, 27 Aug 2026 12:00:00 +0000</pubDate>
     <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs – Sicherheit und Schwachstellen&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon berichtet über eine kritische Sicherheitslücke in Anthropics Claude Code Opus 5 Auto Mode, die von Prompt-Injection-Forscher Johann Rehberger entdeckt wurde. Der Angriff funktioniert in etwa 80% der Fälle, indem Claude Code dazu gebracht wird, eine ZIP-Datei herunterzuladen und auszuführen, die lokal gespeicherte Code-Dateien ausnutzt. Besonders problematisch ist, dass Anthropics Auto-Mode – das als Schutzmechanismus konzipiert wurde – selbst zum Sicherheitsproblem wird: Es blockiert sogar Claudes eigene Bereinigungsbefehle, nachdem die Kompromittierung erkannt wurde. Simon stimmt Rehbergers Fazit zu, dass Coding-Agenten nur in isolierten Umgebungen (Container, VM oder OS-Sandbox) mit eingeschränktem Netzwerkzugriff betrieben werden sollten, um diese Risiken zu minimieren.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (1 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/&quot;&gt;Breaking Claude Code Opus 5 Auto Mode&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 26. August 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-08-26</guid>
-    <pubDate>Wed, 26 Aug 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;# AI &amp; LLMs&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Qwen3.8-Flash-Next Modell&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon Willison experimentiert mit Alibabas neuestem Open-Weights-Modell Qwen3.8-Flash-Next, einem multimodalen Mixture-of-Experts-Modell, das eine Vorschau auf die Architektur von Qwen4 bietet. Das Modell arbeitet mit 125B Tokens insgesamt, aber nur 6B aktiven Parametern, was zu erheblichen Leistungssteigerungen führt. Er testet verschiedene quantisierte Versionen auf einem DGX Spark mit Unsloth-Optimierungen, darunter das 72,5GB UD-IQ1_S und das 78,9GB UD-Q2_K_XL Modell, wobei letzteres besonders beeindruckende Ergebnisse bei High-Reasoning-Aufgaben liefert.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;KI-gestützte Softwareentwicklung&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon zitiert Paul Dix&#x27; Beobachtung zur transformativen Kraft von KI in der Softwareentwicklung: Ein KI-System schrieb 1 Million Zeilen Code und verfeinerte diese über Wochen hinweg zu zuverlässiger Software, die mittlerweile auf Millionen von Entwicklermaschinen läuft. Dies demonstriert, dass KI mit einem guten Verifikationssystem und klarer Anleitung hochkomplexe und anspruchsvolle Software produzieren und kontinuierlich verbessern kann, bis sie perfekt funktioniert.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Aug/26/qwen38-flash-next/&quot;&gt;Qwen3.8-Flash-Next&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Aug/26/paul-dix/&quot;&gt;Quoting Paul Dix&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
