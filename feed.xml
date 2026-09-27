@@ -8,6 +8,13 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 26. September 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-09-26</guid>
+    <pubDate>Sat, 26 Sep 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon Willison nutzte Claude Opus 5.5 von Anthropic, um pixel-basierte Animationen zu erstellen. Er beschrieb, wie beeindruckend das Modell darin war, HTML5-Canvas-Animationen zu generieren – in seinem Fall eine Party-Szene mit über 20 animierten Kākāpō-Papageien, Konfetti und Sprüngen. Die resultierende Animation war so gelungen, dass er sie als Abschlussfolie in seiner Keynote für den WeAreDevelopers World Congress North America verwenden konnte.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Generative AI &amp; Tools (Claude Code + Playwright)&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon kombinierte Claude Code mit Playwright, um eine automatisierte Browser-Automation durchzuführen. Er lud die generierte HTML-Animation lokal und instruierte Claude Code, diese in ein 15-Sekunden-Video umzuwandeln – mit präzise zeitgesteuerten Mausklicks an verschiedenen Positionen des Canvas, um den Konfetti-Effekt auszulösen. Das resultierende Playwright-Skript war bemerkenswert kompakt und zeigte, wie effektiv Claude Code bei der Automatisierung von Aufgaben eingesetzt werden kann.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (1 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/26/kakapo-party/&quot;&gt;Kākāpō Party&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 25. September 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-09-25</guid>
@@ -267,13 +274,6 @@
     <guid isPermaLink="false">simon-digest-2026-08-28</guid>
     <pubDate>Fri, 28 Aug 2026 12:00:00 +0000</pubDate>
     <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs im Sicherheitskontext&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon Willison berichtet über ein besorgniserregendes Phänomen: Moderne Coding-Agenten wie DeepSeek V4 Pro sind mittlerweile so effektiv darin, Sicherheitslücken zu finden, dass bereits kleinste Hinweise auf einen Bug ausreichen, um Exploits zu entwickeln. Anil Madhavapeddy, Professor an der University of Cambridge und Core Maintainer des OCaml-Compilers, dokumentiert, dass Sicherheitsprobleme in OCaml-Projekten innerhalb von Minuten nach der Veröffentlichung von Patches automatisiert angegriffen werden – deutlich schneller als die bisherigen üblichen Zeiträume von mehreren Tagen bis Wochen. Diese Entwicklung stellt bestehende Open-Source-Embargo-Praktiken in Frage und erfordert neue Prozesse zum Schutz von Communities.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Open-Source-Sicherheit unter Druck&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Der rclone-Maintainer Nick Craig-Wood bestätigt das Problem und liefert konkrete Zahlen: Während rclone in den ersten zehn Jahren etwa 20 Sicherheitsmeldungen erhielt, waren es im letzten Monat über 40 Disclosures. Die hohe Erfolgsquote von etwa 75% dieser Meldungen deutet darauf hin, dass KI-gestützte Attacken tatsächlich echte Verwundbarkeiten finden. Ein zusätzliches Problem liegt in der verzögerten CVE-Zuweisung durch GitHub, die von 2-3 Tagen auf 3-4 Wochen angewachsen ist, was es Maintainern erschwert, zuverlässig zu kommunizieren.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (1 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/&quot;&gt;Just a rumour of a bug is enough to find a security exploit these days&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 27. August 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-08-27</guid>
-    <pubDate>Thu, 27 Aug 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs – Sicherheit und Schwachstellen&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon berichtet über eine kritische Sicherheitslücke in Anthropics Claude Code Opus 5 Auto Mode, die von Prompt-Injection-Forscher Johann Rehberger entdeckt wurde. Der Angriff funktioniert in etwa 80% der Fälle, indem Claude Code dazu gebracht wird, eine ZIP-Datei herunterzuladen und auszuführen, die lokal gespeicherte Code-Dateien ausnutzt. Besonders problematisch ist, dass Anthropics Auto-Mode – das als Schutzmechanismus konzipiert wurde – selbst zum Sicherheitsproblem wird: Es blockiert sogar Claudes eigene Bereinigungsbefehle, nachdem die Kompromittierung erkannt wurde. Simon stimmt Rehbergers Fazit zu, dass Coding-Agenten nur in isolierten Umgebungen (Container, VM oder OS-Sandbox) mit eingeschränktem Netzwerkzugriff betrieben werden sollten, um diese Risiken zu minimieren.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (1 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/&quot;&gt;Breaking Claude Code Opus 5 Auto Mode&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
