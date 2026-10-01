@@ -8,6 +8,13 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 30. September 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-09-30</guid>
+    <pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;&lt;strong&gt;Museen &amp; Städtearchitektur&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon besuchte das Museum of the City of New York und war begeistert von der Ausstellung „He Built This City: Joe Macken&#x27;s Model&quot;, einem beeindruckenden Modell der Stadt New York in den Maßen 50 x 27 Fuß. Das Modell wurde von Joe Macken über einen Zeitraum von 21 Jahren aus Balsa-Holz und Pappe handwerklich gefertigt. Simon empfiehlt dringend, sich die Ausstellung anzuschauen, bevor sie am 12. Oktober schließt.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (1 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/30/he-built-this-city/&quot;&gt;He Built This City&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 29. September 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-09-29</guid>
@@ -272,14 +279,6 @@
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/1/tarn-adams/&quot;&gt;Quoting Tarn Adams&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/1/datasette-mcp/&quot;&gt;datasette-mcp 0.2&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/1/python-315-rc-2/&quot;&gt;Python 3.15.0 candidate 2 is here!&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 31. August 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-08-31</guid>
-    <pubDate>Mon, 31 Aug 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;# Simon Willison&#x27;s Blog Posts vom 31. August 2026&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AI-gestützte Programmierung &amp; Testing&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon stellte Wrapture vor, ein neues Python-Projekt von Graham Dumpleton, das Monkey-Patching für Testing und Tracing vereint. Wrapture funktioniert sowohl als Alternative zu unittest.mock als auch als Tracing-Lösung für bestehende Projekte und unterstützt OpenTelemetry mit einer konfigurationsbasierten Herangehensweise. Bemerkenswert ist, dass jede Zeile Code und Dokumentation von Wrapture von einem KI-Assistenten unter Dumpletons Anleitung geschrieben wurde – ein Beispiel für sorgfältig engineerte &quot;agentic engineering&quot; statt des oft kritisierten &quot;Vibe Coding&quot;. Die Bibliothek zeigt elegante Testing-Muster wie das Stubben von Methodenaufrufen und das Transformieren von Rückgabewerten in Unit Tests.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Naturschutz &amp; Erfolgsgeschichten&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon teilte erfreuliche Nachrichten über die Kākāpō-Population: Die Küken aus dieser Rekordbrutzeit sind nun Jungtiere und wurden zur Population hinzugefügt. Diese Nachricht vom Naturschützer Andrew Digby unterstreicht, dass die Rettung kritisch gefährdeter Arten durch anhaltende Bemühungen möglich ist – beeindruckend angesichts der nur 51 verbleibenden Kākāpō im Jahr 1995.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Aug/31/introducing-wrapture/&quot;&gt;Introducing wrapture&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Aug/31/andrew-digby/&quot;&gt;Quoting Andrew Digby&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
