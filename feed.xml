@@ -8,6 +8,14 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 08. October 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-10-08</guid>
+    <pubDate>Thu, 08 Oct 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;&lt;strong&gt;Open Source Releases&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon hat ttok 0.4 veröffentlicht, sein CLI-Tool zum Zählen und Kürzen von Tokens basierend auf OpenAIs Open-Source-Bibliothek tiktoken. Nach mehreren Jahren ohne Updates hat er eine Click-Warnung behoben, die CI aktualisiert und einen neuen `--list-models`-Befehl hinzugefügt. Das Tool funktioniert mit uvx und ermöglicht es Benutzern, Token in beliebigen Dateien zu zählen, etwa mit `cat file.txt | uvx ttok`.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AI &amp; Karrieren&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon zitiert Carson Gross&#x27; Gedanken zur Zukunft der Programmierung angesichts von AI-Tools. Gross argumentiert, dass Programmierung grundlegend um zwei Dinge geht: Problemlösung mit Computern und die Kontrolle von Komplexität. Da diese Fähigkeiten wahrscheinlich langfristig wertvoll bleiben werden, ist Gross optimistisch, dass Programmierung auch mit AI-Werkzeugen eine lebensfähige Karriere bleibt.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Oct/8/ttok/&quot;&gt;ttok 0.4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Oct/8/carson-gross/&quot;&gt;Quoting Carson Gross&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 07. October 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-10-07</guid>
@@ -272,16 +280,6 @@
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/7/jakub-pachocki/&quot;&gt;Quoting Jakub Pachocki&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/7/video-compressor/&quot;&gt;Video compressor&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/7/equal-earth/&quot;&gt;Mercator ↔ Equal Earth&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 06. September 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-09-06</guid>
-    <pubDate>Sun, 06 Sep 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;# Zusammenfassung der Blog-Posts von Simon Willison (6. September 2026)&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AI &amp; LLMs&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon befasst sich mit OpenAIs Forschungsbeschleunigung und deren Fokus auf rekursive Selbstverbesserung (RSI), die als neuer AGI-Kandidat präsentiert wird. Der Post behandelt, wie OpenAIs Forschungsteam Coding-Agents einsetzt und verweist auf ein beeindruckendes Diagramm, das zeigt, dass 2026 das Jahr war, in dem agentic engineering bei OpenAI massiv an Fahrt aufnahm. Simon spekuliert, dass ein deutlicher Anstieg der KI-Ausgaben pro Forscher im Juli 2026 damit zusammenhängt, dass interne Mitarbeiter Zugang zum später als GPT-6 Astra veröffentlichten Modell erhielten.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Technical Debt &amp; Software-Architektur&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon diskutiert die Herausforderung von Systemmigrationen und warum der klassische Ansatz des &quot;Neuschreibens von Grund auf&quot; oft scheitert. Er erläutert, wie die alte, technisch verschuldete System während der Migration weiterhin betrieben werden muss, während die neue Anwendung keine Anreize für ihre Fertigstellung hat. Simons Empfehlung basiert auf Will Larsons Artikel &quot;Migrations: the sole scalable fix to tech debt&quot; und lautet, das alte System stattdessen mit automatisierten Tests zu stabilisieren und gezielt zu refaktorieren, als es komplett neu zu schreiben.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Sicherheit &amp; Internet-Infrastruktur&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon teilt alarmierende Statistiken über Missbrauch im Domain-Name-System (DNS), die Terence Eden zitiert: Von 85 Millionen neuen gTLD-Registrierungen 2025 wurden 8,5 Millionen bis Mai 2025 auf Blocklisten gesetzt. Laut Interisle-Report liegt die Missbrauchsrate zwischen 10 und 20%, was bedeutet, dass etwa eine von fünf neu registrierten Domains ein Scam ist. Simon nennt dies eine ernsthafte Krise, die ICANN seit Jahren diskutiert, ohne sie zu lösen.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (4 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/&quot;&gt;Research acceleration: The view inside OpenAI&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams/&quot;&gt;The purpose of DNS is to spread scams&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/&quot;&gt;There&#x27;s No Limit to How Bad Code Can Get&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/6/zach-kehs/&quot;&gt;Quoting Zach Kehs&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
