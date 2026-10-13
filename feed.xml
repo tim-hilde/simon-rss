@@ -8,6 +8,15 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 12. October 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-10-12</guid>
+    <pubDate>Mon, 12 Oct 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;# Zusammenfassung von Simon Willisons Blog vom 12. Oktober 2026&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Python &amp; Open Source Entwicklung&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon begrüßt Python 3.15 und kann nun endlich Python 3.10 aufgeben, um Features aus Python 3.11 nutzen zu können. Zu den Highlights gehört PEP 810 mit expliziten verzögerten Importen (lazy imports), die das Startup-Problem seiner LLM CLI lösen, bei der Plugin-Abhängigkeiten wie sentence_transformers mehrere Sekunden zur Ausführung hinzufügten. Weitere neue Features sind die Unpacking-Syntax in Comprehensions (PEP 798) und ein neuer Sampling-Profiler namens Tachyon (profiling.sampling), der mit deutlich geringerem Overhead arbeitet als bisherige Tracing-Profiler und sogar Flame Graphs und Heatmaps erzeugen kann.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AI &amp; LLM-Projekte&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon hat mit Hilfe von Codex und GPT-6 Astra Extra High die neue web-edit 0.1a0 entwickelt, eine Python-Webanwendung zum Bearbeiten von Dateien in Ordnern über eine web-basierte Benutzeroberfläche. Die App ist speziell für die Nutzung über Tailscale konzipiert und ermöglicht es ihm, Dateien direkt von seinem Telefon aus zu bearbeiten, ohne Credentials durch das LLM leiten zu müssen. Als Editor wird CodeMirror 6 verwendet, da Monaco noch keine optimale Mobile-Erfahrung bietet.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Datasette &amp; Tools&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Das Plugin datasette-ports wurde in Version 0.4 aktualisiert und funktioniert nun mit der neuesten Datasette-Version, wobei es jetzt auch die Process-ID (PID) der erkannten Datasette-Instanzen anzeigt. Diese PID-Information ist besonders praktisch für die Integration mit dem neuen Python 3.15 Profiler.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (3 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Oct/12/python-3-15/&quot;&gt;Hello Python 3.15, goodbye 3.10, and now I can use 3.11&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Oct/12/web-edit/&quot;&gt;web-edit 0.1a0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Oct/12/datasette-ports/&quot;&gt;datasette-ports 0.4&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 11. October 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-10-11</guid>
@@ -269,15 +278,6 @@
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/11/github-to-sqlite/&quot;&gt;github-to-sqlite 2.9.1&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/11/datasette/&quot;&gt;datasette 0.65.4&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/11/datasette-2/&quot;&gt;datasette 1.0a39&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 10. September 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-09-10</guid>
-    <pubDate>Thu, 10 Sep 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;&lt;strong&gt;Webassembly &amp; Entwicklertools&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon hebt trynix.dev hervor, ein beeindruckendes Projekt von Farid Zakaria, das eine vollständige x86_64 Linux Virtual Machine via WebAssembly im Browser ausführt. Die Plattform ermöglicht es, jedes Nix-Paket der letzten 13 Jahre direkt im Browser zu starten – zum Beispiel Python 3.6.2 aus dem Jahr 2017 – über einfache URL-Parameter. Besonders praktisch ist die GitHub-Action trynix-preview, die automatisch Links zu Pull Requests kommentiert und deren Builds direkt im Browser bootbar macht, ohne dass zusätzliche Server notwendig sind.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Mobile Entwicklung &amp; KI-assistierte Softwareentwicklung&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Shopify kehrt nach sechs Jahren React Native zu nativen Swift- und Kotlin-Codebases zurück, weil KI-Agenten nun genug der Implementierungs-, Übersetzungs-, Test- und Review-Arbeit übernehmen können, um die früher entscheidende Kostenersparnis durch Code-Sharing zu überwiegen. Das Unternehmen würdigt React Native als großartige Plattform, gibt aber zu, dass der Aufwand für zwei separate Plattformen durch moderne AI-Tools nicht mehr der limitierende Faktor ist. Shopify wird die Wartung von react-native-skia und flash-list abgeben, während die kleinere Bibliothek restyle bis Ende 2026 archiviert wird.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;KI-Sicherheitsforschung&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Calif Research präsentiert WeWorm, einen Zero-Click-Wurm, der sich durch WeChat-Anrufe auf iOS und Android verbreitet, ohne dass das Opfer den Anruf annehmen oder mit dem Telefon interagieren muss. Das Bemerkenswerte: Ein KI-Agenten-Team identifizierte den Bug und schrieb die erste Remote Code Execution innerhalb von zwei Tagen, während der komplette Wurm nur eine Woche Entwicklungszeit benötigte – eine Aufgabe, die früher Monate und ein größeres Team erfordert hätte.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (3 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/10/trynix/&quot;&gt;Any Nix package, live in your browser&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/10/shopify-react-native/&quot;&gt;Native is now the future of mobile at Shopify&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/10/calif-research/&quot;&gt;Quoting Calif Research&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
