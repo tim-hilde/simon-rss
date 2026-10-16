@@ -8,6 +8,14 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 15. October 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-10-15</guid>
+    <pubDate>Thu, 15 Oct 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs – Anthropic&#x27;s Geschäftswachstum&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon teilt Einblicke aus einem Financial Times-Artikel über Anthropics Investor-Präsentation und beeindruckendes Geschäftswachstum. Das Unternehmen verzeichnete eine Umsatzsteigerung von etwa 4,8 Milliarden Dollar in Q1 auf 16,8 Milliarden Dollar in Q3 2026, mit einer Quote von 1,70 Dollar Umsatz pro Dollar Rechenleistungsausgaben. Besonders interessant ist die Diskussion über &quot;Distillation&quot; – eine umstrittene Praxis, bei der konkurrierende KI-Labs ihre Modelle anhand von Anthropics Outputs trainieren – die 5-7% des Q2-Umsatzes ausmachte, bevor Anthropic diese Praxis deutlich reduzierte.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Spiele-Design mit KI – Chirp Pong Experiment&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon experimentierte mit Chirp Pong, einem innovativen Zwei-Spieler-Spiel, das auf zwei separaten Smartphones läuft und Audio-Signale via Mikrofon zur Netzwerkkommunikation nutzt. Das Projekt wurde mit Claude Opus 5.5 Extra in Claude Code entwickelt und demonstriert die Machbarkeit von statischem HTML-basiertem Gaming mit mikrofon-gesteuerten Netzwerkverbindungen. Das Spiel kombiniert das klassische Pong-Konzept mit grafischen und Gameplay-Variationen, um ein interaktiveres und unterhaltsameres Erlebnis zu schaffen als das Original.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Oct/15/chirp-pong/&quot;&gt;Chirp Pong&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/&quot;&gt;Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 14. October 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-10-14</guid>
@@ -262,13 +270,6 @@
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/14/influences/&quot;&gt;What blog posts influenced your thinking the most?&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/14/laurie-voss/&quot;&gt;Quoting Laurie Voss&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/14/commit-rewriter/&quot;&gt;commit-rewriter 0.1&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 13. September 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-09-13</guid>
-    <pubDate>Sun, 13 Sep 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;&lt;strong&gt;Open Source Releases&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon hat shot-scraper in Version 1.12 aktualisiert und WebP-Unterstützung hinzugefügt. Mit der neuen Funktion können Benutzer WebP-Screenshots von Webseiten erstellen, indem sie den Befehl `shot-scraper https://simonwillison.net -o screenshot.webp --quality 80` ausführen. Die WebP-Dateien sind in der Regel erheblich kleiner als ihre JPEG- oder PNG-Äquivalente, wobei die `--quality`-Option zwischen verlustfreier und verlustbehafteter Komprimierung wählt. Simon hat diese Funktion entwickelt, um sie für sein neues commit-rewriter-Tool nutzen zu können.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (1 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/13/shot-scraper/&quot;&gt;shot-scraper 1.12&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
