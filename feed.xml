@@ -8,6 +8,14 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 17. October 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-10-17</guid>
+    <pubDate>Sat, 17 Oct 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;&lt;strong&gt;JavaScript &amp; Web Development&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon teilte einen cleveren Trick von Lean Rada zur Inline-Rendering mit `document.currentScript`. Durch die Nutzung der `document.currentScript`-Eigenschaft können Mini-Skripte eingefügt werden, die sich selbst ersetzen, wenn die Seite lädt. Mit einer kurzen Shortcut-Funktion lässt sich sogar eine winzige Template-Sprache erstellen, wie das Beispiel mit dem aktuellen Jahr zeigt.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Open Source Releases&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon veröffentlichte web-edit 0.1a2, eine kleine Web-App zum Durchsuchen und Bearbeiten von Dateien in Ordnern. Die neue Version bietet eine &quot;In Zwischenablage kopieren&quot;-Option für Text- und Bilddaten. Das Tool wurde vor allem für die Dateiverwaltung auf verschiedenen Maschinen über Tailscale entwickelt und erwies sich als besonders nützlich beim Ausführen von Pelican-Prompts auf einem Laptop vom Smartphone aus, um Logs in Gists zu kopieren.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Oct/17/document-currentscript/&quot;&gt;Inline rendering with document​.currentScript&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Oct/17/web-edit/&quot;&gt;web-edit 0.1a2&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 16. October 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-10-16</guid>
@@ -260,13 +268,6 @@
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/16/datasette-2/&quot;&gt;datasette 0.65.5&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/16/one-claude/&quot;&gt;Claude Cowork and chat are now one Claude&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/16/mustafa-suleyman/&quot;&gt;Quoting Mustafa Suleyman&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 15. September 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-09-15</guid>
-    <pubDate>Tue, 15 Sep 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs – Gemini Live Audio&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Google hat am 15. September 2026 Gemini 3.8 Live und 3.8 Live Extended Thinking veröffentlicht – zwei neue Speech-to-Speech-Modelle, die ähnlich wie OpenAIs GPT-Live-Familie funktionieren. Simon hat GPT-6 Astra Extra High verwendet, um eine Web-UI für die neuen Modelle zu erstellen, mit der man über den Browser sprachbasiert mit KI-Modellen interagieren kann. Die Implementierung verbindet sich direkt über einen WebSocket-Endpoint mit Googles Generative Language API und nutzt die Web Audio API für Aufnahme und Wiedergabe – ohne externe Bibliotheken. Die UI ermöglicht es, zwischen Modellen zu wählen, Stimmvorgaben und optionale Systemprompts zu setzen und die KI während des Sprechens zu unterbrechen.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (1 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/15/gemini-live/&quot;&gt;Gemini Live audio&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
