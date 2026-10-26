@@ -8,6 +8,13 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 25. October 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-10-25</guid>
+    <pubDate>Sun, 25 Oct 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;&lt;strong&gt;Tools &amp; Utility-Entwicklung&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon hat ein spezialisiertes Cropping-Tool namens Seam Cutter entwickelt, das eine horizontale oder vertikale Schnittlinie durch ein Bild ermöglicht und die beiden Seiten dann relativ zueinander verschieben lässt. Das Tool erlaubt es, gezielt einen Abschnitt in der Bildmitte auszuschneiden – etwa um irrelevante Inhalte wie Prompts aus Transkriptionen zu schwärzen. Simon nutzt dieses Tool häufig in Kombination mit Tailor auf seinem iPhone, einer App zum Zusammennähen mehrerer Screenshots zu einem langen Bild, wenn er nachträglich Passagen aus der Mitte entfernen möchte.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (1 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Oct/25/seam-cutter/&quot;&gt;Seam Cutter&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 24. October 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-10-24</guid>
@@ -249,15 +256,6 @@
     <pubDate>Thu, 24 Sep 2026 12:00:00 +0000</pubDate>
     <description>&lt;p&gt;&lt;strong&gt;Git &amp; Entwicklungs-Tools&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon veröffentlichte commit-rewriter 0.2, eine Python-Webanwendung zur Unterstützung beim Umschreiben von Commit-Nachrichten. Die neue Version bringt Unterstützung für Branches außer dem Standard-Branch mit sich, die man mit dem Befehl `uvx commit-rewriter --branch other` aufrufen kann. Dies ermöglicht Entwicklern, ihre Commit-Historie auf verschiedenen Branches flexibler zu verwalten.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Datasette &amp; Daten-Tools&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Datasette 1.0a41 wurde veröffentlicht, die Open-Source-Multi-Tool-Plattform zur Erkundung und Veröffentlichung von Daten. In dieser Version integrierte Alex Garcia OpenTelemetry-Unterstützung in Datasette, was erweiterte Monitoring- und Observability-Fähigkeiten ermöglicht. Zusätzlich refaktorierte Simon alle Modal-Dialoge von Datasette in eine einzige Web-Komponente, die nun dokumentiert und von anderen Plugins wiederverwendbar ist.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/24/commit-rewriter/&quot;&gt;commit-rewriter 0.2&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/24/datasette/&quot;&gt;datasette 1.0a41&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 23. September 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-09-23</guid>
-    <pubDate>Wed, 23 Sep 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon stellte einen interaktiven Playground für Googles neue Gemini 3.8 Text-to-Speech-Modelle (gemini-3.8-flash-tts und gemini-3.8-flash-lite-tts) vor, mit dem Nutzer Sprache generieren und testen können. Das Tool ermöglicht sowohl Single-Voice-Narration als auch Multi-Speaker-Konversationen mit über 2.000 verfügbaren Stimmen und der Möglichkeit, benutzerdefinierte Stimmen aus einer 30-sekündigen Audioprobe zu erstellen. Simon demonstrierte die Fähigkeiten mit einem Demo-Clip zweier Pelikane, die über einen Umzug diskutieren, wobei Claude 4.5 Opus das Skript schrieb und etwa 2,74 Cent für 1 Minute 18 Sekunden Audio kostete.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Events &amp; Community&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon kündigte eine &quot;Birds of a Feather&quot;-Veranstaltung in San Francisco für den 14. Oktober an, die er zusammen mit Jesse Vincent zu Agentic Engineering ausrichtet. Das informelle Treffen richtet sich an Entwickler, die an Coding Agents und experimentellen KI-Projekten arbeiten, und bietet eine Plattform zum Austausch von frühen Explorationsprojekten, unvollendeten Arbeiten und ungewöhnlichen Experimenten. Das Event betont Kreativität und Austausch über Produktpräsentationen und verspricht, die &quot;Weirdness&quot; von agentic AI zu zelebrieren.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Web Development Tools&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon erstellte ein interaktives Lernwerkzeug zur Erklärung von Shadow DOM in CSS mit praktischen Beispielen. Das Tool demonstriert wichtige Konzepte wie Style-Kapselung, Vererbung, Slots, Parts und JavaScript-Zugriff und zeigt, wie Shadow Roots isolierte DOM-Bäume mit privaten Stylesheets schaffen, die auf kontrollierte Weise mit dem Seiten-DOM interagieren.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (3 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/23/gemini-tts-playground/&quot;&gt;Gemini 3.8 TTS Playground&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/23/shadow-roots/&quot;&gt;Shadow roots, explained with live examples&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/&quot;&gt;SF October 14th: A Birds of a Feather Session on Agentic Engineering&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
