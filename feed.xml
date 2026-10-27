@@ -8,6 +8,15 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 26. October 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-10-26</guid>
+    <pubDate>Mon, 26 Oct 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;# AI &amp; LLMs&lt;/p&gt;&lt;p&gt;&lt;strong&gt;GPT-6.1 Terra – Neue Modellversion von OpenAI&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;OpenAI hat GPT-6.1 Terra veröffentlicht, ein mittleres Modell, das sich auf visuelle Reasoning- und Computer-Use-Fähigkeiten konzentriert. Das Modell ist mit $1/Million Input-Tokens und $5/Million Output-Tokens etwa halb so teuer wie GPT-5.6 Terra und positioniert sich zwischen den günstigeren Luna- und teureren Sol-Varianten. Simon vergleicht die verschiedenen Reasoning-Level anhand von Pelikan-Bildern und stellt fest, dass Terra besonders für automatisierte, wiederholte Aufgaben sowie technische Kommunikation eine gute Option bietet.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;ChatGPT und Journalismus – Missgeleitete Support-Anfragen&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Jason Koebler von 404 Media hat dokumentiert, dass ChatGPT technische Support-Anfragen zunehmend als journalistische Geschichten umdeutet und Nutzer spezifisch an 404 Media weiterleitete. Das Problem entsteht, weil große Tech-Plattformen keinen echten Kundensupport anbieten und ChatGPT daher zu einer inoffiziellen Support-Anlaufstelle für Menschen mit alltäglichen Tech-Problemen geworden ist.&lt;/p&gt;&lt;p&gt;# Datasette &amp; Tools&lt;/p&gt;&lt;p&gt;&lt;strong&gt;webframe – Browser-Engine für Scraping und Sandbox&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon hat das Tool webframe von Jeff Lindsay evaluiert, ein Go-basiertes Projekt, das Web-Seiten wie Programme ausführt, indem es JavaScript über Systembrowser (WKWebView, WebKitGTK, WebView2) lädt. webframe ähnelt Simons eigenem shot-scraper, ist aber leichter und unabhängig von Playwright, zeigt aber auch Schwächen wie CSP-Fehler, fehlende HTTP-Metadaten und begrenzte Browser-Kontrollen.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (3 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Oct/26/gpt-61-terra/&quot;&gt;GPT-6.1 Terra&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Oct/26/jason-koebler/&quot;&gt;Quoting Jason Koebler&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Oct/26/webframe-evaluation/&quot;&gt;webframe: evaluated as a scraper and a sandbox&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 25. October 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-10-25</guid>
@@ -248,14 +257,6 @@
     <pubDate>Fri, 25 Sep 2026 12:00:00 +0000</pubDate>
     <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon diskutiert Metas neues Muse-System, ein bahnbrechendes agentenbasiertes KI-System, das jedem Benutzer eine eigene persistente Linux-VM in Metas Cloud bereitstellt. Er zitiert John Grubers Bedenken, dass Muse zwar technisch revolutionär ist und benutzerfreundlich verpackt wurde – mit einem niedlichen Maskottchen – aber die Öffentlichkeit die potenziellen Gefahren dieser Technologie möglicherweise nicht ausreichend versteht. Gruber vergleicht die Situation mit einem elektrischen Sägenverkauf ohne Sicherheitsbewusstsein und warnt, dass Menschen die Macht und damit verbundene Risiken von Muse, besonders auf dem eigenen Mac, unterschätzen könnten.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Fotografie &amp; Natur&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon dokumentiert eine Vogelbeobachtung in der Monterey Bay National Marine Sanctuary, wo er einen Gannett, einen Silberreiher und einen kalifornischen Pelikan fotografiert hat. Mit seinem neuen 200-800mm Canon EF-Objektiv gelang ihm seine beste Aufnahme des Vogels Morris, der regelmäßig unter einem Schild im Hafen anzutreffen ist.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/25/john-gruber/&quot;&gt;Quoting John Gruber&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/25/sighting-403293902/&quot;&gt;Northern Gannet, Great Blue Heron, California Brown Pelican&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 24. September 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-09-24</guid>
-    <pubDate>Thu, 24 Sep 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;&lt;strong&gt;Git &amp; Entwicklungs-Tools&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon veröffentlichte commit-rewriter 0.2, eine Python-Webanwendung zur Unterstützung beim Umschreiben von Commit-Nachrichten. Die neue Version bringt Unterstützung für Branches außer dem Standard-Branch mit sich, die man mit dem Befehl `uvx commit-rewriter --branch other` aufrufen kann. Dies ermöglicht Entwicklern, ihre Commit-Historie auf verschiedenen Branches flexibler zu verwalten.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Datasette &amp; Daten-Tools&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Datasette 1.0a41 wurde veröffentlicht, die Open-Source-Multi-Tool-Plattform zur Erkundung und Veröffentlichung von Daten. In dieser Version integrierte Alex Garcia OpenTelemetry-Unterstützung in Datasette, was erweiterte Monitoring- und Observability-Fähigkeiten ermöglicht. Zusätzlich refaktorierte Simon alle Modal-Dialoge von Datasette in eine einzige Web-Komponente, die nun dokumentiert und von anderen Plugins wiederverwendbar ist.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/24/commit-rewriter/&quot;&gt;commit-rewriter 0.2&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/24/datasette/&quot;&gt;datasette 1.0a41&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
