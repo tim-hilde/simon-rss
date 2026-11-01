@@ -8,6 +8,14 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 31. October 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-10-31</guid>
+    <pubDate>Sat, 31 Oct 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;&lt;strong&gt;Sicherheit &amp; WebSicherheitslücken&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon berichtete über eine schwerwiegende Sicherheitslücke in ChatGPTs Implementierung des Artifacts-Patterns (auch &quot;HTML previews&quot; genannt), die von Parameter Labs entdeckt wurde. Die Exploit-Kette war komplex: Sie nutzte die MathLive JavaScript-Bibliothek, die eine virtuelle Tastatur über postMessage() zwischen iframes kommunizieren konnte, um über innerHTML benutzerdefinierte HTML in die Parent-Seite einzuschleusen. Dadurch konnten Angreifer neue iframes ohne Sandbox-Beschränkungen einfügen und schließlich über das YouTube-oEmbed-Endpoint JavaScript ausführen, um auf private Benutzerdaten zuzugreifen. Die Folge war besonders kritisch: Ein Share-Link konnte die private Daten von anderen angemeldeten Nutzern exfiltrieren oder Aktionen in deren Namen durchführen. OpenAI schloss das Loch und zahlte allerdings nur 5.000 Dollar Bounty – eine Summe, die Simon für eine Sicherheitslücke dieser Schwere als zu niedrig bewertete.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Datasette &amp; Open-Source-Releases&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon veröffentlichte die Version 0.1a9 des datasette-llm Plugins, ein LLM-Integrations-Plugin für andere Plugins. Die neue Version bietet eine kleine, aber praktische Verbesserung: Sie übernimmt automatisch das Standard-Modell von LLM, sodass man Datasette Agent ohne explizite Konfiguration starten kann. Dies vereinfacht die Nutzung erheblich – man kann jetzt einfach `uvx --with datasette-agent datasette content.db --internal internal.db` ausführen, ohne das Default-Modell manuell setzen zu müssen. Simon deutete auch an, dass größere Updates für Datasette Agent in Planung sind.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/&quot;&gt;How We Took Over ChatGPT Accounts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Oct/31/datasette-llm/&quot;&gt;datasette-llm 0.1a9&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 30. October 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-10-30</guid>
@@ -248,15 +256,6 @@
     <guid isPermaLink="false">simon-digest-2026-09-30</guid>
     <pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate>
     <description>&lt;p&gt;&lt;strong&gt;Museen &amp; Städtearchitektur&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon besuchte das Museum of the City of New York und war begeistert von der Ausstellung „He Built This City: Joe Macken&#x27;s Model&quot;, einem beeindruckenden Modell der Stadt New York in den Maßen 50 x 27 Fuß. Das Modell wurde von Joe Macken über einen Zeitraum von 21 Jahren aus Balsa-Holz und Pappe handwerklich gefertigt. Simon empfiehlt dringend, sich die Ausstellung anzuschauen, bevor sie am 12. Oktober schließt.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (1 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/30/he-built-this-city/&quot;&gt;He Built This City&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 29. September 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-09-29</guid>
-    <pubDate>Tue, 29 Sep 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;# Zusammenfassung von Simon Willisons Blog-Posts vom 29. September 2026&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AI &amp; LLMs – Sicherheitsforschung und Modellvergleiche&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Anthropic&#x27;s Frontier Red Team hat besorgniserregende Erkenntnisse über fortgeschrittene Cyber-Fähigkeiten veröffentlicht: Das chinesische Modell GLM-5.3 gelang es in 4% der Tests, vollständige Control-Flow-Hijacks durchzuführen, während Claude Mythos Preview dies in 6% der Fälle schaffte. Dies markiert eine kritische Schwelle, da frühere Modelle wie Claude Opus 4.6 und GLM-5.2 bei diesen Binary-Exploitation-Aufgaben völlig fehlschlugen. Gleichzeitig kündigte OpenAI GPT 6.1 Sol an, das nahezu Astra-ähnliche Intelligenz zu einem Fünftel des Preises bieten soll.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;OpenAI DevDay 2026 – Neue KI-Agent-Plattform &quot;Dots&quot;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon hat das OpenAI DevDay 2026 live aus San Francisco dokumentiert und die Enthüllung des neuen Produkts &quot;Dots&quot; verfolgt – eine persönliche KI-Agent-Plattform, die dem Meta-Modell Muse ähnelt. Dots sind mit niedlichen Blob-Avatar dargestellt, werden von Astra angetrieben und unterstützen Voice-Interaktionen sowie Integrationen mit Tools wie Slack, Teams, Codex und mehr. Parallel führte OpenAI &quot;ChatGPT Space&quot; ein, eine Collaboration-Plattform ähnlich Google Docs, wo Teams gemeinsam mit ihren Dots arbeiten können – ChatGPT Pro und Enterprise-Kunden haben sofort Zugriff.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (3 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/&quot;&gt;Quoting Anthropic Frontier Red Team&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/29/hn-49898129/&quot;&gt;GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/&quot;&gt;OpenAI DevDay 2026 live blog&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
