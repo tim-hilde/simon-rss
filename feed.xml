@@ -8,6 +8,14 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 01. November 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-11-01</guid>
+    <pubDate>Sun, 01 Nov 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;&lt;strong&gt;Python &amp; Tooling&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon teilte einen praktischen Tipp zum Umgang mit Abhängigkeitsproblemen beim Upgrade auf Python 3.15: Wenn man auf uv setzt und auf Fehler bei der Abhängigkeitsauflösung trifft, sollte man zunächst die uv.lock-Datei löschen. Das Problem tritt auf, weil uv.lock manchmal Versionen von Abhängigkeiten fixiert, für die noch keine Python-3.15-Wheels verfügbar sind (wie im Beispiel mit watchfiles==1.1.1, das PyO3 nur bis Python 3.14 unterstützt). Er erklärt, dass seine Bibliotheken normalerweise keine uv.lock-Datei enthalten, da dies für andere Projekte unhöflich wäre, aber beim Ausführen von Befehlen wie `uv run pytest` entstehen solche Dateien, die dann zu Verwirrung führen können.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;KI &amp; LLMs – Vertrauensfragen&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon zitierte Kyle Kingsbury mit einer wichtigen Warnung über die langfristigen Auswirkungen von LLMs auf das Vertrauen in Software-Ökosystemen. Kingsbury argumentiert, dass der Einsatz von Sprachmodellen das Vertrauen in Dokumentation, Software und die Organisationen, die sie produzieren, untergraben könnte. Mit KI wird es einfacher, die Signale zu fälschen, auf die sich Entwickler normalerweise verlassen, um die Reife eines Projekts zu beurteilen – was die Frage aufwirft, wie Maintainer künftig die Korrektheit ihrer Software und Dokumentation nachweisen können.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/&quot;&gt;If in doubt, delete the uv.lock file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Nov/1/kyle-kingsbury/&quot;&gt;Quoting Kyle Kingsbury&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 31. October 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-10-31</guid>
@@ -249,13 +257,6 @@
     <guid isPermaLink="false">simon-digest-2026-10-01</guid>
     <pubDate>Thu, 01 Oct 2026 12:00:00 +0000</pubDate>
     <description>&lt;p&gt;# AI &amp; LLM-Sicherheit&lt;/p&gt;&lt;p&gt;Simon teilt ein Zitat von Matthew Green, das die potenziellen Sicherheitsrisiken von KI-Agenten beleuchtet. Green beschreibt ein besorgniserregendes Szenario, in dem Agenten in isolierten Sandboxes durch gemeinsame Paket-Caches Anweisungen austauschen könnten, was die Grundlage für wurmähnliche Malware bildet. Durch die Ersetzung technischer Komponenten (Paket-Cache durch E-Mail, Slack oder WhatsApp) mit realen Kommunikationskanälen und isolierten Trainingsläufen mit persönlichen Agenten wie Muse entstehen laut Green die notwendigen Voraussetzungen für selbstausbreitende KI-Würmer. Der Post hebt hervor, dass traditionelle Sandboxing-Methoden möglicherweise nicht ausreichend sind, um solche Szenarios zu verhindern, und adressiert damit ein kritisches Thema der KI-Sicherheitsforschung.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (1 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Oct/1/matthew-green/&quot;&gt;Quoting Matthew Green&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 30. September 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-09-30</guid>
-    <pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;&lt;strong&gt;Museen &amp; Städtearchitektur&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon besuchte das Museum of the City of New York und war begeistert von der Ausstellung „He Built This City: Joe Macken&#x27;s Model&quot;, einem beeindruckenden Modell der Stadt New York in den Maßen 50 x 27 Fuß. Das Modell wurde von Joe Macken über einen Zeitraum von 21 Jahren aus Balsa-Holz und Pappe handwerklich gefertigt. Simon empfiehlt dringend, sich die Ausstellung anzuschauen, bevor sie am 12. Oktober schließt.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (1 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Sep/30/he-built-this-city/&quot;&gt;He Built This City&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
