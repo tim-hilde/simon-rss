@@ -8,6 +8,14 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 04. November 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-11-04</guid>
+    <pubDate>Wed, 04 Nov 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;&lt;strong&gt;Datasette &amp; Tools&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon veröffentlichte datasette-llm 0.1a10, ein LLM-Integrations-Plugin, das anderen Plugins als Abhängigkeit dient. Die neue Version behebt einen Bug auf der agent.datasette.io Demo-Website, bei dem die verfügbaren LLM-Modelle nicht korrekt auf die in der Konfiguration definierten beschränkt waren.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Open Source Releases&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;datasette-apps 0.3a0 wurde freigegeben und ermöglicht es, benutzerdefinierte HTML-Anwendungen direkt in Datasette zu hosten und zu bearbeiten. Diese Apps können manuell erstellt werden, lassen sich aber einfacher durch LLMs über Datasette Agent generieren. Die neue Version verbessert diese Integration erheblich: Apps können nun in Chat-Nachrichten mit # markiert und automatisch vervollständigt werden, neue Tools ermöglichen es dem Agenten, gespeicherte Abfragen zu verwalten, und alle Schreibzugriffe erfordern Benutzerbestätigung. Die &quot;View App&quot;-Buttons öffnen Apps nun im Vollbildmodus innerhalb des Datasette Agent-Panels.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Nov/4/datasette-llm/&quot;&gt;datasette-llm 0.1a10&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Nov/4/datasette-apps/&quot;&gt;datasette-apps 0.3a0&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 03. November 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-11-03</guid>
@@ -252,13 +260,6 @@
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Oct/6/hn-49982139/&quot;&gt;Mistral Large 4&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Oct/6/datasette-atom/&quot;&gt;datasette-atom 0.11a0&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Oct/6/scrimshaw-jukebox/&quot;&gt;Scrimshaw Jukebox&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 05. October 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-10-05</guid>
-    <pubDate>Mon, 05 Oct 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs – Anthropic Cowork Architektur-Update&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon diskutiert ein wichtiges Update von Anthropic&#x27;s Cowork-Tool, das die Ausführung von Claude-Modellen und VM-Operationen in die Cloud verlagert. Die neue Architektur läuft Modellinferenz und die Virtual Machine vollständig in der Cloud, wobei jede Sitzung ihre eigene isolierte Sandbox erhält, ohne Zustandsfreigabe zwischen Sitzungen. Diese Änderung adressiert frühere Probleme wie hohen Stromverbrauch, Leistungseinbußen und die Unterbrechung von Aufgaben beim Schließen des Laptops. Das Desktop-App bleibt für Dateizugriffe verantwortlich und vermittelt Werkzeugaufrufe, die lokale Ressourcen benötigen – dadurch wird Cowork auch auf mobilen Geräten nutzbar und behält gleichzeitig volle Leistung ohne Batterie-Belastung.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (1 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Oct/5/felix-rieseberg/&quot;&gt;Quoting Felix Rieseberg&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
