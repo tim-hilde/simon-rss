@@ -8,6 +8,13 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 07. November 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-11-07</guid>
+    <pubDate>Sat, 07 Nov 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;&lt;strong&gt;Datasette &amp; Tools&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon beschäftigte sich mit einem Problem in Datasette (#3046), bei dem Firefox automatisch HTTP-Prefetch-Anfragen für die nächste Seite von Tabellenergebnissen auslöste. Das Problem entstand durch `link: rel=next` HTTP-Header, die Datasette bei HTML-Seiten sendet, was zu unnötigen Datentransfers und Server-Last führte. Simon entdeckte dabei ein faszinierendes Detail: Firefox hat seit 24 Jahren ein offenes Issue zu diesem Verhalten, und einer der frühen Kommentare verwies auf seinen eigenen Blog-Post von 2002, in dem er bereits über diese Funktion kritisiert hatte – eine Kritik, die er selbst völlig vergessen hatte.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (1 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Nov/7/link-rel-next/&quot;&gt;datasette #3046: Don&#x27;t serve link: rel=next HTTP headers to Firefox for HTML pages&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 06. November 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-11-06</guid>
@@ -241,14 +248,6 @@
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Oct/9/matthew-green/&quot;&gt;Quoting Matthew Green&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Oct/9/built-using-my-voice/&quot;&gt;A new feature for my blog, built using my voice&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Oct/9/ttok/&quot;&gt;ttok 1.0&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 08. October 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-10-08</guid>
-    <pubDate>Thu, 08 Oct 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;&lt;strong&gt;Open Source Releases&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon hat ttok 0.4 veröffentlicht, sein CLI-Tool zum Zählen und Kürzen von Tokens basierend auf OpenAIs Open-Source-Bibliothek tiktoken. Nach mehreren Jahren ohne Updates hat er eine Click-Warnung behoben, die CI aktualisiert und einen neuen `--list-models`-Befehl hinzugefügt. Das Tool funktioniert mit uvx und ermöglicht es Benutzern, Token in beliebigen Dateien zu zählen, etwa mit `cat file.txt | uvx ttok`.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AI &amp; Karrieren&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon zitiert Carson Gross&#x27; Gedanken zur Zukunft der Programmierung angesichts von AI-Tools. Gross argumentiert, dass Programmierung grundlegend um zwei Dinge geht: Problemlösung mit Computern und die Kontrolle von Komplexität. Da diese Fähigkeiten wahrscheinlich langfristig wertvoll bleiben werden, ist Gross optimistisch, dass Programmierung auch mit AI-Werkzeugen eine lebensfähige Karriere bleibt.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Oct/8/ttok/&quot;&gt;ttok 0.4&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Oct/8/carson-gross/&quot;&gt;Quoting Carson Gross&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
