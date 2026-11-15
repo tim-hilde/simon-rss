@@ -8,6 +8,14 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 14. November 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-11-14</guid>
+    <pubDate>Sat, 14 Nov 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;# Zusammenfassung der Blog-Posts von Simon Willison (14. November 2026)&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AI &amp; LLMs mit Datasette&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon veröffentlichte datasette-llm 0.1a11, ein Integrations-Plugin für Datasette, das nun OpenAI-kompatible Endpoints unterstützt. Diese Erweiterung ermöglicht es, lokale Sprachmodelle mit Tools wie LM Studio, Ollama oder llama.cpp (gerade Version 1.0.0 erreicht) zu nutzen. Mit dem neuen Release können Nutzer über uvx einfach einen Datasette Agent mit lokalen Modellen starten und so eine KI-gestützte Datenbankoberfläche auf ihrem eigenen System betreiben.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Datasette Plugins &amp; Visualisierung&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon veröffentlichte auch datasette-vega 0.7, das älteste Datasette-Plugin, das erstmals seit Juli 2018 aktualisiert wurde. Das Plugin ermöglicht die Visualisierung von Datenbankabfragen mithilfe von Vega-Lite-Charts und wurde nun kompatibel mit den neuesten Datasette-Alphas gemacht. Ein besonderer Highlight ist die neu hinzugefügte Unterstützung für Datasette Lite, wodurch JavaScript-Plugins nun auch in dieser Version laufen können – die Live-Demo im README nutzt bereits diese Funktionalität.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Nov/14/datasette-llm/&quot;&gt;datasette-llm 0.1a11&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Nov/14/datasette-vega/&quot;&gt;datasette-vega 0.7&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 13. November 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-11-13</guid>
@@ -241,14 +249,6 @@
     <guid isPermaLink="false">simon-digest-2026-10-16</guid>
     <pubDate>Fri, 16 Oct 2026 12:00:00 +0000</pubDate>
     <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs – Code Review mit Claude&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon teilt ein Zitat vom Claude Code Team über die Neugestaltung von Code Review durch KI-Assistenten. Das Team argumentiert, dass traditionelle menschliche Code Reviews ein ungenaues Maß sind und dass die entscheidende Frage lauten sollte: &quot;Welche automatisierte oder menschliche Überprüfung kann dieses Problem am besten erkennen?&quot; Durch die Integration von Claude in den Entwicklungsprozess wird Code Review zu einem kontinuierlichen Prozess ähnlich wie Rechtschreibprüfung während des Schreibens, statt zu einem Gate am Ende. Dies ermöglicht es, dass die meisten routinemäßigen Fehler bereits von Claude gefunden und behoben werden, bevor ein Mensch den Code überprüft – dadurch können Entwickler sich auf höherwertige Fragen und strategische Bewertungen konzentrieren.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (1 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Oct/16/code-review/&quot;&gt;Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 15. October 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-10-15</guid>
-    <pubDate>Thu, 15 Oct 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs – Anthropic&#x27;s Geschäftswachstum&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon teilt Einblicke aus einem Financial Times-Artikel über Anthropics Investor-Präsentation und beeindruckendes Geschäftswachstum. Das Unternehmen verzeichnete eine Umsatzsteigerung von etwa 4,8 Milliarden Dollar in Q1 auf 16,8 Milliarden Dollar in Q3 2026, mit einer Quote von 1,70 Dollar Umsatz pro Dollar Rechenleistungsausgaben. Besonders interessant ist die Diskussion über &quot;Distillation&quot; – eine umstrittene Praxis, bei der konkurrierende KI-Labs ihre Modelle anhand von Anthropics Outputs trainieren – die 5-7% des Q2-Umsatzes ausmachte, bevor Anthropic diese Praxis deutlich reduzierte.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Spiele-Design mit KI – Chirp Pong Experiment&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon experimentierte mit Chirp Pong, einem innovativen Zwei-Spieler-Spiel, das auf zwei separaten Smartphones läuft und Audio-Signale via Mikrofon zur Netzwerkkommunikation nutzt. Das Projekt wurde mit Claude Opus 5.5 Extra in Claude Code entwickelt und demonstriert die Machbarkeit von statischem HTML-basiertem Gaming mit mikrofon-gesteuerten Netzwerkverbindungen. Das Spiel kombiniert das klassische Pong-Konzept mit grafischen und Gameplay-Variationen, um ein interaktiveres und unterhaltsameres Erlebnis zu schaffen als das Original.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Oct/15/chirp-pong/&quot;&gt;Chirp Pong&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/&quot;&gt;Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
