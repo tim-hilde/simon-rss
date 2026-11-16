@@ -8,6 +8,17 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 15. November 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-11-15</guid>
+    <pubDate>Sun, 15 Nov 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;# Zusammenfassung von Simon Willisons Blog-Posts vom 15. November 2026&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Datasette &amp; Geospatial-Tools&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon veröffentlichte datasette-maplibre 0.1a0, ein neues Geospatial-Plugin für Datasette, das MapLibre GL und OpenFreeMap kombiniert. Das Plugin wurde größtenteils mit einem einzelnen Prompt an Claude Fable 5.2 entwickelt und bietet kreative Features wie SVG-Vorschauen von GeoJSON-Shapes, die nur bei Bedarf in WebGL-Vorschauen konvertiert werden. Eine funktionsfähige Demo lädt das Plugin und eine Demo-Datenbank direkt im Browser über Pyodide und WebAssembly.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Datasette Core &amp; Streaming&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Datasette 1.0a43 bringt Streaming-Support für Output-Renderer mit sich, wodurch TSV- und CSV-Export-Mechanismen optimiert werden. Eine bedeutsame Sicherheitslücke wurde behoben, bei der private gespeicherte Abfragen exponiert werden konnten. Besonders hervorzuheben ist die Implementierung von CSS-Multi-Page-View-Transitions, die mehrseiten-Navigation in Datasette wie eine Single-Page-Application anfühlen lässt und bereits in Safari und Chrome funktioniert. Das 1.0-Meilenstein ist nun zu 53% abgeschlossen.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Sicherheitspatches&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Datasette 0.65.6 backportiert einen Sicherheitsbugfix aus Version 1.0a43, der eine Sicherheitslücke behebt, bei der mit Custom-Routes registrierte Datenbanken von Akteuren heruntergeladen werden konnten, denen der Zugriff verweigert wurde.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AI-gesteuerte Datenabfragen &amp; Apps&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Datasette-apps 0.4a0 erweitert die Sandbox-HTML-Anwendungen mit URL-Fragment-Linking-Support, das es Apps ermöglicht, untereinander zu verlinken und SQL-Abfragen gegen Ihre Daten auszuführen. Datasette-agent 0.6a0 akkumuliert kleinere Verbesserungen für den LLM-gestützten Daten-Agent und fügt einen Agent-Prompt direkt auf der Datasette-Homepage hinzu, mit Unterstützung für Hash-Mentions von Tabellen und Abfragen.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (5 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Nov/15/datasette-maplibre/&quot;&gt;datasette-maplibre 0.1a0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Nov/15/datasette/&quot;&gt;datasette 1.0a43&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Nov/15/datasette-2/&quot;&gt;datasette 0.65.6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Nov/15/datasette-apps/&quot;&gt;datasette-apps 0.4a0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Nov/15/datasette-agent/&quot;&gt;datasette-agent 0.6a0&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 14. November 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-11-14</guid>
@@ -242,13 +253,6 @@
     <pubDate>Sat, 17 Oct 2026 12:00:00 +0000</pubDate>
     <description>&lt;p&gt;&lt;strong&gt;JavaScript &amp; Web Development&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon teilte einen cleveren Trick von Lean Rada zur Inline-Rendering mit `document.currentScript`. Durch die Nutzung der `document.currentScript`-Eigenschaft können Mini-Skripte eingefügt werden, die sich selbst ersetzen, wenn die Seite lädt. Mit einer kurzen Shortcut-Funktion lässt sich sogar eine winzige Template-Sprache erstellen, wie das Beispiel mit dem aktuellen Jahr zeigt.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Open Source Releases&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon veröffentlichte web-edit 0.1a2, eine kleine Web-App zum Durchsuchen und Bearbeiten von Dateien in Ordnern. Die neue Version bietet eine &quot;In Zwischenablage kopieren&quot;-Option für Text- und Bilddaten. Das Tool wurde vor allem für die Dateiverwaltung auf verschiedenen Maschinen über Tailscale entwickelt und erwies sich als besonders nützlich beim Ausführen von Pelican-Prompts auf einem Laptop vom Smartphone aus, um Logs in Gists zu kopieren.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Oct/17/document-currentscript/&quot;&gt;Inline rendering with document​.currentScript&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Oct/17/web-edit/&quot;&gt;web-edit 0.1a2&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 16. October 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-10-16</guid>
-    <pubDate>Fri, 16 Oct 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs – Code Review mit Claude&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon teilt ein Zitat vom Claude Code Team über die Neugestaltung von Code Review durch KI-Assistenten. Das Team argumentiert, dass traditionelle menschliche Code Reviews ein ungenaues Maß sind und dass die entscheidende Frage lauten sollte: &quot;Welche automatisierte oder menschliche Überprüfung kann dieses Problem am besten erkennen?&quot; Durch die Integration von Claude in den Entwicklungsprozess wird Code Review zu einem kontinuierlichen Prozess ähnlich wie Rechtschreibprüfung während des Schreibens, statt zu einem Gate am Ende. Dies ermöglicht es, dass die meisten routinemäßigen Fehler bereits von Claude gefunden und behoben werden, bevor ein Mensch den Code überprüft – dadurch können Entwickler sich auf höherwertige Fragen und strategische Bewertungen konzentrieren.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (1 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Oct/16/code-review/&quot;&gt;Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
