@@ -8,6 +8,13 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 16. November 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-11-16</guid>
+    <pubDate>Mon, 16 Nov 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs / Open Source Releases&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon veröffentlichte LLM 0.37.3, eine Bugfix-Version seines Kommandozeilen-Tools für Large Language Models. Die neue Version behebt ein Problem mit dem aktuellen Homebrew-Paket, das SQLite 3.54.1 mit sich brachte. Ein SQL-Verhalten in SQLite 3.54.1 änderte die JSON-Ausgabe von `json_object()` und `json_array()`-Funktionen, was LLMs Logging-Code brach – laut D. Richard Hipp war dies eigentlich eine berechtigte Bugfix gemäß Dokumentation. Simon dokumentiert den Workaround mit `json((select json_array(1)))` für betroffene Nutzer.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (1 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Nov/16/llm/&quot;&gt;llm 0.37.3&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 15. November 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-11-15</guid>
@@ -245,14 +252,6 @@
     <pubDate>Sun, 18 Oct 2026 12:00:00 +0000</pubDate>
     <description>&lt;p&gt;# Zusammenfassung der Blog-Posts von Simon Willison vom 18. Oktober 2026&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Open Source Releases&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon veröffentlichte zwei wichtige Updates für seine LLM-Ökosystem-Tools. Mit llm-tools-datasette 0.1.1 wurde ein Kompatibilitätsproblem behoben, das durch die Migration von LLM 0.33 zu httpx2 entstanden war – das Plugin konnte nun wieder korrekt Datasette-Instanzen als Werkzeuge für Sprachmodelle verfügbar machen. Parallel dazu erschien llm-echo 0.5, ein Debug-Plugin, das ein Echo-Modell bereitstellt, welches Eingaben einfach zurückgibt, ohne ein echtes LLM zu nutzen. Das neue Release verbesserte die simulierten Token-Zählungen erheblich, indem es nun Tool-Aufrufe, Systemaufforderungen und Reasoning-Tokens berücksichtigt – was Entwicklern bei der Fehlersuche und beim Testen von LLM-Funktionalität hilft.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Oct/18/llm-tools-datasette/&quot;&gt;llm-tools-datasette 0.1.1&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Oct/18/llm-echo/&quot;&gt;llm-echo 0.5&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 17. October 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-10-17</guid>
-    <pubDate>Sat, 17 Oct 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;&lt;strong&gt;JavaScript &amp; Web Development&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon teilte einen cleveren Trick von Lean Rada zur Inline-Rendering mit `document.currentScript`. Durch die Nutzung der `document.currentScript`-Eigenschaft können Mini-Skripte eingefügt werden, die sich selbst ersetzen, wenn die Seite lädt. Mit einer kurzen Shortcut-Funktion lässt sich sogar eine winzige Template-Sprache erstellen, wie das Beispiel mit dem aktuellen Jahr zeigt.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Open Source Releases&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon veröffentlichte web-edit 0.1a2, eine kleine Web-App zum Durchsuchen und Bearbeiten von Dateien in Ordnern. Die neue Version bietet eine &quot;In Zwischenablage kopieren&quot;-Option für Text- und Bilddaten. Das Tool wurde vor allem für die Dateiverwaltung auf verschiedenen Maschinen über Tailscale entwickelt und erwies sich als besonders nützlich beim Ausführen von Pelican-Prompts auf einem Laptop vom Smartphone aus, um Logs in Gists zu kopieren.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Oct/17/document-currentscript/&quot;&gt;Inline rendering with document​.currentScript&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Oct/17/web-edit/&quot;&gt;web-edit 0.1a2&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
