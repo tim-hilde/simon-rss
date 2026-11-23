@@ -8,6 +8,13 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 22. November 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-11-22</guid>
+    <pubDate>Sun, 22 Nov 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;&lt;strong&gt;Tools &amp; Web Design&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon Willison war frustriert über die inkonsistente Darstellung von HTML `&lt;select&gt;`-Elementen in verschiedenen Browsern und beschloss, dieses Problem anzugehen. Er bat Claude Fable 5.2, eine Seite zu erstellen, die alle möglichen Styling-Optionen für Select-Boxen demonstriert. Nach einigen Experimenten identifizierte er sein bevorzugtes CSS-Styling und testete es in mehreren Desktop- und Mobilbrowsern, um eine konsistente und ansprechende Lösung zu finden.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (1 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Nov/22/select-styling/&quot;&gt;Select Styling Specimens&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 21. November 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-11-21</guid>
@@ -247,14 +254,6 @@
     <guid isPermaLink="false">simon-digest-2026-10-24</guid>
     <pubDate>Sat, 24 Oct 2026 12:00:00 +0000</pubDate>
     <description>&lt;p&gt;&lt;strong&gt;Spiele &amp; Projektentwicklung&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon veröffentlichte Battledrones v14 mit einer neuen Vier-Spieler-Karte namens &quot;Compass Rose&quot;. Die mobile Web-RTS erhielt nun Online-Multiplayer-Unterstützung für bis zu vier Spieler mit vier-facher Rotationssymmetrie, wobei freie Plätze durch KI-Gegner gefüllt werden. Claude Opus 5.5 half dabei, die neue Karte zu designen und den WebSocket-basierten Multiplayer-Code zu erweitern, um vier Spieler über Share-Links oder QR-Codes verbinden zu können. Das Spiel präsentiert neue lila und grüne Roboter-Designs neben den bestehenden blauen und roten Teams, und Simon demonstrierte die Funktionalität mit einem Replay einer vier-Wege-KI-Schlacht mit dem &quot;Goliath Armada&quot;-Mutator.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (1 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Oct/24/battledrones/&quot;&gt;battledrones v14: Compass Rose, a four player map&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 23. October 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-10-23</guid>
-    <pubDate>Fri, 23 Oct 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon berichtete über die Einführung von Kimi K3.1 Pro von Moonshot, einem neuen Large Language Model, das auf der Kimi API verfügbar ist. Das Modell wird bis zum 4. November 2026 als Open-Weight-Version veröffentlicht und bietet eine &quot;Highspeed&quot;-Variante, die 2-3x schneller ist. Mit einem Preis von $2,00 pro Million Input-Tokens und $10,00 pro Million Output-Tokens ist Kimi K3.1 Pro günstiger als Claude Opus 5.5 und konkurrenzfähig mit GPT-6.1 Sol. Artificial Analysis bewertete Kimi mit 55 Punkten – höher als Claude Fable 5.1, GPT-6 Astra und Gemini 4 Argon – und macht es damit zum ersten Open-Weight-Modell dieser Leistungsklasse.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Tools &amp; Experimente&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon stellte &quot;Quick Study&quot; vor, ein interaktives Tool, das Fotos mit simulierten Pinselhieben auf einem Canvas-Element nachahmt. Das Projekt nutzt Sobel-Kantenerkennung ohne externe Abhängigkeiten (außer Google Fonts) und malt Bilder in wenigen Sekunden. Dies war eine Fortsetzung eines früheren Experiments, bei dem Claude Fable eine Aquarellillustration mit P5.js simulierte.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Oct/23/quick-study-painter/&quot;&gt;Quick Study&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Oct/23/kimi-k31-pro/&quot;&gt;Introducing Kimi K3.1 Pro&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
