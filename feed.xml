@@ -8,6 +8,15 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 23. November 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-11-23</guid>
+    <pubDate>Mon, 23 Nov 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;# Zusammenfassung von Simon Willisons Blog vom 23. November 2026&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AI &amp; LLMs – Neue Modelle und Architekturen&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;GLM-5.4 von Chinas AI-Labor Z.ai ist ein neues Modell mit einer innovativen Loop-Transformer-Architektur verfügbar, die gewichtete Schichten mehrfach durchläuft, um tiefere Netzwerke ohne erhöhte Parameterzahl zu erreichen. Simon hat das Modell über die Z.ai API getestet und ein llm-glm Plugin gebaut, bemerkt aber, dass die älteren Versionen GLM-5.1 und GLM-5.2 deutlich unterschiedlichere ästhetische Ergebnisse lieferten. Interessanterweise nutzen auch andere Labs wie Thinking Machines mit Inkling 2 Mini ähnliche Loop-Transformer-Ansätze, was auf einen Trend in der LLM-Entwicklung hindeutet.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Open-Source-Projekte – Ladybird Browser&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Das ehrgeizige Projekt Ladybird veröffentlichte sein erstes Alpha-Release und bietet damit einen neuen Browser mit eigenständiger Implementierung von HTML-Parsing, CSS-Engine, JavaScript und sogar WebAssembly. Der Browser läuft beeindruckend schnell und unterstützt komplexe Web-Technologien wie Pyodide und WebAssembly-kompilierte Tools, obwohl einige fortgeschrittene Features wie Datasette Lite noch nicht funktionieren. Das Projekt wurde besonders durch den Einsatz von Coding Agents (Claude Code und Codex) beschleunigt, wie ein erheblicher Anstieg der GitHub-Contributions im Oktober 2026 zeigt.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Datasette &amp; Visualisierung&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon veröffentlichte datasette-charts 0.1a0, ein Plugin für Datasette, das automatische Diagramm-Vorschläge mit D3, Observable Plot und topojson-client bietet. Das innovative Plugin kompiliert Visualisierungen in SQL-Abfragen, die über alle Ergebnisse (potenziell Millionen Reihen) aggregieren, statt nur die aktuelle Seite anzuzeigen, und speichert den Chart-Status in URL-Fragmenten zum Teilen. Simon nutzte Claude Fable 5.2 zur Prototypentwicklung und ist begeistert von diesem Schritt zu intuitiverer Datenvisualisierung in Datasette.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (3 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Nov/23/glm-54/&quot;&gt;GLM-5.4: Toward Generalized Coding with Our First Loop Transformer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Nov/23/ladybird/&quot;&gt;Ladybird&#x27;s first alpha release&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Nov/23/datasette-charts/&quot;&gt;datasette-charts 0.1a0&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 22. November 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-11-22</guid>
@@ -247,13 +256,6 @@
     <guid isPermaLink="false">simon-digest-2026-10-25</guid>
     <pubDate>Sun, 25 Oct 2026 12:00:00 +0000</pubDate>
     <description>&lt;p&gt;&lt;strong&gt;Tools &amp; Utility-Entwicklung&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon hat ein spezialisiertes Cropping-Tool namens Seam Cutter entwickelt, das eine horizontale oder vertikale Schnittlinie durch ein Bild ermöglicht und die beiden Seiten dann relativ zueinander verschieben lässt. Das Tool erlaubt es, gezielt einen Abschnitt in der Bildmitte auszuschneiden – etwa um irrelevante Inhalte wie Prompts aus Transkriptionen zu schwärzen. Simon nutzt dieses Tool häufig in Kombination mit Tailor auf seinem iPhone, einer App zum Zusammennähen mehrerer Screenshots zu einem langen Bild, wenn er nachträglich Passagen aus der Mitte entfernen möchte.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (1 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Oct/25/seam-cutter/&quot;&gt;Seam Cutter&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 24. October 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-10-24</guid>
-    <pubDate>Sat, 24 Oct 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;&lt;strong&gt;Spiele &amp; Projektentwicklung&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon veröffentlichte Battledrones v14 mit einer neuen Vier-Spieler-Karte namens &quot;Compass Rose&quot;. Die mobile Web-RTS erhielt nun Online-Multiplayer-Unterstützung für bis zu vier Spieler mit vier-facher Rotationssymmetrie, wobei freie Plätze durch KI-Gegner gefüllt werden. Claude Opus 5.5 half dabei, die neue Karte zu designen und den WebSocket-basierten Multiplayer-Code zu erweitern, um vier Spieler über Share-Links oder QR-Codes verbinden zu können. Das Spiel präsentiert neue lila und grüne Roboter-Designs neben den bestehenden blauen und roten Teams, und Simon demonstrierte die Funktionalität mit einem Replay einer vier-Wege-KI-Schlacht mit dem &quot;Goliath Armada&quot;-Mutator.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (1 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Oct/24/battledrones/&quot;&gt;battledrones v14: Compass Rose, a four player map&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
