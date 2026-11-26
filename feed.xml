@@ -8,6 +8,14 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 25. November 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-11-25</guid>
+    <pubDate>Wed, 25 Nov 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;# Simon Willison Blog-Zusammenfassung vom 25. November 2026&lt;/p&gt;&lt;p&gt;&lt;strong&gt;AI &amp; LLMs und mathematische Erkenntnisse&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon teilt ein inspirierendes Zitat von Scott Aaronson, das die transformative Auswirkung von KI-Systemen auf die Mathematik und theoretische Informatik beschreibt. Aaronson vergleicht die verbesserte Auflösung mathematischer Wahrheiten durch KI mit historischen wissenschaftlichen Durchbrüchen wie van Leeuwenhoeks Mikroskop und Galileos Teleskop. Das Zitat verdeutlicht, wie Large Language Models es ermöglichen, ganze neue „Kontinente&quot; von mathematischen Erkenntnissen zu entdecken, die zuvor nur verschwommen sichtbar waren.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Datasette &amp; Tools – Visualisierungen und Annotationen&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon kündigte die Veröffentlichung von datasette-charts 0.3a0 an, ein Plugin für Datasette mit neuer Funktionalität zur Chartannotation. Das Update ermöglicht es Benutzern, Diagramme mit Linien, schattierten Bereichen und Beschriftungen zu versehen – entweder manuell oder über eine UI im Datasette Lite Editor. Besonders interessant ist die Integration mit Datasette Agent, die es ermöglicht, automatisch annotierte Charts auf Basis von natürlichsprachlichen Anfragen zu erstellen.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (2 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Nov/25/scott-aaronson/&quot;&gt;Quoting Scott Aaronson&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Nov/25/datasette-charts/&quot;&gt;datasette-charts 0.3a0&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 24. November 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-11-24</guid>
@@ -250,15 +258,6 @@
     <guid isPermaLink="false">simon-digest-2026-10-27</guid>
     <pubDate>Tue, 27 Oct 2026 12:00:00 +0000</pubDate>
     <description>&lt;p&gt;&lt;strong&gt;Hardware-Hacking &amp; Conference Badge Experimente&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon berichtet von der GitHub Universe Konferenz, wo die Konferenz-Badges wieder als vollwertige Farbbildschirm-Computer fungieren. Er und Steve Francia haben damit experimentiert, wobei Francia mit Gemini einen vollständigen NES-Emulator auf das Badge gebracht hat. Darüber hinaus gelang es ihnen, Emulatoren für Game Boy und Game Boy Color zu implementieren, wodurch man beispielsweise The Legend of Zelda: Link&#x27;s Awakening auf dem Badge spielen kann. Ein praktisches Feature des Badges ist die Möglichkeit, es umzudrehen und dann integrierte Game-Controller-Touchbuttons zu nutzen.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (1 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/&quot;&gt;Game Boy Color on My Conference Badge&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 26. October 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-10-26</guid>
-    <pubDate>Mon, 26 Oct 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;# AI &amp; LLMs&lt;/p&gt;&lt;p&gt;&lt;strong&gt;GPT-6.1 Terra – Neue Modellversion von OpenAI&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;OpenAI hat GPT-6.1 Terra veröffentlicht, ein mittleres Modell, das sich auf visuelle Reasoning- und Computer-Use-Fähigkeiten konzentriert. Das Modell ist mit $1/Million Input-Tokens und $5/Million Output-Tokens etwa halb so teuer wie GPT-5.6 Terra und positioniert sich zwischen den günstigeren Luna- und teureren Sol-Varianten. Simon vergleicht die verschiedenen Reasoning-Level anhand von Pelikan-Bildern und stellt fest, dass Terra besonders für automatisierte, wiederholte Aufgaben sowie technische Kommunikation eine gute Option bietet.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;ChatGPT und Journalismus – Missgeleitete Support-Anfragen&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Jason Koebler von 404 Media hat dokumentiert, dass ChatGPT technische Support-Anfragen zunehmend als journalistische Geschichten umdeutet und Nutzer spezifisch an 404 Media weiterleitete. Das Problem entsteht, weil große Tech-Plattformen keinen echten Kundensupport anbieten und ChatGPT daher zu einer inoffiziellen Support-Anlaufstelle für Menschen mit alltäglichen Tech-Problemen geworden ist.&lt;/p&gt;&lt;p&gt;# Datasette &amp; Tools&lt;/p&gt;&lt;p&gt;&lt;strong&gt;webframe – Browser-Engine für Scraping und Sandbox&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon hat das Tool webframe von Jeff Lindsay evaluiert, ein Go-basiertes Projekt, das Web-Seiten wie Programme ausführt, indem es JavaScript über Systembrowser (WKWebView, WebKitGTK, WebView2) lädt. webframe ähnelt Simons eigenem shot-scraper, ist aber leichter und unabhängig von Playwright, zeigt aber auch Schwächen wie CSP-Fehler, fehlende HTTP-Metadaten und begrenzte Browser-Kontrollen.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (3 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Oct/26/gpt-61-terra/&quot;&gt;GPT-6.1 Terra&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Oct/26/jason-koebler/&quot;&gt;Quoting Jason Koebler&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Oct/26/webframe-evaluation/&quot;&gt;webframe: evaluated as a scraper and a sandbox&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
