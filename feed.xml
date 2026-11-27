@@ -8,6 +8,15 @@
     <atom:link href="" rel="self" type="application/rss+xml"/>
   
   <item>
+    <title>Simon Willison – 26. November 2026</title>
+    <link>https://simonwillison.net/</link>
+    <guid isPermaLink="false">simon-digest-2026-11-26</guid>
+    <pubDate>Thu, 26 Nov 2026 12:00:00 +0000</pubDate>
+    <description>&lt;p&gt;&lt;strong&gt;AI &amp; LLMs&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon zitiert Jack Despain Zhou über die De-Individualisierung durch KI-Technologien wie Claude. Das Phänomen zeigt sich überall: in YouTube-Videos, Konferenzpräsentationen und E-Mail-Inboxen sind AI-generierte Inhalte allgegenwärtig. Zhou kritisiert, dass ernsthafte Menschen mit Credentials von etablierten Institutionen ihre Reputationen mit Claude-generierten Inhalten verbinden, was zur Homogenisierung von Kommunikation führt.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Datasette &amp; Tools&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon diskutiert sqlite3_rsync, ein SQLite-Tool zur Remote-Datenbanksicherung, das seit SQLite 3.47.0 (Oktober 2024) verfügbar und in Version 3.50.0 (Mai 2025) erweitert wurde. Das Werkzeug ermöglicht es, Datenbankabbilder über SSH auf andere Maschinen zu kopieren, ohne zuerst lokal Speicherplatz für eine vollständige Kopie bereitstellen zu müssen – ein großer Vorteil auf ressourcenbeschränkten Systemen. Das Tool funktioniert ähnlich wie rsync, indem es kryptografische Hashes austauscht und nur unterschiedliche Seiten überträgt.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Journalismus &amp; Ethik&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon teilt eine persönliche Erfahrung mit einem New-York-Times-Fotografen, der seinen Laptop in dessen Garten fotografierte. Der Fotograf lehnte jegliche Bildbearbeitung wie das Entfernen von Flecken ab und konzentrierte sich stattdessen auf optimale natürliche Lichtverhältnisse – ein Zeichen des professionellen Verständnisses von Fotojournalismus. Dies kontrastiert mit den neuen AI-Features in Photoshop, vor denen die NYT Fotografen warnt.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (3 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Nov/26/jack-despain-zhou/&quot;&gt;Quoting Jack Despain Zhou&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Nov/26/sqlite3-rsync/&quot;&gt;sqlite3_rsync: Database Remote-Copy Tool For SQLite&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Nov/26/hn-50651685/&quot;&gt;The New York Times warns photographers not to update Photoshop over AI features&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+  </item>
+  <item>
     <title>Simon Willison – 25. November 2026</title>
     <link>https://simonwillison.net/</link>
     <guid isPermaLink="false">simon-digest-2026-11-25</guid>
@@ -251,13 +260,6 @@
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Oct/28/github-octoverse-2026/&quot;&gt;GitHub Octoverse 2026&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Oct/28/vibe-game-development/&quot;&gt;The October inflection point for vibe game development&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Oct/28/terk-terkowitz/&quot;&gt;Quoting Terk Terkowitz&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-  </item>
-  <item>
-    <title>Simon Willison – 27. October 2026</title>
-    <link>https://simonwillison.net/</link>
-    <guid isPermaLink="false">simon-digest-2026-10-27</guid>
-    <pubDate>Tue, 27 Oct 2026 12:00:00 +0000</pubDate>
-    <description>&lt;p&gt;&lt;strong&gt;Hardware-Hacking &amp; Conference Badge Experimente&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Simon berichtet von der GitHub Universe Konferenz, wo die Konferenz-Badges wieder als vollwertige Farbbildschirm-Computer fungieren. Er und Steve Francia haben damit experimentiert, wobei Francia mit Gemini einen vollständigen NES-Emulator auf das Badge gebracht hat. Darüber hinaus gelang es ihnen, Emulatoren für Game Boy und Game Boy Color zu implementieren, wodurch man beispielsweise The Legend of Zelda: Link&#x27;s Awakening auf dem Badge spielen kann. Ein praktisches Feature des Badges ist die Möglichkeit, es umzudrehen und dann integrierte Game-Controller-Touchbuttons zu nutzen.&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;&lt;strong&gt;Quellen (1 Posts):&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/&quot;&gt;Game Boy Color on My Conference Badge&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
   </item>
   </channel>
 </rss>
